@@ -38,8 +38,8 @@ Description
 #ifndef tensorList_H
 #define tensorList_H
 
-#include "tensor.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SeeAlso
 #ifndef Tuple2_H
 #define Tuple2_H
 
-#include "Istream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

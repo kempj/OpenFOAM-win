@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -346,13 +346,13 @@ Foam::tmp<Foam::scalarField > Foam::lduMatrix::H1() const
     {
         scalarField& H1_ = tH1();
 
-        scalar* __restrict__ H1Ptr = H1_.begin();
+        scalar*  H1Ptr = H1_.begin();
 
-        const label* __restrict__ uPtr = lduAddr().upperAddr().begin();
-        const label* __restrict__ lPtr = lduAddr().lowerAddr().begin();
+        const label*  uPtr = lduAddr().upperAddr().begin();
+        const label*  lPtr = lduAddr().lowerAddr().begin();
 
-        const scalar* __restrict__ lowerPtr = lower().begin();
-        const scalar* __restrict__ upperPtr = upper().begin();
+        const scalar*  lowerPtr = lower().begin();
+        const scalar*  upperPtr = upper().begin();
 
         register const label nFaces = upper().size();
 

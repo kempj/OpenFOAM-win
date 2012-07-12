@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "removeEntry.H"
-#include "dictionary.H"
-#include "stringListOps.H"
-#include "IStringStream.H"
-#include "OStringStream.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/removeEntry/removeEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/OStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

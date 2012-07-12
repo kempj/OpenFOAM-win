@@ -28,9 +28,9 @@ Description
 
 #include "mpi.h"
 
-#include "UIPstream.H"
-#include "PstreamGlobals.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/UIPstream.H"
+#include "OpenFOAM-2.1.x/src/Pstream/mpi/PstreamGlobals.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

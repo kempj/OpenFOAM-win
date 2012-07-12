@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

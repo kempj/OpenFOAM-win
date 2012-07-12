@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeMatcher.H"
-#include "primitiveMesh.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/wedgeMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitiveMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

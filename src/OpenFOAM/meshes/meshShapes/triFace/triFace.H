@@ -40,12 +40,12 @@ SourceFiles
 #ifndef triFace_H
 #define triFace_H
 
-#include "FixedList.H"
-#include "edgeList.H"
-#include "pointHit.H"
-#include "intersection.H"
-#include "pointField.H"
-#include "triPointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/edgeList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointHitLC.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/triangle/intersection.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -255,10 +255,10 @@ inline bool contiguous<triFace>()  {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triFaceI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFaceI.H"
 
 #ifdef NoRepository
-#   include "triFaceTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

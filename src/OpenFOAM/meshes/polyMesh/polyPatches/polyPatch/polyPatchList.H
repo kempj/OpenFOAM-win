@@ -32,8 +32,8 @@ Description
 #ifndef polyPatchList_H
 #define polyPatchList_H
 
-#include "polyPatch.H"
-#include "PtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

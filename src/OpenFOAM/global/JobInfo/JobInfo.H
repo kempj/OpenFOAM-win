@@ -39,9 +39,9 @@ SourceFiles
 #ifndef JobInfo_H
 #define JobInfo_H
 
-#include "dictionary.H"
-#include "fileName.H"
-#include "cpuTime.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

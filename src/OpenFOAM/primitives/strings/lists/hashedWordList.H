@@ -36,8 +36,8 @@ SourceFiles
 #ifndef hashedWordList_H
 #define hashedWordList_H
 
-#include "wordList.H"
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hashedWordListI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/hashedWordListI.H"
 
 #endif
 

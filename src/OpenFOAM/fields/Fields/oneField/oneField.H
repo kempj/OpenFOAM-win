@@ -36,8 +36,8 @@ Description
 #ifndef oneField_H
 #define oneField_H
 
-#include "one.H"
-#include "scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/one/one.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "oneFieldI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/oneField/oneFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

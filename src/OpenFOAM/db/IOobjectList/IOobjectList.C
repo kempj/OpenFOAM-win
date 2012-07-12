@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobjectList.H"
-#include "Time.H"
-#include "OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjectList/IOobjectList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

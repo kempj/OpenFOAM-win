@@ -6,7 +6,7 @@ Foam::label startTime = 0;
 Foam::label endTime = Times.size();
 
 // unless -constant is present, skip startTime if it is "constant"
-#include "checkConstantOption.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/checkConstantOption.H"
 
 // check -time and -latestTime options
-#include "checkTimeOption.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/checkTimeOption.H"

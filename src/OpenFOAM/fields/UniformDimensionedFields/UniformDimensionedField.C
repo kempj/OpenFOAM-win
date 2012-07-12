@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UniformDimensionedField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/UniformDimensionedFields/UniformDimensionedField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

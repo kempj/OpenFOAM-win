@@ -35,7 +35,7 @@ SourceFiles
 #ifndef subCycleTime_H
 #define subCycleTime_H
 
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

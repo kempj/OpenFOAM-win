@@ -38,9 +38,9 @@ SourceFiles
 #ifndef memInfo_H
 #define memInfo_H
 
-#include "OSspecific.H"
-#include "POSIX.H"
-#include "IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/POSIX.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

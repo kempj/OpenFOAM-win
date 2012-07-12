@@ -39,11 +39,11 @@ SourceFiles
 #ifndef polyMeshTetDecomposition_H
 #define polyMeshTetDecomposition_H
 
-#include "polyMesh.H"
-#include "coupledPolyPatch.H"
-#include "syncTools.H"
-#include "tetPointRef.H"
-#include "tetIndices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

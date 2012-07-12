@@ -47,11 +47,11 @@ SourceFiles
 #ifndef Polynomial_H
 #define Polynomial_H
 
-#include "word.H"
-#include "scalar.H"
-#include "Ostream.H"
-#include "VectorSpace.H"
-#include "StaticAssert.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/VectorSpace/VectorSpace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/StaticAssert.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,8 +165,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "Polynomial.C"
-#   include "PolynomialIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/Polynomial/Polynomial.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/Polynomial/PolynomialIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

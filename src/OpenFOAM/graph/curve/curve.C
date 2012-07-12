@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "curve.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/graph/curve/curve.H"
 //#include "curveTools.H"
-#include "Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

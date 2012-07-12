@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tableReader.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationTable/tableReaders/tableReader.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

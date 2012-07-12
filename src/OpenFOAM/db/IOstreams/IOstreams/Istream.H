@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Istream_H
 #define Istream_H
 
-#include "IOstream.H"
-#include "token.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/IOstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,7 +181,7 @@ inline Istream& operator>>(Istream& is, IOstreamManip f)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "HashTable.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

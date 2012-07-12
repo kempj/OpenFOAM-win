@@ -35,8 +35,8 @@ SourceFiles
 #ifndef symmetryPointPatchField_H
 #define symmetryPointPatchField_H
 
-#include "basicSymmetryPointPatchField.H"
-#include "symmetryPointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/basicSymmetry/basicSymmetryPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/constraint/symmetry/symmetryPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#    include "symmetryPointPatchField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/constraint/symmetry/symmetryPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

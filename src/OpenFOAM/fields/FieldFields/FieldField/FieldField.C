@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "FieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/FieldField/FieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -406,6 +406,6 @@ Ostream& operator<<(Ostream& os, const tmp<FieldField<Field, Type> >& tf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "FieldFieldFunctions.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctions.C"
 
 // ************************************************************************* //

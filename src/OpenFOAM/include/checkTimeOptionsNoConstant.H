@@ -6,4 +6,4 @@
     Foam::label endTime = Times.size();
 
 // check -time and -latestTime options
-#   include "checkTimeOption.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/checkTimeOption.H"

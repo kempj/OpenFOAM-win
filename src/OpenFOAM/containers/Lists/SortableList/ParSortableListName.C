@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParSortableList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/ParSortableList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

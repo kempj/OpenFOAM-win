@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "LList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/accessTypes/LList/LList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -86,7 +86,7 @@ void Foam::LList<LListBase, T>::operator=(const LList<LListBase, T>& lst)
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "LListIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/accessTypes/LList/LListIO.C"
 
 
 // ************************************************************************* //

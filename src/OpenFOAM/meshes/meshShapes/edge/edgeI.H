@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "Swap.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Swap/Swap.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

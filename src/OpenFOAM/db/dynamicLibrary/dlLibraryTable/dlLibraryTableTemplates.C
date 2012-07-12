@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dlLibraryTable.H"
-#include "dictionary.H"
-#include "fileNameList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/fileNameList.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

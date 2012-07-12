@@ -32,8 +32,8 @@ Description
 #ifndef instantList_H
 #define instantList_H
 
-#include "instant.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/instant/instant.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

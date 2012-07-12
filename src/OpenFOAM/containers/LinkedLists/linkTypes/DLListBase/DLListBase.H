@@ -35,9 +35,9 @@ SourceFiles
 #ifndef DLListBase_H
 #define DLListBase_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/bool/bool.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/uLabel/uLabel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -277,7 +277,7 @@ private:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DLListBaseI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/linkTypes/DLListBase/DLListBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

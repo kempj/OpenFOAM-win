@@ -38,10 +38,10 @@ SourceFiles
 #ifndef regIOobject_H
 #define regIOobject_H
 
-#include "IOobject.H"
-#include "typeInfo.H"
-#include "OSspecific.H"
-#include "NamedEnum.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobject/IOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -286,7 +286,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regIOobjectI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

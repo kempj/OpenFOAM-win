@@ -33,10 +33,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OPstream.H"
-#include "IPstream.H"
-#include "IOstreams.H"
-#include "contiguous.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/OPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/IPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

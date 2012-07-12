@@ -39,12 +39,12 @@ SourceFiles
 #ifndef degenerateMatcher_H
 #define degenerateMatcher_H
 
-#include "hexMatcher.H"
-#include "wedgeMatcher.H"
-#include "prismMatcher.H"
-#include "tetWedgeMatcher.H"
-#include "pyrMatcher.H"
-#include "tetMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/hexMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/wedgeMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/prismMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/tetWedgeMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/pyrMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/tetMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

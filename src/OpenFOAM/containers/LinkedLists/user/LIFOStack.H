@@ -37,7 +37,7 @@ SourceFiles
 #ifndef LIFOStack_H
 #define LIFOStack_H
 
-#include "SLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/SLList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

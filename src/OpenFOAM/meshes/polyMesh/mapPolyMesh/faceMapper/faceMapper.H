@@ -37,8 +37,8 @@ SourceFiles
 #ifndef faceMapper_H
 #define faceMapper_H
 
-#include "morphFieldMapper.H"
-#include "HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/morphFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uLabel.H"
-#include "error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/uLabel/uLabel.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "intersection.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/triangle/intersection.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

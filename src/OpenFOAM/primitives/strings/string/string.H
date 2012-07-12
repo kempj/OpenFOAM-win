@@ -45,9 +45,10 @@ SourceFiles
 #ifndef string_H
 #define string_H
 
-#include "char.H"
-#include "Hasher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/chars/char/char.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/Hasher/Hasher.H"
 
+#include "mathimf.h"
 #include <string>
 #include <cstring>
 #include <cstdlib>
@@ -227,7 +228,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "stringI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/string/stringI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

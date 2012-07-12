@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "DictionaryBase.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Ostream Operator  * * * * * * * * * * * * * * //
 

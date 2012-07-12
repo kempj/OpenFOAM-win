@@ -35,8 +35,8 @@ SourceFiles
 #ifndef objectRegistry_H
 #define objectRegistry_H
 
-#include "HashTable.H"
-#include "regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -221,7 +221,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "objectRegistryTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

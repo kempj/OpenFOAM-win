@@ -36,7 +36,7 @@ SourceFiles
 #ifndef xmgrGraph_H
 #define xmgrGraph_H
 
-#include "graph.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/graph/graph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

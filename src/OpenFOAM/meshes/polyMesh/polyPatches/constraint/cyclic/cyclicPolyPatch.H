@@ -46,10 +46,10 @@ SourceFiles
 #ifndef cyclicPolyPatch_H
 #define cyclicPolyPatch_H
 
-#include "coupledPolyPatch.H"
-#include "edgeList.H"
-#include "polyBoundaryMesh.H"
-#include "diagTensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/edgeList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/diagTensorField/diagTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

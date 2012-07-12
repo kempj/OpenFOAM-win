@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointMesh.H"
-#include "globalMeshData.H"
-#include "pointMeshMapper.H"
-#include "pointFields.H"
-#include "MapGeometricFields.H"
-#include "MapPointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMeshMapper/pointMeshMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/pointFields/pointFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/MapGeometricFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMeshMapper/MapPointField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

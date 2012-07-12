@@ -192,7 +192,7 @@ inline Xfer<To> xferMoveTo(From&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "XferI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/Xfer/XferI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

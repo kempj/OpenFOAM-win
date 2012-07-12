@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "Swap.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/scalarMatrices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Swap/Swap.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
@@ -131,7 +131,7 @@ void Foam::LUBacksubstitute
         label ip = pivotIndices[i];
         Type sum = sourceSol[ip];
         sourceSol[ip] = sourceSol[i];
-        const scalar* __restrict__ luMatrixi = luMatrix[i];
+        const scalar*  luMatrixi = luMatrix[i];
 
         if (ii != 0)
         {
@@ -151,7 +151,7 @@ void Foam::LUBacksubstitute
     for (register label i=n-1; i>=0; i--)
     {
         Type sum = sourceSol[i];
-        const scalar* __restrict__ luMatrixi = luMatrix[i];
+        const scalar*  luMatrixi = luMatrix[i];
 
         for (register label j=i+1; j<n; j++)
         {

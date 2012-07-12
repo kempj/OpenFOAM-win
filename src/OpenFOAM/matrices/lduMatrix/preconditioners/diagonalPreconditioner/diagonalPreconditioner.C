@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diagonalPreconditioner.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/preconditioners/diagonalPreconditioner/diagonalPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -52,8 +52,8 @@ Foam::diagonalPreconditioner::diagonalPreconditioner
     lduMatrix::preconditioner(sol),
     rD(sol.matrix().diag().size())
 {
-    scalar* __restrict__ rDPtr = rD.begin();
-    const scalar* __restrict__ DPtr = solver_.matrix().diag().begin();
+    scalar*  rDPtr = rD.begin();
+    const scalar*  DPtr = solver_.matrix().diag().begin();
 
     register label nCells = rD.size();
 
@@ -74,9 +74,9 @@ void Foam::diagonalPreconditioner::precondition
     const direction
 ) const
 {
-    scalar* __restrict__ wAPtr = wA.begin();
-    const scalar* __restrict__ rAPtr = rA.begin();
-    const scalar* __restrict__ rDPtr = rD.begin();
+    scalar*  wAPtr = wA.begin();
+    const scalar*  rAPtr = rA.begin();
+    const scalar*  rDPtr = rD.begin();
 
     register label nCells = wA.size();
 

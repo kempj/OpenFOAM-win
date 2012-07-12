@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointBoundaryMesh.H"
-#include "polyBoundaryMesh.H"
-#include "facePointPatch.H"
-#include "pointMesh.H"
-#include "PstreamBuffers.H"
-#include "lduSchedule.H"
-#include "globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

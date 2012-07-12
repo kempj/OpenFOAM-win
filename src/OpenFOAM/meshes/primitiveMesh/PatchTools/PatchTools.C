@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.H"
 
-#include "PatchToolsCheck.C"
-#include "PatchToolsEdgeOwner.C"
-#include "PatchToolsSearch.C"
-#include "PatchToolsSortEdges.C"
-#include "PatchToolsNormals.C"
-#include "PatchToolsMatch.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchToolsCheck.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchToolsEdgeOwner.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchToolsSearch.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchToolsSortEdges.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchToolsNormals.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchToolsMatch.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef labelTensor_H
 #define labelTensor_H
 
-#include "Tensor.H"
-#include "contiguous.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/Tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

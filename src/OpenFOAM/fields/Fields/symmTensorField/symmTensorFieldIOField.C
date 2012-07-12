@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensorFieldIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/symmTensorField/symmTensorFieldIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

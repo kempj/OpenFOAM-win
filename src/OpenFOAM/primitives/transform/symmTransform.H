@@ -32,7 +32,7 @@ Description
 #ifndef symmTransform_H
 #define symmTransform_H
 
-#include "transform.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "OSstream.H"
-#include "token.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Sstreams/OSstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

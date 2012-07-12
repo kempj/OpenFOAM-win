@@ -32,8 +32,8 @@ Description
 #ifndef tetCellList_H
 #define tetCellList_H
 
-#include "tetCell.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/tetCell/tetCell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

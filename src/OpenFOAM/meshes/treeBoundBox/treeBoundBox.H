@@ -57,10 +57,10 @@ SourceFiles
 #ifndef treeBoundBox_H
 #define treeBoundBox_H
 
-#include "boundBox.H"
-#include "direction.H"
-#include "pointField.H"
-#include "faceList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/boundBox/boundBox.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/direction/direction.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -362,10 +362,10 @@ inline bool contiguous<treeBoundBox>() {return contiguous<boundBox>();}
 
 } // End namespace Foam
 
-#include "treeBoundBoxI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBoxI.H"
 
 #ifdef NoRepository
-#   include "treeBoundBoxTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBoxTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

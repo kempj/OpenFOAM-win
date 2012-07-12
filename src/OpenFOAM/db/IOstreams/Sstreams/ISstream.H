@@ -37,8 +37,8 @@ SourceFiles
 #ifndef ISstream_H
 #define ISstream_H
 
-#include "Istream.H"
-#include "fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Istream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
 #include <iostream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -200,7 +200,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ISstreamI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Sstreams/ISstreamI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

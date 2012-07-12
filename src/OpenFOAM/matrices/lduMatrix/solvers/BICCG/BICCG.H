@@ -41,7 +41,7 @@ SourceFiles
 #ifndef BICCG_H
 #define BICCG_H
 
-#include "PBiCG.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/PBiCG/PBiCG.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

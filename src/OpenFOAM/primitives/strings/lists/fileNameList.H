@@ -38,8 +38,8 @@ Description
 #ifndef fileNameList_H
 #define fileNameList_H
 
-#include "fileName.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

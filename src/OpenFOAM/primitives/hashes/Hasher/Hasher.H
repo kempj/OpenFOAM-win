@@ -44,6 +44,7 @@ SourceFiles
 #ifndef Hasher_H
 #define Hasher_H
 
+#include "mathimf.h"
 #include <cstddef>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

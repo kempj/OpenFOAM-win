@@ -38,7 +38,7 @@ SourceFiles
 #ifndef RectangularMatrix_H
 #define RectangularMatrix_H
 
-#include "Matrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/Matrix/Matrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -83,7 +83,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "RectangularMatrixI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/RectangularMatrix/RectangularMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -46,7 +46,7 @@ SourceFiles
 #include <cstddef>
 #include <stdint.h>    // C++0x uses <cstdint>
 
-#include "SHA1Digest.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/SHA1/SHA1Digest.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SHA1I.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/SHA1/SHA1I.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,7 +29,7 @@ Typedef
 #ifndef edgeList_H
 #define edgeList_H
 
-#include "edge.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/edge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

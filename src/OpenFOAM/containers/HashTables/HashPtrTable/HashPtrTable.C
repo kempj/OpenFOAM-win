@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "HashPtrTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -139,6 +139,6 @@ void Foam::HashPtrTable<T, Key, Hash>::operator=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "HashPtrTableIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTableIO.C"
 
 // ************************************************************************* //

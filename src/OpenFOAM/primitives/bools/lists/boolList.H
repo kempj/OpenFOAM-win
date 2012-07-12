@@ -38,8 +38,8 @@ Description
 #ifndef boolList_H
 #define boolList_H
 
-#include "bool.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/bool/bool.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

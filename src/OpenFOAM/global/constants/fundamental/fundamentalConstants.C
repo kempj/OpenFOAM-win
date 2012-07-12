@@ -26,14 +26,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fundamentalConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/fundamental/fundamentalConstants.H"
 
-#include "universalConstants.H"
-#include "electromagneticConstants.H"
-#include "atomicConstants.H"
-#include "physicoChemicalConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/universal/universalConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/electromagnetic/electromagneticConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/atomic/atomicConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.H"
 
-#include "dimensionedConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/dimensionedConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,11 +40,11 @@ SourceFiles
 #ifndef UPstream_H
 #define UPstream_H
 
-#include "labelList.H"
-#include "DynamicList.H"
-#include "HashTable.H"
-#include "string.H"
-#include "NamedEnum.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/string/string.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

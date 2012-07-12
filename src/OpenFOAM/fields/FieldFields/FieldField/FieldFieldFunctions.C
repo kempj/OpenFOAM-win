@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PstreamReduceOps.H"
-#include "FieldFieldReuseFunctions.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/FieldField/FieldFieldReuseFunctions.H"
 
 #define TEMPLATE template<template<class> class Field, class Type>
-#include "FieldFieldFunctionsM.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -546,7 +546,7 @@ Type average(const FieldField<Field, Type>& f)
 TMP_UNARY_FUNCTION(Type, average)
 
 
-#include "PstreamReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 #define G_UNARY_FUNCTION(returnType, gFunc, func, rFunc)                      \
                                                                               \
@@ -838,6 +838,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

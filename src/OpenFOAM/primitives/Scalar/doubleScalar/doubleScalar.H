@@ -35,9 +35,9 @@ SourceFiles
 #ifndef doubleScalar_H
 #define doubleScalar_H
 
-#include "doubleFloat.H"
-#include "direction.H"
-#include "word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/doubleFloat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/direction/direction.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,7 +75,7 @@ inline Scalar func(const Scalar s) \
     return ::func(s);              \
 }
 
-#include "Scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/Scalar.H"
 
 inline Scalar hypot(const Scalar x, const Scalar y)
 {

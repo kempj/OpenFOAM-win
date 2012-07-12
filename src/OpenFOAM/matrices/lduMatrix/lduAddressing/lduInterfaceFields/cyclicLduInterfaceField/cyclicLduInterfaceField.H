@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicLduInterfaceField_H
 #define cyclicLduInterfaceField_H
 
-#include "primitiveFieldsFwd.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

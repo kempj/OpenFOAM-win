@@ -31,8 +31,8 @@ Description
 #ifndef indirectCellList_H
 #define indirectCellList_H
 
-#include "cell.H"
-#include "IndirectList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cell/cell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

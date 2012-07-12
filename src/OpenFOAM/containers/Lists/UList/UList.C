@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
 
-#include "UList.H"
-#include "ListLoopM.H"
-#include "contiguous.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UList/UList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/ListLoopM.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
 
 #include <algorithm>
 
@@ -236,6 +236,6 @@ bool Foam::UList<T>::operator>=(const UList<T>& a) const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "UListIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UList/UListIO.C"
 
 // ************************************************************************* //

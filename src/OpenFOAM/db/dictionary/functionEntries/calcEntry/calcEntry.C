@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calcEntry.H"
-#include "addToMemberFunctionSelectionTable.H"
-#include "dictionary.H"
-#include "dynamicCode.H"
-#include "codeStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/calcEntry/calcEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/codeStream/codeStream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

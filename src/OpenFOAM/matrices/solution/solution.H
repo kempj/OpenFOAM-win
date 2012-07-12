@@ -35,7 +35,7 @@ SourceFiles
 #ifndef solution_H
 #define solution_H
 
-#include "IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

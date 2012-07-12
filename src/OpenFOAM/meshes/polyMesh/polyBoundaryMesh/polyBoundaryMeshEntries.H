@@ -35,9 +35,9 @@ SourceFiles
 #ifndef polyBoundaryMeshEntries_H
 #define polyBoundaryMeshEntries_H
 
-#include "regIOobject.H"
-#include "PtrList.H"
-#include "entry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/entry/entry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

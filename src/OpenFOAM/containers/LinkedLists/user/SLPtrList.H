@@ -32,8 +32,8 @@ Description
 #ifndef SLPtrList_H
 #define SLPtrList_H
 
-#include "LPtrList.H"
-#include "SLListBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/accessTypes/LPtrList/LPtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/linkTypes/SLListBase/SLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

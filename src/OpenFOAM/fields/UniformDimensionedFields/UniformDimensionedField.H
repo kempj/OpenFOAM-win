@@ -37,8 +37,8 @@ SourceFiles
 #ifndef UniformDimensionedField_H
 #define UniformDimensionedField_H
 
-#include "regIOobject.H"
-#include "dimensionedType.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "UniformDimensionedField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/UniformDimensionedFields/UniformDimensionedField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

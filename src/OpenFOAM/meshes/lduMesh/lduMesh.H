@@ -33,9 +33,9 @@ Description
 #ifndef lduMesh_H
 #define lduMesh_H
 
-#include "lduAddressing.H"
-#include "lduInterfacePtrsList.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduAddressing.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

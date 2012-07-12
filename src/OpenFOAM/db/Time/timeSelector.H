@@ -33,8 +33,8 @@ Description
     \verbatim
     timeSelector::addOptions();
     // add other options
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "OpenFOAM-2.1.x/src/OpenFOAM/include/setRootCase.H"
+    #include "OpenFOAM-2.1.x/src/OpenFOAM/include/createTime.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
     ...
     forAll(timeDirs, timeI)
@@ -71,8 +71,8 @@ SourceFiles
 #ifndef timeSelector_H
 #define timeSelector_H
 
-#include "scalarRanges.H"
-#include "instantList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ranges/scalarRange/scalarRanges.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/instant/instantList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

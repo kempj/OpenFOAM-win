@@ -32,7 +32,7 @@ Description
 #ifndef staticMemberFunctionSelectionTables_H
 #define staticMemberFunctionSelectionTables_H
 
-#include "memberFunctionSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -31,10 +31,10 @@ Description
 #ifndef GeometricFields_H
 #define GeometricFields_H
 
-#include "GeometricScalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricScalarField/GeometricScalarField.H"
 //#include "GeometricVectorField.H"
-#include "GeometricTensorField.H"
-#include "GeometricSphericalTensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricTensorField/GeometricTensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricSphericalTensorField/GeometricSphericalTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

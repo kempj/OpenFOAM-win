@@ -35,8 +35,8 @@ SourceFiles
 #ifndef OSHA1stream_H
 #define OSHA1stream_H
 
-#include "OSstream.H"
-#include "SHA1.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Sstreams/OSstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/SHA1/SHA1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

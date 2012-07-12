@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cachedRandom.H"
-#include "OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/cachedRandom/cachedRandom.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
 
 // * * * * * * * * * * * * * private Member Functions  * * * * * * * * * * * //
 

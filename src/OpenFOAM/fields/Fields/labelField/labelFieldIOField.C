@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelFieldIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/labelField/labelFieldIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StaticHashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

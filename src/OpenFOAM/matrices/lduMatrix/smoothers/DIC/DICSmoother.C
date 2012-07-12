@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DICSmoother.H"
-#include "DICPreconditioner.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/smoothers/DIC/DICSmoother.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/preconditioners/DICPreconditioner/DICPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -72,16 +72,16 @@ void Foam::DICSmoother::smooth
     const label nSweeps
 ) const
 {
-    const scalar* const __restrict__ rDPtr = rD_.begin();
-    const scalar* const __restrict__ upperPtr = matrix_.upper().begin();
-    const label* const __restrict__ uPtr =
+    const scalar* const  rDPtr = rD_.begin();
+    const scalar* const  upperPtr = matrix_.upper().begin();
+    const label* const  uPtr =
         matrix_.lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr =
+    const label* const  lPtr =
         matrix_.lduAddr().lowerAddr().begin();
 
     // Temporary storage for the residual
     scalarField rA(rD_.size());
-    scalar* __restrict__ rAPtr = rA.begin();
+    scalar*  rAPtr = rA.begin();
 
     for (label sweep=0; sweep<nSweeps; sweep++)
     {

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef wedgePointPatch_H
 #define wedgePointPatch_H
 
-#include "facePointPatch.H"
-#include "wedgePolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

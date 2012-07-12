@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "complexVector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/complexVector/complexVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

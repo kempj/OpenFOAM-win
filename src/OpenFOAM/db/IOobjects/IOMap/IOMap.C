@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOMap.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOMap/IOMap.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

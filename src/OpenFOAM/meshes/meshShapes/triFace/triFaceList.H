@@ -32,8 +32,8 @@ Description
 #ifndef triFaceList_H
 #define triFaceList_H
 
-#include "triFace.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

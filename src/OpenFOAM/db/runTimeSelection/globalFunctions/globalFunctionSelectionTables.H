@@ -32,7 +32,7 @@ Description
 #ifndef globalMemberFunctionSelectionTables_H
 #define globalMemberFunctionSelectionTables_H
 
-#include "memberFunctionSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

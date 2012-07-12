@@ -42,9 +42,9 @@ SourceFiles
 #ifndef OutputFilterFunctionObject_H
 #define OutputFilterFunctionObject_H
 
-#include "functionObject.H"
-#include "dictionary.H"
-#include "outputFilterOutputControl.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/functionObject/functionObject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/outputFilterOutputControl/outputFilterOutputControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "OutputFilterFunctionObject.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/OutputFilterFunctionObject/OutputFilterFunctionObject.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

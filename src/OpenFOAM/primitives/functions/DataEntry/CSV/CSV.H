@@ -49,11 +49,11 @@ SourceFiles
 #ifndef CSV_H
 #define CSV_H
 
-#include "DataEntry.H"
-#include "TableBase.H"
-#include "Tuple2.H"
-#include "labelList.H"
-#include "ISstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/Table/TableBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tuple2/Tuple2.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Sstreams/ISstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "CSV.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/CSV/CSV.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

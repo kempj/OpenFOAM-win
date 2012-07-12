@@ -26,10 +26,10 @@ License
 #ifndef DimensionedFields_H
 #define DimensionedFields_H
 
-#include "DimensionedScalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.H"
 //#include "DimensionedVectorField.H"
-#include "DimensionedTensorField.H"
-#include "DimensionedSphericalTensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedTensorField/DimensionedTensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedSphericalTensorField/DimensionedSphericalTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

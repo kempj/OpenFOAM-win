@@ -50,9 +50,9 @@ SourceFiles
 #ifndef polynomialFunction_H
 #define polynomialFunction_H
 
-#include "scalarList.H"
-#include "Ostream.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/lists/scalarList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

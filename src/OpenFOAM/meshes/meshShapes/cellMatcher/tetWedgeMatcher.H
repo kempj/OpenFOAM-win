@@ -38,7 +38,7 @@ SourceFiles
 #ifndef tetWedgeMatcher_H
 #define tetWedgeMatcher_H
 
-#include "cellMatcher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/cellMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

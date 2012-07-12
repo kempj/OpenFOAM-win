@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "pyramidPointFaceRef.H"
-#include "cell.H"
-#include "unitConversion.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitiveMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cell/pyramidPointFaceRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cell/cell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/unitConversion/unitConversion.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

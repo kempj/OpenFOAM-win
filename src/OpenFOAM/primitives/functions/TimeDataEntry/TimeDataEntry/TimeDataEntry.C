@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeDataEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/TimeDataEntry/TimeDataEntry/TimeDataEntry.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

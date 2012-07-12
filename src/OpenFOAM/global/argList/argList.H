@@ -75,20 +75,20 @@ SourceFiles
 #ifndef argList_H
 #define argList_H
 
-#include "stringList.H"
-#include "SubList.H"
-#include "SLList.H"
-#include "HashTable.H"
-#include "word.H"
-#include "fileName.H"
-#include "parRun.H"
-#include "IStringStream.H"
-#include "OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SubList/SubList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/SLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/argList/parRun.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
 
-#include "sigFpe.H"
-#include "sigInt.H"
-#include "sigQuit.H"
-#include "sigSegv.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigFpe.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigInt.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigQuit.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigSegv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -376,7 +376,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "argListI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/argList/argListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

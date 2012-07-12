@@ -29,8 +29,8 @@ SourceFiles
 #ifndef tableReaders_H
 #define tableReaders_H
 
-#include "tableReader.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationTable/tableReaders/tableReader.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

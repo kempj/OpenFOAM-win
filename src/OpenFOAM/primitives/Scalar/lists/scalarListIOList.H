@@ -32,8 +32,8 @@ Description
 #ifndef scalarListIOList_H
 #define scalarListIOList_H
 
-#include "scalarList.H"
-#include "CompactIOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/lists/scalarList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileStat.H"
-#include "IOstreams.H"
-#include "timer.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/fileStat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/timer.H"
 
 #include <signal.h>
 #include <unistd.h>

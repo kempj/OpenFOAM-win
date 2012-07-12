@@ -32,8 +32,8 @@ Description
 #ifndef objectHit_H
 #define objectHit_H
 
-#include "bool.H"
-#include "label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/bool/bool.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

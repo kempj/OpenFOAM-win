@@ -39,7 +39,7 @@ SourceFiles
 #ifndef FDICPreconditioner_H
 #define FDICPreconditioner_H
 
-#include "lduMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

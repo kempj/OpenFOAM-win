@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformInterpolationTable.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/uniformInterpolationTable/uniformInterpolationTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * *  Private Member Functions * * * * * * * * * * * * //
 

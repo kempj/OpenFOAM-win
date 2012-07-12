@@ -36,8 +36,8 @@ Description
 #ifndef zeroField_H
 #define zeroField_H
 
-#include "zero.H"
-#include "scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/zero/zero.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,7 +75,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "zeroFieldI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/zeroField/zeroFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

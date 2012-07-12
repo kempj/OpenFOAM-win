@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PCG.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/PCG/PCG.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -78,13 +78,13 @@ Foam::lduMatrix::solverPerformance Foam::PCG::solve
 
     register label nCells = psi.size();
 
-    scalar* __restrict__ psiPtr = psi.begin();
+    scalar*  psiPtr = psi.begin();
 
     scalarField pA(nCells);
-    scalar* __restrict__ pAPtr = pA.begin();
+    scalar*  pAPtr = pA.begin();
 
     scalarField wA(nCells);
-    scalar* __restrict__ wAPtr = wA.begin();
+    scalar*  wAPtr = wA.begin();
 
     scalar wArA = matrix_.great_;
     scalar wArAold = wArA;
@@ -94,7 +94,7 @@ Foam::lduMatrix::solverPerformance Foam::PCG::solve
 
     // --- Calculate initial residual field
     scalarField rA(source - wA);
-    scalar* __restrict__ rAPtr = rA.begin();
+    scalar*  rAPtr = rA.begin();
 
     // --- Calculate normalisation factor
     scalar normFactor = this->normFactor(psi, source, wA, pA);

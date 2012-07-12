@@ -38,8 +38,8 @@ Description
 #ifndef labelPair_H
 #define labelPair_H
 
-#include "Pair.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Pair/Pair.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

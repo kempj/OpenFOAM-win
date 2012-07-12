@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DICPreconditioner.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/preconditioners/DICPreconditioner/DICPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -60,11 +60,11 @@ void Foam::DICPreconditioner::calcReciprocalD
     const lduMatrix& matrix
 )
 {
-    scalar* __restrict__ rDPtr = rD.begin();
+    scalar*  rDPtr = rD.begin();
 
-    const label* const __restrict__ uPtr = matrix.lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr = matrix.lduAddr().lowerAddr().begin();
-    const scalar* const __restrict__ upperPtr = matrix.upper().begin();
+    const label* const  uPtr = matrix.lduAddr().upperAddr().begin();
+    const label* const  lPtr = matrix.lduAddr().lowerAddr().begin();
+    const scalar* const  upperPtr = matrix.upper().begin();
 
     // Calculate the DIC diagonal
     register const label nFaces = matrix.upper().size();
@@ -91,15 +91,15 @@ void Foam::DICPreconditioner::precondition
     const direction
 ) const
 {
-    scalar* __restrict__ wAPtr = wA.begin();
-    const scalar* __restrict__ rAPtr = rA.begin();
-    const scalar* __restrict__ rDPtr = rD_.begin();
+    scalar*  wAPtr = wA.begin();
+    const scalar*  rAPtr = rA.begin();
+    const scalar*  rDPtr = rD_.begin();
 
-    const label* const __restrict__ uPtr =
+    const label* const  uPtr =
         solver_.matrix().lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr =
+    const label* const  lPtr =
         solver_.matrix().lduAddr().lowerAddr().begin();
-    const scalar* const __restrict__ upperPtr =
+    const scalar* const  upperPtr =
         solver_.matrix().upper().begin();
 
     register label nCells = wA.size();

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/zeroField/zeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

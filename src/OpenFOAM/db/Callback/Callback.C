@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Callback.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Callback/Callback.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

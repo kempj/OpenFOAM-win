@@ -36,11 +36,11 @@ SourceFiles
 #ifndef scalarMatrices_H
 #define scalarMatrices_H
 
-#include "RectangularMatrix.H"
-#include "SquareMatrix.H"
-#include "DiagonalMatrix.H"
-#include "scalarField.H"
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/RectangularMatrix/RectangularMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/SquareMatrix/SquareMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/DiagonalMatrix/DiagonalMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/scalarField/scalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -126,7 +126,7 @@ scalarRectangularMatrix SVDinv
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "scalarMatricesTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/scalarMatricesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

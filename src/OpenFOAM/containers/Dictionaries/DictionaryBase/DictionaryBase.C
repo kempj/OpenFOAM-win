@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DictionaryBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
@@ -271,6 +271,6 @@ void Foam::DictionaryBase<IDLListType, T>::operator=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DictionaryBaseIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBaseIO.C"
 
 // ************************************************************************* //

@@ -72,10 +72,10 @@ SourceFiles
 #ifndef IOobject_H
 #define IOobject_H
 
-#include "fileName.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "InfoProxy.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -419,7 +419,7 @@ Ostream& operator<<(Ostream& os, const InfoProxy<IOobject>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "IOobjectI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobject/IOobjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

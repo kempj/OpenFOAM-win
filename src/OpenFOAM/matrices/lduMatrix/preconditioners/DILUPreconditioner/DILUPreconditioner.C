@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DILUPreconditioner.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/preconditioners/DILUPreconditioner/DILUPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -60,13 +60,13 @@ void Foam::DILUPreconditioner::calcReciprocalD
     const lduMatrix& matrix
 )
 {
-    scalar* __restrict__ rDPtr = rD.begin();
+    scalar*  rDPtr = rD.begin();
 
-    const label* const __restrict__ uPtr = matrix.lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr = matrix.lduAddr().lowerAddr().begin();
+    const label* const  uPtr = matrix.lduAddr().upperAddr().begin();
+    const label* const  lPtr = matrix.lduAddr().lowerAddr().begin();
 
-    const scalar* const __restrict__ upperPtr = matrix.upper().begin();
-    const scalar* const __restrict__ lowerPtr = matrix.lower().begin();
+    const scalar* const  upperPtr = matrix.upper().begin();
+    const scalar* const  lowerPtr = matrix.lower().begin();
 
     register label nFaces = matrix.upper().size();
     for (register label face=0; face<nFaces; face++)
@@ -92,20 +92,20 @@ void Foam::DILUPreconditioner::precondition
     const direction
 ) const
 {
-    scalar* __restrict__ wAPtr = wA.begin();
-    const scalar* __restrict__ rAPtr = rA.begin();
-    const scalar* __restrict__ rDPtr = rD_.begin();
+    scalar*  wAPtr = wA.begin();
+    const scalar*  rAPtr = rA.begin();
+    const scalar*  rDPtr = rD_.begin();
 
-    const label* const __restrict__ uPtr =
+    const label* const  uPtr =
         solver_.matrix().lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr =
+    const label* const  lPtr =
         solver_.matrix().lduAddr().lowerAddr().begin();
-    const label* const __restrict__ losortPtr =
+    const label* const  losortPtr =
         solver_.matrix().lduAddr().losortAddr().begin();
 
-    const scalar* const __restrict__ upperPtr =
+    const scalar* const  upperPtr =
         solver_.matrix().upper().begin();
-    const scalar* const __restrict__ lowerPtr =
+    const scalar* const  lowerPtr =
         solver_.matrix().lower().begin();
 
     register label nCells = wA.size();
@@ -142,20 +142,20 @@ void Foam::DILUPreconditioner::preconditionT
     const direction
 ) const
 {
-    scalar* __restrict__ wTPtr = wT.begin();
-    const scalar* __restrict__ rTPtr = rT.begin();
-    const scalar* __restrict__ rDPtr = rD_.begin();
+    scalar*  wTPtr = wT.begin();
+    const scalar*  rTPtr = rT.begin();
+    const scalar*  rDPtr = rD_.begin();
 
-    const label* const __restrict__ uPtr =
+    const label* const  uPtr =
         solver_.matrix().lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr =
+    const label* const  lPtr =
         solver_.matrix().lduAddr().lowerAddr().begin();
-    const label* const __restrict__ losortPtr =
+    const label* const  losortPtr =
         solver_.matrix().lduAddr().losortAddr().begin();
 
-    const scalar* const __restrict__ upperPtr =
+    const scalar* const  upperPtr =
         solver_.matrix().upper().begin();
-    const scalar* const __restrict__ lowerPtr =
+    const scalar* const  lowerPtr =
         solver_.matrix().lower().begin();
 
     register label nCells = wT.size();

@@ -23,69 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "makeBasicSource.H"
 #include "ExplicitSetValue.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
 
-// * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-template<class Type>
-void Foam::ExplicitSetValue<Type>::setFieldData(const dictionary& dict)
+namespace Foam
 {
-    fieldNames_.setSize(dict.toc().size());
-    injectionRate_.setSize(fieldNames_.size());
-
-    applied_.setSize(fieldNames_.size(), false);
-
-    label i = 0;
-    forAllConstIter(dictionary, dict, iter)
-    {
-        fieldNames_[i] = iter().keyword();
-        dict.lookup(iter().keyword()) >> injectionRate_[i];
-        i++;
-    }
-}
-
-
-// * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
-
-template<class Type>
-Foam::ExplicitSetValue<Type>::ExplicitSetValue
-(
-    const word& name,
-    const word& modelType,
-    const dictionary& dict,
-    const fvMesh& mesh
-)
-:
-    basicSource(name, modelType, dict, mesh),
-    injectionRate_()
-{
-    read(dict);
-}
-
-
-// * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
-
-template<class Type>
-void Foam::ExplicitSetValue<Type>::setValue
-(
-    fvMatrix<Type>& eqn,
-    const label fieldI
-)
-{
-    if (debug)
-    {
-        Info<< "ExplicitSetValue<"<< pTraits<Type>::typeName
-            << ">::setValue for source " << name_ << endl;
-    }
-
-    List<Type> values(cells_.size());
-
-    UIndirectList<Type>(values, cells_) = injectionRate_[fieldI];
-
-    eqn.setValues(cells_, values);
+    makeBasicSource(ExplicitSetValue, scalar);
+    makeBasicSource(ExplicitSetValue, vector);
+    makeBasicSource(ExplicitSetValue, sphericalTensor);
+    makeBasicSource(ExplicitSetValue, symmTensor);
+    makeBasicSource(ExplicitSetValue, tensor);
 }
 
 

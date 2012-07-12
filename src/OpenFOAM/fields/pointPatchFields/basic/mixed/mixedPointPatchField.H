@@ -37,7 +37,7 @@ SourceFiles
 #ifndef mixedPointPatchField_H
 #define mixedPointPatchField_H
 
-#include "valuePointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/value/valuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#    include "mixedPointPatchField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/mixed/mixedPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

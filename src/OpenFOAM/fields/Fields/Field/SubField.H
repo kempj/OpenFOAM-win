@@ -39,8 +39,8 @@ SourceFiles
 #ifndef SubField_H
 #define SubField_H
 
-#include "SubList.H"
-#include "Field.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SubList/SubList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SubFieldI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

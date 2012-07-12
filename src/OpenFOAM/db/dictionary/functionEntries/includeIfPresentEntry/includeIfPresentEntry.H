@@ -41,7 +41,7 @@ SourceFiles
 #ifndef includeIfPresentEntry_H
 #define includeIfPresentEntry_H
 
-#include "includeEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/includeEntry/includeEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

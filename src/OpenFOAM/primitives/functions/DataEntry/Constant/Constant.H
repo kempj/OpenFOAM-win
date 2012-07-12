@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Constant_H
 #define Constant_H
 
-#include "DataEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "Constant.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/Constant/Constant.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

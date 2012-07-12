@@ -1,9 +1,9 @@
 #ifndef curveTools_H
 #define curveTools_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "curve.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/graph/curve/curve.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -13,8 +13,8 @@ namespace Foam
 #define curveSmall 1.0e-8
 #define curveGreat 1.0e8
 
-#include "char.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/chars/char/char.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 typedef List<char> charList;
 typedef List<charList> charListList;

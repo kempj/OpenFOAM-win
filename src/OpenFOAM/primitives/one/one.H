@@ -61,7 +61,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "oneI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/one/oneI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

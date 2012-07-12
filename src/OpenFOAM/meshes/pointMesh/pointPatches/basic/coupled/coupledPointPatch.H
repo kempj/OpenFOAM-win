@@ -36,7 +36,7 @@ SourceFiles
 #ifndef coupledPointPatch_H
 #define coupledPointPatch_H
 
-#include "coupledPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

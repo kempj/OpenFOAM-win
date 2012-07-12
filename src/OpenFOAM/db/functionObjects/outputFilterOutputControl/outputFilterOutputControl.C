@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "outputFilterOutputControl.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/outputFilterOutputControl/outputFilterOutputControl.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

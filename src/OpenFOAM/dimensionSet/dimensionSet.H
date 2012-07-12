@@ -40,10 +40,10 @@ SourceFiles
 #ifndef dimensionSet_H
 #define dimensionSet_H
 
-#include "scalar.H"
-#include "bool.H"
-#include "dimensionedScalarFwd.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/bool/bool.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -310,7 +310,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dimensionSets.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionSet/dimensionSets.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

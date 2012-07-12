@@ -35,9 +35,9 @@ SourceFiles
 #ifndef pointPatch_H
 #define pointPatch_H
 
-#include "labelList.H"
-#include "vectorField.H"
-#include "triFaceList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vectorField/vectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFaceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

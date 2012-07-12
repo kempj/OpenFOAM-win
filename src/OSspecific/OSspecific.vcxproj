@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ADAC8E84-84F0-4037-B95E-8380A876AA79}</ProjectGuid>
+    <RootNamespace>OSspecific</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="POSIX\clockTime\clockTime.C" />
+    <ClCompile Include="POSIX\cpuTime\cpuTime.C" />
+    <ClCompile Include="POSIX\dummyPrintStack.C" />
+    <ClCompile Include="POSIX\fileMonitor.C" />
+    <ClCompile Include="POSIX\fileStat.C" />
+    <ClCompile Include="POSIX\memInfo\memInfo.C" />
+    <ClCompile Include="POSIX\memInfo\memInfoIO.C" />
+    <ClCompile Include="POSIX\POSIX.C" />
+    <ClCompile Include="POSIX\printStack.C" />
+    <ClCompile Include="POSIX\regExp.C" />
+    <ClCompile Include="POSIX\signals\sigFpe.C" />
+    <ClCompile Include="POSIX\signals\sigInt.C" />
+    <ClCompile Include="POSIX\signals\sigQuit.C" />
+    <ClCompile Include="POSIX\signals\sigSegv.C" />
+    <ClCompile Include="POSIX\signals\sigStopAtWriteNow.C" />
+    <ClCompile Include="POSIX\signals\sigWriteNow.C" />
+    <ClCompile Include="POSIX\timer.C" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="POSIX\clockTime\clockTime.H" />
+    <ClInclude Include="POSIX\cpuTime\cpuTime.H" />
+    <ClInclude Include="POSIX\fileMonitor.H" />
+    <ClInclude Include="POSIX\fileStat.H" />
+    <ClInclude Include="POSIX\memInfo\memInfo.H" />
+    <ClInclude Include="POSIX\POSIX.H" />
+    <ClInclude Include="POSIX\regExp.H" />
+    <ClInclude Include="POSIX\signals\sigFpe.H" />
+    <ClInclude Include="POSIX\signals\sigInt.H" />
+    <ClInclude Include="POSIX\signals\sigQuit.H" />
+    <ClInclude Include="POSIX\signals\sigSegv.H" />
+    <ClInclude Include="POSIX\signals\sigStopAtWriteNow.H" />
+    <ClInclude Include="POSIX\signals\sigWriteNow.H" />
+    <ClInclude Include="POSIX\timer.H" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

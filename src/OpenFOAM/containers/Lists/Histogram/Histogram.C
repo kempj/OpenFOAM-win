@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Histogram.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/Histogram/Histogram.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

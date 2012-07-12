@@ -35,7 +35,7 @@ SourceFiles
 #ifndef BiIndirectList_H
 #define BiIndirectList_H
 
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BiIndirectListI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/BiIndirectList/BiIndirectListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

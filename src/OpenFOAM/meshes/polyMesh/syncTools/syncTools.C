@@ -23,7 +23,7 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "string.H"
-#include "stringOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/string/string.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/stringOps/stringOps.H"
 
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */

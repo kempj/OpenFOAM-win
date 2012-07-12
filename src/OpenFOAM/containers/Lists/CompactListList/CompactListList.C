@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactListList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/CompactListList/CompactListList.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 
@@ -251,6 +251,6 @@ const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "CompactListListIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/CompactListList/CompactListListIO.C"
 
 // ************************************************************************* //

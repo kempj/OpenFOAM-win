@@ -36,8 +36,8 @@ SourceFiles
 #ifndef interpolateXY_H
 #define interpolateXY_H
 
-#include "scalar.H"
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -71,7 +71,7 @@ Type interpolateXY
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "interpolateXY.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolateXY/interpolateXY.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

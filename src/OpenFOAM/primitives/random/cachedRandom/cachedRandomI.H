@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cachedRandom.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/cachedRandom/cachedRandom.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

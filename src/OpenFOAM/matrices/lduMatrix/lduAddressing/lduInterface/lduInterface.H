@@ -36,9 +36,9 @@ SourceFiles
 #ifndef lduInterface_H
 #define lduInterface_H
 
-#include "labelField.H"
-#include "typeInfo.H"
-#include "Pstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/labelField/labelField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

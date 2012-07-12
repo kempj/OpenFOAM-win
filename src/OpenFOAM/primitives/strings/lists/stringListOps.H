@@ -35,11 +35,11 @@ SourceFiles
 #ifndef stringListOps_H
 #define stringListOps_H
 
-#include "regExp.H"
-#include "labelList.H"
-#include "stringList.H"
-#include "wordReList.H"
-#include "wordReListMatcher.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/regExp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordReList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordReListMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -303,7 +303,7 @@ namespace Foam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "stringListOpsTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringListOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

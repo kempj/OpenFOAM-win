@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Vector2D.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector2D/Vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

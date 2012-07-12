@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Pstream_H
 #define Pstream_H
 
-#include "UPstream.H"
-#include "DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/UPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -304,10 +304,10 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "gatherScatter.C"
-#   include "combineGatherScatter.C"
-#   include "gatherScatterList.C"
-#   include "exchange.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/gatherScatter.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/combineGatherScatter.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/gatherScatterList.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/exchange.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

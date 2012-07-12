@@ -1,0 +1,38 @@
+﻿Build started 7/12/2012 11:27:27 AM.
+     1>Project "C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x\src\Pstream\Pstream.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Pstream.unsuccessfulbuild".
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (Win32 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /Zi /nologo /W3 /O2 /Oi /Qipo /Qftz- /D _MBCS /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Qstd=c99 /Qrestrict /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP mpi\PstreamGlobals.C mpi\UIPread.C mpi\UOPwrite.C mpi\UPstream.C /DWM_DP /DNoRepository 
+         PstreamGlobals.C
+         UIPread.C
+         UOPwrite.C
+         UPstream.C
+     1>C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H(52): error : identifier "pid_t" is undefined
+           pid_t pid();
+           ^
+         
+     1>C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H(55): error : identifier "pid_t" is undefined
+           pid_t ppid();
+           ^
+         
+     1>C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H(58): error : identifier "pid_t" is undefined
+           pid_t pgid();
+           ^
+         
+     1>C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H(130): error : identifier "mode_t" is undefined
+           bool mkDir(const fileName&, mode_t=0777);
+                                       ^
+         
+     1>C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H(136): error : identifier "mode_t" is undefined
+           mode_t mode(const fileName&);
+           ^
+         
+     1>Done Building Project "C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x\src\Pstream\Pstream.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.04

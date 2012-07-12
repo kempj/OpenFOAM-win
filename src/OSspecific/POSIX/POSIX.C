@@ -30,14 +30,14 @@ Description
 # define _SYS_VNODE_H
 #endif
 
-#include "OSspecific.H"
-#include "POSIX.H"
-#include "foamVersion.H"
-#include "fileName.H"
-#include "fileStat.H"
-#include "timer.H"
-#include "IFstream.H"
-#include "DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/POSIX.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/foamVersion.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/fileStat.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/timer.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
 
 #include <fstream>
 #include <cstdlib>

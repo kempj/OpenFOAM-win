@@ -32,8 +32,8 @@ Description
 #ifndef pointPatchFieldMapper_H
 #define pointPatchFieldMapper_H
 
-#include "primitiveFields.H"
-#include "FieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/FieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

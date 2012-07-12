@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wordRe.H"
-#include "IOstreams.H"
-#include "InfoProxy.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/wordRe/wordRe.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

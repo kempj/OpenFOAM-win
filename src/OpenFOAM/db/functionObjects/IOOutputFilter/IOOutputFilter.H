@@ -41,8 +41,8 @@ SourceFiles
 #ifndef IOOutputFilter_H
 #define IOOutputFilter_H
 
-#include "IOdictionary.H"
-#include "pointFieldFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointFieldFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -136,7 +136,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "IOOutputFilter.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/IOOutputFilter/IOOutputFilter.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

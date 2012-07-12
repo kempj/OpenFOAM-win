@@ -35,11 +35,11 @@ SourceFiles
 #ifndef tensor_H
 #define tensor_H
 
-#include "Tensor.H"
-#include "vector.H"
-#include "sphericalTensor.H"
-#include "symmTensor.H"
-#include "contiguous.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/Tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

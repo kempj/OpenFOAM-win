@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchToPatchInterpolation.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/patchToPatchInterpolation/PatchToPatchInterpolationUC.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ bool PatchToPatchInterpolation<FromPatch, ToPatch>::movePoints()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "CalcPatchToPatchWeights.C"
-#   include "PatchToPatchInterpolate.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/patchToPatchInterpolation/CalcPatchToPatchWeights.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/patchToPatchInterpolation/PatchToPatchInterpolate.C"
 
 // ************************************************************************* //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "floatScalar.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/floatScalar/floatScalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 #include <sstream>
 
@@ -34,7 +34,7 @@ License
 #define ScalarVGREAT floatScalarVGREAT
 #define ScalarVSMALL floatScalarVSMALL
 #define readScalar readFloatScalar
-#include "Scalar.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/Scalar.C"
 #undef Scalar
 #undef ScalarVSMALL
 #undef ScalarVSMALL

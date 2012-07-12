@@ -37,7 +37,7 @@ SourceFiles
 #ifndef cellMapper_H
 #define cellMapper_H
 
-#include "morphFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/morphFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

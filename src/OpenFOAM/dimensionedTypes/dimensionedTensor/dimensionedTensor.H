@@ -35,9 +35,9 @@ SourceFiles
 #ifndef dimensionedTensor_H
 #define dimensionedTensor_H
 
-#include "dimensionedVector.H"
-#include "dimensionedSymmTensor.H"
-#include "tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedVector/dimensionedVector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef UPtrList_H
 #define UPtrList_H
 
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -273,12 +273,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "UPtrListI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UPtrList/UPtrListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "UPtrList.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UPtrList/UPtrList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

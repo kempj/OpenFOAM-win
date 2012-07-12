@@ -32,7 +32,7 @@ Description
 #ifndef INew_H
 #define INew_H
 
-#include "autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

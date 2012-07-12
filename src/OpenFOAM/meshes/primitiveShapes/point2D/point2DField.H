@@ -32,9 +32,9 @@ Description
 #ifndef point2DField_H
 #define point2DField_H
 
-#include "point2D.H"
-#include "vector2DField.H"
-#include "point2DFieldFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point2D/point2D.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vector2DField/vector2DField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point2D/point2DFieldFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchIdentifier.H"
-#include "dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/Identifiers/patch/patchIdentifier.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

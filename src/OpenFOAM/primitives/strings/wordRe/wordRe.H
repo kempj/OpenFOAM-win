@@ -50,9 +50,9 @@ SourceFiles
 #ifndef wordRe_H
 #define wordRe_H
 
-#include "word.H"
-#include "regExp.H"
-#include "keyType.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/regExp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/keyType/keyType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,7 +239,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordReI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/wordRe/wordReI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

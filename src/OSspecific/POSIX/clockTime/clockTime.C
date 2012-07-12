@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "clockTime.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/clockTime/clockTime.H"
 #include <sys/time.h>
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

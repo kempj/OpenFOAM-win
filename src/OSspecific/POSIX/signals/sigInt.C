@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigInt.H"
-#include "error.H"
-#include "JobInfo.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigInt.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/JobInfo/JobInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

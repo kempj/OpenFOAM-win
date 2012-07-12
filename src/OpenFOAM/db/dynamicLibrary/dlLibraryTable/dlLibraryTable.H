@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dlLibraryTable_H
 #define dlLibraryTable_H
 
-#include "label.H"
-#include "DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,7 +117,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "dlLibraryTableTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTableTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

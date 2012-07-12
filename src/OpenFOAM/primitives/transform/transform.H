@@ -32,8 +32,8 @@ Description
 #ifndef transform_H
 #define transform_H
 
-#include "tensor.H"
-#include "mathematicalConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

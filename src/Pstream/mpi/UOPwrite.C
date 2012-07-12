@@ -28,8 +28,8 @@ Description
 
 #include "mpi.h"
 
-#include "UOPstream.H"
-#include "PstreamGlobals.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/UOPstream.H"
+#include "OpenFOAM-2.1.x/src/Pstream/mpi/PstreamGlobals.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

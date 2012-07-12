@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
 
-#include "long.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/long/long.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 #include <sstream>
 

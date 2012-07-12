@@ -35,8 +35,8 @@ SourceFiles
 #ifndef patchIdentifier_H
 #define patchIdentifier_H
 
-#include "word.H"
-#include "label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

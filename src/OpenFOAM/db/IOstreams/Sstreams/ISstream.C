@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ISstream.H"
-#include "int.H"
-#include "token.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Sstreams/ISstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/int/int.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
 #include <cctype>
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //

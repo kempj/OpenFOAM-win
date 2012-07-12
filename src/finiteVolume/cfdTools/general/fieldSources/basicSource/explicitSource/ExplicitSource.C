@@ -23,149 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "makeBasicSource.H"
 #include "ExplicitSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
 
-// * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * * //
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-template<class Type>
-const Foam::wordList Foam::ExplicitSource<Type>::
-volumeModeTypeNames_
-(
-    IStringStream("(absolute specific)")()
-);
-
-
-// * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
-
-template<class Type>
-typename Foam::ExplicitSource<Type>::volumeModeType
-Foam::ExplicitSource<Type>::wordToVolumeModeType
-(
-    const word& vmtName
-) const
+namespace Foam
 {
-    forAll(volumeModeTypeNames_, i)
-    {
-        if (vmtName == volumeModeTypeNames_[i])
-        {
-            return volumeModeType(i);
-        }
-    }
-
-    FatalErrorIn
-    (
-        "ExplicitSource<Type>::volumeModeType"
-        "ExplicitSource<Type>::wordToVolumeModeType(const word&)"
-    )   << "Unknown volumeMode type " << vmtName
-        << ". Valid volumeMode types are:" << nl << volumeModeTypeNames_
-        << exit(FatalError);
-
-    return volumeModeType(0);
-}
-
-
-template<class Type>
-Foam::word Foam::ExplicitSource<Type>::volumeModeTypeToWord
-(
-    const volumeModeType& vmtType
-) const
-{
-    if (vmtType > volumeModeTypeNames_.size())
-    {
-        return "UNKNOWN";
-    }
-    else
-    {
-        return volumeModeTypeNames_[vmtType];
-    }
-}
-
-
-template<class Type>
-void Foam::ExplicitSource<Type>::setFieldData(const dictionary& dict)
-{
-    fieldNames_.setSize(dict.toc().size());
-    injectionRate_.setSize(fieldNames_.size());
-
-    applied_.setSize(fieldNames_.size(), false);
-
-    label i = 0;
-    forAllConstIter(dictionary, dict, iter)
-    {
-        fieldNames_[i] = iter().keyword();
-        dict.lookup(iter().keyword()) >> injectionRate_[i];
-        i++;
-    }
-
-    // Set volume normalisation
-    if (volumeMode_ == vmAbsolute)
-    {
-        VDash_ = V_;
-    }
-}
-
-
-// * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
-
-template<class Type>
-Foam::ExplicitSource<Type>::ExplicitSource
-(
-    const word& name,
-    const word& modelType,
-    const dictionary& dict,
-    const fvMesh& mesh
-)
-:
-    basicSource(name, modelType, dict, mesh),
-    volumeMode_(vmAbsolute),
-    VDash_(1.0),
-    injectionRate_()
-{
-    read(dict);
-}
-
-
-// * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
-
-template<class Type>
-void Foam::ExplicitSource<Type>::addSup
-(
-    fvMatrix<Type>& eqn,
-    const label fieldI
-)
-{
-    if (debug)
-    {
-        Info<< "ExplicitSource<"<< pTraits<Type>::typeName
-            << ">::addSup for source " << name_ << endl;
-    }
-
-    DimensionedField<Type, volMesh> Su
-    (
-        IOobject
-        (
-            name_ + fieldNames_[fieldI] + "Sup",
-            mesh_.time().timeName(),
-            mesh_,
-            IOobject::NO_READ,
-            IOobject::NO_WRITE
-        ),
-        mesh_,
-        dimensioned<Type>
-        (
-            "zero",
-            eqn.dimensions()/dimVolume,
-            pTraits<Type>::zero
-        ),
-        false
-    );
-
-    UIndirectList<Type>(Su, cells_) = injectionRate_[fieldI]/VDash_;
-
-    eqn += Su;
+    makeBasicSource(ExplicitSource, scalar);
+    makeBasicSource(ExplicitSource, vector);
+    makeBasicSource(ExplicitSource, sphericalTensor);
+    makeBasicSource(ExplicitSource, symmTensor);
+    makeBasicSource(ExplicitSource, tensor);
 }
 
 

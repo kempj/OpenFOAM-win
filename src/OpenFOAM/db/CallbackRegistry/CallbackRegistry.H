@@ -38,8 +38,8 @@ SourceFiles
 #ifndef CallbackRegistry_H
 #define CallbackRegistry_H
 
-#include "UIDLList.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/UIDLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "CallbackRegistry.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/CallbackRegistry/CallbackRegistry.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CallbackRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/CallbackRegistry/CallbackRegistry.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ SourceFiles
 #ifndef mapSubsetMesh_H
 #define mapSubsetMesh_H
 
-#include "refCount.H"
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/refCount/refCount.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

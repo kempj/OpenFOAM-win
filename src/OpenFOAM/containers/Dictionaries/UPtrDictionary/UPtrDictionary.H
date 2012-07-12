@@ -39,8 +39,8 @@ SourceFiles
 #ifndef UPtrDictionary_H
 #define UPtrDictionary_H
 
-#include "DictionaryBase.H"
-#include "DLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/DLList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "UPtrDictionary.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/UPtrDictionary/UPtrDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

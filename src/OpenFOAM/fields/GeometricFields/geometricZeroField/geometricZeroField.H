@@ -37,8 +37,8 @@ Description
 #ifndef geometricZeroField_H
 #define geometricZeroField_H
 
-#include "zeroFieldField.H"
-#include "scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/zeroFieldField/zeroFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -81,7 +81,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "geometricZeroFieldI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/geometricZeroField/geometricZeroFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

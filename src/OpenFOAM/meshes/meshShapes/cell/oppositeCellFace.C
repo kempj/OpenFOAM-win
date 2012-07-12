@@ -27,9 +27,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cell.H"
-#include "oppositeFace.H"
-#include "boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cell/cell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/oppositeFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

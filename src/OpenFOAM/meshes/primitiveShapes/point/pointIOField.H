@@ -32,8 +32,8 @@ Description
 #ifndef pointIOField_H
 #define pointIOField_H
 
-#include "pointField.H"
-#include "vectorIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vectorField/vectorIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

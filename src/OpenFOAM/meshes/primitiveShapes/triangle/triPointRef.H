@@ -31,8 +31,8 @@ Description
 #ifndef triPointRef_H
 #define triPointRef_H
 
-#include "point.H"
-#include "triangle.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

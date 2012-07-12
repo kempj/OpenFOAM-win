@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tolerances.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/tolerances/tolerances.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

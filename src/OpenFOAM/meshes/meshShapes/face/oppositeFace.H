@@ -36,7 +36,7 @@ SourceFiles
 #ifndef oppositeFace_H
 #define oppositeFace_H
 
-#include "face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

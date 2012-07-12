@@ -32,13 +32,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "token.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
 
 #ifndef runTimeSelectionTables_H
 #define runTimeSelectionTables_H
 
-#include "autoPtr.H"
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

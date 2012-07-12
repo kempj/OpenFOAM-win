@@ -39,8 +39,8 @@ SourceFiles
 #ifndef PtrDictionary_H
 #define PtrDictionary_H
 
-#include "DictionaryBase.H"
-#include "DLPtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/DLPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -83,7 +83,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "PtrDictionary.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/PtrDictionary/PtrDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

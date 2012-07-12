@@ -41,8 +41,8 @@ SourceFiles
 #ifndef ProcessorTopology_H
 #define ProcessorTopology_H
 
-#include "labelList.H"
-#include "lduSchedule.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "ProcessorTopology.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/ProcessorTopology/ProcessorTopology.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

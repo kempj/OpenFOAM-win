@@ -35,10 +35,10 @@ SourceFiles
 
 #ifndef PstreamGlobals_H
 #define PstreamGlobals_H
-
+#include <mathimf.h>
 #include "mpi.h"
 
-#include "DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

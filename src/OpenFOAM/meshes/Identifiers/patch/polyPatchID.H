@@ -26,8 +26,8 @@ License
 #ifndef polyPatchID_H
 #define polyPatchID_H
 
-#include "DynamicID.H"
-#include "polyBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/Identifiers/DynamicID/DynamicID.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

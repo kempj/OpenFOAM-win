@@ -35,8 +35,9 @@ SeeAlso
 #ifndef HasherInt_H
 #define HasherInt_H
 
-#include "Hasher.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/Hasher/Hasher.H"
 
+#include "mathimf.h"
 #include <cstddef>
 #include <stdint.h>    // C++0x uses <cstdint>
 

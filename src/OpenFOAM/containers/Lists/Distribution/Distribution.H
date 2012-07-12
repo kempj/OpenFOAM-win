@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Distribution_H
 #define Distribution_H
 
-#include "List.H"
-#include "Pair.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Pair/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,12 +192,12 @@ Distribution<Type> operator+
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DistributionI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/Distribution/DistributionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "Distribution.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/Distribution/Distribution.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef processorCyclicGAMGInterfaceField_H
 #define processorCyclicGAMGInterfaceField_H
 
-#include "processorGAMGInterfaceField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef HashPtrTable_H
 #define HashPtrTable_H
 
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "HashPtrTable.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

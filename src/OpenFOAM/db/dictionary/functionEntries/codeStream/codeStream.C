@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codeStream.H"
-#include "addToMemberFunctionSelectionTable.H"
-#include "IStringStream.H"
-#include "OStringStream.H"
-#include "IOstreams.H"
-#include "stringOps.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "dlLibraryTable.H"
-#include "OSspecific.H"
-#include "Time.H"
-#include "PstreamReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/codeStream/codeStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/OStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/stringOps/stringOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"
 
-#include "long.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/long/long.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

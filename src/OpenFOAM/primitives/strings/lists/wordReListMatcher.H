@@ -40,7 +40,7 @@ SourceFiles
 #ifndef wordReListMatcher_H
 #define wordReListMatcher_H
 
-#include "wordReList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordReList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -93,7 +93,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordReListMatcherI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordReListMatcherI.H"
 
 #endif
 

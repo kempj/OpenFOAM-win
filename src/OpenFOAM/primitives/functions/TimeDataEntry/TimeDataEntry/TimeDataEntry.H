@@ -36,8 +36,8 @@ SourceFiles
 #ifndef TimeDataEntry_H
 #define TimeDataEntry_H
 
-#include "DataEntry.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -143,7 +143,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "TimeDataEntry.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/TimeDataEntry/TimeDataEntry/TimeDataEntry.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

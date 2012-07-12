@@ -42,9 +42,9 @@ SourceFiles
 #ifndef UList_H
 #define UList_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/bool/bool.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/uLabel/uLabel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,7 +74,7 @@ class UList
         label size_;
 
         //- Vector of values of type T.
-        T* __restrict__ v_;
+        T*  v_;
 
 
 public:
@@ -119,7 +119,7 @@ public:
         inline UList();
 
         //- Construct from components
-        inline UList(T* __restrict__ v, label size);
+        inline UList(T*  v, label size);
 
 
     // Member Functions
@@ -362,7 +362,7 @@ inline void reverse(UList<T>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "UListI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UList/UListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -442,7 +442,7 @@ inline void reverse(UList<T>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "UList.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UList/UList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

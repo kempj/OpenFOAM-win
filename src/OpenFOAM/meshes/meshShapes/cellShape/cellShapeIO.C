@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShape.H"
-#include "token.H"
-#include "cellModeller.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellShape/cellShape.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellModeller/cellModeller.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

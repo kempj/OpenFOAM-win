@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DILUSmoother.H"
-#include "DILUPreconditioner.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/smoothers/DILU/DILUSmoother.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/preconditioners/DILUPreconditioner/DILUPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -72,19 +72,19 @@ void Foam::DILUSmoother::smooth
     const label nSweeps
 ) const
 {
-    const scalar* const __restrict__ rDPtr = rD_.begin();
+    const scalar* const  rDPtr = rD_.begin();
 
-    const label* const __restrict__ uPtr =
+    const label* const  uPtr =
         matrix_.lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr =
+    const label* const  lPtr =
         matrix_.lduAddr().lowerAddr().begin();
 
-    const scalar* const __restrict__ upperPtr = matrix_.upper().begin();
-    const scalar* const __restrict__ lowerPtr = matrix_.lower().begin();
+    const scalar* const  upperPtr = matrix_.upper().begin();
+    const scalar* const  lowerPtr = matrix_.lower().begin();
 
     // Temporary storage for the residual
     scalarField rA(rD_.size());
-    scalar* __restrict__ rAPtr = rA.begin();
+    scalar*  rAPtr = rA.begin();
 
     for (label sweep=0; sweep<nSweeps; sweep++)
     {

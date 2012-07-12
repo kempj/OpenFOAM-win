@@ -26,8 +26,8 @@ License
 #ifndef zeroGradientPointPatchFields_H
 #define zeroGradientPointPatchFields_H
 
-#include "zeroGradientPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

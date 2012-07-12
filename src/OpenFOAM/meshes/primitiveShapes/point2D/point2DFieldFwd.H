@@ -32,8 +32,8 @@ Description
 #ifndef point2DFieldFwd_H
 #define point2DFieldFwd_H
 
-#include "point2D.H"
-#include "vector2DFieldFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point2D/point2D.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vector2DField/vector2DFieldFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

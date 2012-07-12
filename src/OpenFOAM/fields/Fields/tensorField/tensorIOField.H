@@ -32,8 +32,8 @@ Description
 #ifndef tensorIOField_H
 #define tensorIOField_H
 
-#include "tensorField.H"
-#include "IOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/tensorField/tensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

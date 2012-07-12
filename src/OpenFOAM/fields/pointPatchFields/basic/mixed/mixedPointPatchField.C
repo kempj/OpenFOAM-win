@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixedPointPatchField.H"
-#include "pointPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/mixed/mixedPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

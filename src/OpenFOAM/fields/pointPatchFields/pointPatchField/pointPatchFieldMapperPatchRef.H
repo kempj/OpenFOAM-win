@@ -32,7 +32,7 @@ Description
 #ifndef pointPatchFieldMapperPatchRef_H
 #define pointPatchFieldMapperPatchRef_H
 
-#include "pointPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

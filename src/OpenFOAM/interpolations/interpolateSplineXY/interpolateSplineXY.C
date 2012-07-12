@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolateSplineXY.H"
-#include "primitiveFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolateSplineXY/interpolateSplineXY.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

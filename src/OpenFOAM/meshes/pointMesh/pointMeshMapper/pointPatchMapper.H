@@ -35,10 +35,10 @@ SourceFiles
 #ifndef pointPatchMapper_H
 #define pointPatchMapper_H
 
-#include "pointMapper.H"
-#include "pointPatchFieldMapper.H"
-#include "pointPatch.H"
-#include "primitiveFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMeshMapper/pointMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

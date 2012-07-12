@@ -32,8 +32,8 @@ Description
 #ifndef faceIOList_H
 #define faceIOList_H
 
-#include "face.H"
-#include "CompactIOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

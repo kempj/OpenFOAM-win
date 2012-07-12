@@ -42,8 +42,8 @@ SourceFiles
 #ifndef pointZone_H
 #define pointZone_H
 
-#include "zone.H"
-#include "pointZoneMeshFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/zones/zone/zone.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/zones/ZoneMesh/pointZoneMeshFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

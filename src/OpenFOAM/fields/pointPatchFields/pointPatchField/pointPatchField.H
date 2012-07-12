@@ -42,9 +42,9 @@ SourceFiles
 #ifndef pointPatchField_H
 #define pointPatchField_H
 
-#include "pointPatch.H"
-#include "DimensionedField.H"
-#include "autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -492,11 +492,11 @@ const pointPatchField<Type>& operator+
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointPatchFieldFunctions.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldFunctions.H"
 
 #ifdef NoRepository
-#   include "pointPatchField.C"
-#   include "calculatedPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.H"
 #endif
 
 

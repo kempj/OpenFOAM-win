@@ -35,8 +35,8 @@ SourceFiles
 #ifndef IOobjectList_H
 #define IOobjectList_H
 
-#include "HashPtrTable.H"
-#include "IOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobject/IOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

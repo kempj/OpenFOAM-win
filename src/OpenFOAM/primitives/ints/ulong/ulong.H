@@ -35,7 +35,7 @@ SourceFiles
 #ifndef ulong_H
 #define ulong_H
 
-#include "word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

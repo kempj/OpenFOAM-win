@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "vector2D.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector2D/vector2D/vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

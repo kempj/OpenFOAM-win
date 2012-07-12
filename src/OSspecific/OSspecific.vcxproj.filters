@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="POSIX\clockTime\clockTime.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\cpuTime\cpuTime.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\memInfo\memInfo.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\memInfo\memInfoIO.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\signals\sigFpe.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\signals\sigInt.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\signals\sigQuit.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\signals\sigSegv.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\signals\sigStopAtWriteNow.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\signals\sigWriteNow.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\dummyPrintStack.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\fileMonitor.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\fileStat.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\POSIX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\printStack.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\regExp.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POSIX\timer.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="POSIX\clockTime\clockTime.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\cpuTime\cpuTime.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\memInfo\memInfo.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\signals\sigFpe.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\signals\sigInt.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\signals\sigQuit.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\signals\sigSegv.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\signals\sigStopAtWriteNow.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\signals\sigWriteNow.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\fileMonitor.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\fileStat.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\POSIX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\regExp.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POSIX\timer.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

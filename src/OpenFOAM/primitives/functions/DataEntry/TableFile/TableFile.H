@@ -55,8 +55,8 @@ SourceFiles
 #ifndef TableFile_H
 #define TableFile_H
 
-#include "DataEntry.H"
-#include "Tuple2.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "TableFile.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/TableFile/TableFile.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

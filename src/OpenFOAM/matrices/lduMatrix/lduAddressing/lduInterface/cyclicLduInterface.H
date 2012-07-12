@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicLduInterface_H
 #define cyclicLduInterface_H
 
-#include "lduInterface.H"
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

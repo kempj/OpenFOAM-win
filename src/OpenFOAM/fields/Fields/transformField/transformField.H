@@ -35,11 +35,11 @@ SourceFiles
 #ifndef transformField_H
 #define transformField_H
 
-#include "transform.H"
-#include "quaternion.H"
-#include "septernion.H"
-#include "vectorField.H"
-#include "tensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/quaternion/quaternion.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/septernion/septernion.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vectorField/vectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/tensorField/tensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ tmp<vectorField> transform(const septernion&, const tmp<vectorField>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "transformFieldTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef complexVector_H
 #define complexVector_H
 
-#include "complex.H"
-#include "vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/complex/complex.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -46,7 +46,7 @@ namespace Foam
     typedef Vector<complex> complexVector;
 }
 
-#include "complexVectorI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/complexVector/complexVectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

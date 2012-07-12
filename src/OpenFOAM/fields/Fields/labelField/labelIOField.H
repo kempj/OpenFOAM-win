@@ -32,8 +32,8 @@ Description
 #ifndef labelIOField_H
 #define labelIOField_H
 
-#include "primitiveFields.H"
-#include "IOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

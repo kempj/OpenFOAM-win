@@ -49,7 +49,7 @@ SourceFiles
 #ifndef CompactListList_H
 #define CompactListList_H
 
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,12 +254,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "CompactListListI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/CompactListList/CompactListListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "CompactListList.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/CompactListList/CompactListList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

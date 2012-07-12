@@ -35,8 +35,8 @@ SourceFiles
 #ifndef IOMap_H
 #define IOMap_H
 
-#include "Map.H"
-#include "regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "IOMap.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOMap/IOMap.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

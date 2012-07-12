@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "pTraits.H"
-#include "Swap.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/pTraits/pTraits.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Swap/Swap.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -38,7 +38,7 @@ inline Foam::UList<T>::UList()
 
 
 template<class T>
-inline Foam::UList<T>::UList(T* __restrict__ v, label size)
+inline Foam::UList<T>::UList(T*  v, label size)
 :
     size_(size),
     v_(v)

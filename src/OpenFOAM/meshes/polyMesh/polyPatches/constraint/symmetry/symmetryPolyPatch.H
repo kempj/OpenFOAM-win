@@ -35,7 +35,7 @@ SourceFiles
 #ifndef symmetryPolyPatch_H
 #define symmetryPolyPatch_H
 
-#include "polyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

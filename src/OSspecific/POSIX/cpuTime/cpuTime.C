@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cpuTime.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/cpuTime/cpuTime.H"
 #include <unistd.h>
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //

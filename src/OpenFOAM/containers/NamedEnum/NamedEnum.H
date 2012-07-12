@@ -35,10 +35,10 @@ SourceFiles
 #ifndef NamedEnum_H
 #define NamedEnum_H
 
-#include "HashTable.H"
-#include "StaticAssert.H"
-#include "stringList.H"
-#include "wordList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/StaticAssert.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "NamedEnum.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/NamedEnum/NamedEnum.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

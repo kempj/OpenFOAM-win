@@ -31,9 +31,9 @@ Description
 #ifndef FieldFields_H
 #define FieldFields_H
 
-#include "scalarFieldField.H"
-#include "tensorFieldField.H"
-#include "sphericalTensorFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/scalarFieldField/scalarFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/tensorFieldField/tensorFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

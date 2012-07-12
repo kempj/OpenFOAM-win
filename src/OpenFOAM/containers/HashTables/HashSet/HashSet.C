@@ -26,7 +26,7 @@ License
 #ifndef HashSet_C
 #define HashSet_C
 
-#include "HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

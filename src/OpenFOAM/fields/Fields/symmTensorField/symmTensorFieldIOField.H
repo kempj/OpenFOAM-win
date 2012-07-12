@@ -32,8 +32,8 @@ Description
 #ifndef symmTensorFieldIOField_H
 #define symmTensorFieldIOField_H
 
-#include "symmTensorField.H"
-#include "CompactIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/symmTensorField/symmTensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef diagTensor_H
 #define diagTensor_H
 
-#include "DiagTensor.H"
-#include "contiguous.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/DiagTensor/DiagTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

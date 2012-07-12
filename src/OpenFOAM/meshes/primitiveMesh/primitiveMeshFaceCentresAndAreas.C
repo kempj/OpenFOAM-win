@@ -30,7 +30,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitiveMesh.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

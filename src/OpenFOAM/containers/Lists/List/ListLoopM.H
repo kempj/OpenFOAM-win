@@ -46,10 +46,10 @@ Description
 #define List_ELEM(f, fp, i)  (fp[i])
 
 #define List_ACCESS(type, f, fp) \
-    type* const __restrict__ fp = (f).begin()
+    type* const  fp = (f).begin()
 
 #define List_CONST_ACCESS(type, f, fp) \
-    const type* const __restrict__ fp = (f).begin()
+    const type* const  fp = (f).begin()
 
 #else
 
@@ -65,10 +65,10 @@ Description
 #define List_ELEM(f, fp, i)  (*fp++)
 
 #define List_ACCESS(type, f, fp) \
-    register type* __restrict__ fp = (f).begin()
+    register type*  fp = (f).begin()
 
 #define List_CONST_ACCESS(type, f, fp) \
-    register const type* __restrict__ fp = (f).begin()
+    register const type*  fp = (f).begin()
 
 #endif
 

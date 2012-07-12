@@ -31,8 +31,8 @@ Description
 #ifndef indirectPointList_H
 #define indirectPointList_H
 
-#include "point.H"
-#include "IndirectList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

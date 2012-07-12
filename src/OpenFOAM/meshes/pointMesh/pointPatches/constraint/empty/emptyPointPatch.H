@@ -35,8 +35,8 @@ SourceFiles
 #ifndef emptyPointPatch_H
 #define emptyPointPatch_H
 
-#include "facePointPatch.H"
-#include "emptyPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

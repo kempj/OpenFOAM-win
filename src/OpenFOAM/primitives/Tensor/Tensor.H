@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Tensor_H
 #define Tensor_H
 
-#include "Vector.H"
-#include "SphericalTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/Vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SphericalTensor/SphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "TensorI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/TensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

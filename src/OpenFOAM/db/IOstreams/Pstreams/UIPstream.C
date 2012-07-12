@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "UIPstream.H"
-#include "int.H"
-#include "token.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/UIPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/int/int.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
 #include <cctype>
 
 

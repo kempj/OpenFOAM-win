@@ -31,8 +31,8 @@ Description
 #ifndef faceListFwd_H
 #define faceListFwd_H
 
-#include "List.H"
-#include "SubList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SubList/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

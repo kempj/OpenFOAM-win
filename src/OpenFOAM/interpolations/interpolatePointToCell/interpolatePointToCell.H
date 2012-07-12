@@ -35,8 +35,8 @@ SourceFiles
 #ifndef interpolatePointToCell_H
 #define interpolatePointToCell_H
 
-#include "GeometricField.H"
-#include "pointMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMesh.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -62,7 +62,7 @@ Type interpolatePointToCell
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "interpolatePointToCell.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolatePointToCell/interpolatePointToCell.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

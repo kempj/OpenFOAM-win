@@ -42,9 +42,9 @@ SourceFiles
 #ifndef dictionaryEntry_H
 #define dictionaryEntry_H
 
-#include "entry.H"
-#include "dictionary.H"
-#include "InfoProxy.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/entry/entry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

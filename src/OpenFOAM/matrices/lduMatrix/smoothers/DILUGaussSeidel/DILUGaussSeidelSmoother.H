@@ -37,8 +37,8 @@ SourceFiles
 #ifndef DILUGaussSeidelSmoother_H
 #define DILUGaussSeidelSmoother_H
 
-#include "DILUSmoother.H"
-#include "GaussSeidelSmoother.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/smoothers/DILU/DILUSmoother.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/smoothers/GaussSeidel/GaussSeidelSmoother.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

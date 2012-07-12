@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelVector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/labelVector/labelVector.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

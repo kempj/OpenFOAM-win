@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompatibilityConstant.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/CompatibilityConstant/CompatibilityConstant.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -80,7 +80,7 @@ Type Foam::CompatibilityConstant<Type>::integrate
 
 // * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * * * //
 
-#include "CompatibilityConstantIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/CompatibilityConstant/CompatibilityConstantIO.C"
 
 
 // ************************************************************************* //

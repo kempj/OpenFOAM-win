@@ -32,7 +32,7 @@ Description
 #ifndef GeoMesh_H
 #define GeoMesh_H
 
-#include "objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

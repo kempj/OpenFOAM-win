@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigWriteNow.H"
-#include "error.H"
-#include "JobInfo.H"
-#include "IOstreams.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigWriteNow.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/JobInfo/JobInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

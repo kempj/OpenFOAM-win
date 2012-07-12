@@ -36,7 +36,7 @@ SourceFiles
 #ifndef DiagonalMatrix_H
 #define DiagonalMatrix_H
 
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -92,7 +92,7 @@ DiagonalMatrix<Type> inv(const DiagonalMatrix<Type>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "DiagonalMatrix.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/DiagonalMatrix/DiagonalMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

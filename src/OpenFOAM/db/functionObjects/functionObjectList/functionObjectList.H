@@ -39,10 +39,10 @@ SourceFiles
 #ifndef functionObjectList_H
 #define functionObjectList_H
 
-#include "PtrList.H"
-#include "functionObject.H"
-#include "SHA1Digest.H"
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/functionObject/functionObject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/SHA1/SHA1Digest.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

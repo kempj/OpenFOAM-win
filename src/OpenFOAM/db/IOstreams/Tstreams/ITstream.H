@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ITstream_H
 #define ITstream_H
 
-#include "Istream.H"
-#include "tokenList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Istream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/tokenList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

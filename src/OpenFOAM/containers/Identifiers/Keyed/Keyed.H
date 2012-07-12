@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Keyed_H
 #define Keyed_H
 
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "KeyedI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Identifiers/Keyed/KeyedI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

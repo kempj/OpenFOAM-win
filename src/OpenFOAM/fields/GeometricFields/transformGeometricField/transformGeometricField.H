@@ -35,8 +35,8 @@ SourceFiles
 #ifndef transformGeometricField_H
 #define transformGeometricField_H
 
-#include "transform.H"
-#include "GeometricField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ tmp<GeometricField<Type, PatchField, GeoMesh> > transform
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "transformGeometricField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/transformGeometricField/transformGeometricField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

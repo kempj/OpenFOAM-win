@@ -29,7 +29,7 @@ Description
 #ifndef fundamentalConstants_H
 #define fundamentalConstants_H
 
-#include "dimensionedScalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

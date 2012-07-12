@@ -35,8 +35,8 @@ SourceFiles
 #ifndef labelRanges_H
 #define labelRanges_H
 
-#include "labelRange.H"
-#include "DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ranges/labelRange/labelRange.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ private:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelRangesI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ranges/labelRange/labelRangesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

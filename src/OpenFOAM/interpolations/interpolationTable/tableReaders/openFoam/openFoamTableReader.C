@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "openFoamTableReader.H"
-#include "IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationTable/tableReaders/openFoam/openFoamTableReader.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

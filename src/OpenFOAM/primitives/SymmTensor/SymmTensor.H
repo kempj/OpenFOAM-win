@@ -38,8 +38,8 @@ SourceFiles
 #ifndef SymmTensor_H
 #define SymmTensor_H
 
-#include "VectorSpace.H"
-#include "SphericalTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/VectorSpace/VectorSpace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SphericalTensor/SphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "SymmTensorI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SymmTensor/SymmTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

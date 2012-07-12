@@ -42,12 +42,12 @@ SourceFiles
 #ifndef primitiveEntry_H
 #define primitiveEntry_H
 
-#include "IStringStream.H"
-#include "OStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/OStringStream.H"
 
-#include "entry.H"
-#include "ITstream.H"
-#include "InfoProxy.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/entry/entry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Tstreams/ITstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -191,7 +191,7 @@ Ostream& operator<<(Ostream&, const InfoProxy<primitiveEntry>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "primitiveEntryTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/primitiveEntry/primitiveEntryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/argList/argList.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

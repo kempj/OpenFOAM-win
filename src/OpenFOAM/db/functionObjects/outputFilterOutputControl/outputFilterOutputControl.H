@@ -36,9 +36,9 @@ SourceFiles
 #ifndef outputFilterOutputControl_H
 #define outputFilterOutputControl_H
 
-#include "dictionary.H"
-#include "Time.H"
-#include "NamedEnum.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

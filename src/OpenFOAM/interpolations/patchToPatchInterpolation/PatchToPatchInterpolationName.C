@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchToPatchInterpolation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/patchToPatchInterpolation/PatchToPatchInterpolationUC.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

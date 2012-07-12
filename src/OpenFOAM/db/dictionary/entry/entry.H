@@ -41,10 +41,10 @@ SourceFiles
 #ifndef entry_H
 #define entry_H
 
-#include "keyType.H"
-#include "IDLList.H"
-#include "fileName.H"
-#include "autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/keyType/keyType.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/IDLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

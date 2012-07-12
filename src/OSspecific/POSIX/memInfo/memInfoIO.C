@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "memInfo.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/memInfo/memInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

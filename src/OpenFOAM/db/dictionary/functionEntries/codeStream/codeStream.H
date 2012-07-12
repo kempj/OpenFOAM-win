@@ -56,7 +56,7 @@ Description
         //- Optional:
         codeInclude
         #{
-            #include "fvCFD.H"
+//            #include "fvCFD.H"
         #};
 
         //- Optional:
@@ -92,7 +92,7 @@ SourceFiles
 #ifndef codeStream_H
 #define codeStream_H
 
-#include "functionEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

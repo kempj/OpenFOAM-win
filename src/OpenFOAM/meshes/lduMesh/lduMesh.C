@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMesh.H"
-#include "objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/lduMesh/lduMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

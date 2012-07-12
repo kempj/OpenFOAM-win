@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

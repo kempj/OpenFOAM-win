@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelRanges.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ranges/labelRange/labelRanges.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

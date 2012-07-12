@@ -38,10 +38,10 @@ SourceFiles
 #ifndef vectorTensorTransform_H
 #define vectorTensorTransform_H
 
-#include "tensor.H"
-#include "word.H"
-#include "contiguous.H"
-#include "pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -245,10 +245,10 @@ inline vectorTensorTransform operator&
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "vectorTensorTransformI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransformI.H"
 
 #ifdef NoRepository
-#   include "vectorTensorTransformTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransformTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

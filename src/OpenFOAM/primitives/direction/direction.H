@@ -34,7 +34,7 @@ Description
 #ifndef direction_H
 #define direction_H
 
-#include "char.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/chars/char/char.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

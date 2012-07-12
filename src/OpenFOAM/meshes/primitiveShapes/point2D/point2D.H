@@ -32,7 +32,7 @@ Description
 #ifndef point2D_H
 #define point2D_H
 
-#include "vector2D.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector2D/vector2D/vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

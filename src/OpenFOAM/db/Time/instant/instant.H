@@ -35,8 +35,8 @@ SourceFiles
 #ifndef instant_H
 #define instant_H
 
-#include "word.H"
-#include "scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

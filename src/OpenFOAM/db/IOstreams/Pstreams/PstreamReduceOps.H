@@ -26,8 +26,8 @@ License
 #ifndef PstreamReduceOps_H
 #define PstreamReduceOps_H
 
-#include "Pstream.H"
-#include "ops.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

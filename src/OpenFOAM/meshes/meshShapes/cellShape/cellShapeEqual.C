@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShape.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellShape/cellShape.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

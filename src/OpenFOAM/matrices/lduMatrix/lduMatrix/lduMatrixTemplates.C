@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -42,15 +42,15 @@ Foam::tmp<Foam::Field<Type> > Foam::lduMatrix::H(const Field<Type>& psi) const
     {
         Field<Type> & Hpsi = tHpsi();
 
-        Type* __restrict__ HpsiPtr = Hpsi.begin();
+        Type*  HpsiPtr = Hpsi.begin();
 
-        const Type* __restrict__ psiPtr = psi.begin();
+        const Type*  psiPtr = psi.begin();
 
-        const label* __restrict__ uPtr = lduAddr().upperAddr().begin();
-        const label* __restrict__ lPtr = lduAddr().lowerAddr().begin();
+        const label*  uPtr = lduAddr().upperAddr().begin();
+        const label*  lPtr = lduAddr().lowerAddr().begin();
 
-        const scalar* __restrict__ lowerPtr = lower().begin();
-        const scalar* __restrict__ upperPtr = upper().begin();
+        const scalar*  lowerPtr = lower().begin();
+        const scalar*  upperPtr = upper().begin();
 
         register const label nFaces = upper().size();
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef Histogram_H
 #define Histogram_H
 
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "Histogram.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/Histogram/Histogram.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/transformFieldField/transformFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,11 +42,11 @@ SourceFiles
 #ifndef StaticHashTable_H
 #define StaticHashTable_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "word.H"
-#include "Xfer.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/uLabel/uLabel.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/Xfer/Xfer.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -399,13 +399,13 @@ private:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "StaticHashTableI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTableI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifndef NoStaticHashTableC
 #ifdef NoRepository
-#   include "StaticHashTable.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTable.C"
 #endif
 #endif
 

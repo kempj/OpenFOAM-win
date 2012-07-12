@@ -32,8 +32,8 @@ Description
 #ifndef morphFieldMapper_H
 #define morphFieldMapper_H
 
-#include "Field.H"
-#include "Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

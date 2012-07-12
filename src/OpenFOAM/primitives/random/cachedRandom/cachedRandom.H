@@ -47,7 +47,7 @@ SourceFiles
 #ifndef cachedRandom_H
 #define cachedRandom_H
 
-#include "scalarList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/lists/scalarList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,12 +166,12 @@ scalar cachedRandom::position<scalar>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cachedRandomI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/cachedRandom/cachedRandomI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "cachedRandomTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/cachedRandom/cachedRandomTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

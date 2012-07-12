@@ -32,8 +32,8 @@ Description
 #ifndef vectorListIOList_H
 #define vectorListIOList_H
 
-#include "vectorList.H"
-#include "CompactIOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/lists/vectorList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

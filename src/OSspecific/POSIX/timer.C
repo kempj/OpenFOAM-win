@@ -25,8 +25,8 @@ License
 
 #include <unistd.h>
 
-#include "error.H"
-#include "timer.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/timer.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GaussSeidelSmoother.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/smoothers/GaussSeidel/GaussSeidelSmoother.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -75,23 +75,23 @@ void Foam::GaussSeidelSmoother::smooth
     const label nSweeps
 )
 {
-    register scalar* __restrict__ psiPtr = psi.begin();
+    register scalar*  psiPtr = psi.begin();
 
     register const label nCells = psi.size();
 
     scalarField bPrime(nCells);
-    register scalar* __restrict__ bPrimePtr = bPrime.begin();
+    register scalar*  bPrimePtr = bPrime.begin();
 
-    register const scalar* const __restrict__ diagPtr = matrix_.diag().begin();
-    register const scalar* const __restrict__ upperPtr =
+    register const scalar* const  diagPtr = matrix_.diag().begin();
+    register const scalar* const  upperPtr =
         matrix_.upper().begin();
-    register const scalar* const __restrict__ lowerPtr =
+    register const scalar* const  lowerPtr =
         matrix_.lower().begin();
 
-    register const label* const __restrict__ uPtr =
+    register const label* const  uPtr =
         matrix_.lduAddr().upperAddr().begin();
 
-    register const label* const __restrict__ ownStartPtr =
+    register const label* const  ownStartPtr =
         matrix_.lduAddr().ownerStartAddr().begin();
 
 

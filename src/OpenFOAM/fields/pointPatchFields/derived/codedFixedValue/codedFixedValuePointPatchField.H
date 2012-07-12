@@ -78,8 +78,8 @@ SourceFiles
 #ifndef codedFixedValuePointPatchField_H
 #define codedFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchFields.H"
-#include "codedBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -241,7 +241,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "codedFixedValuePointPatchField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "SVD.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/scalarMatrices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/SVD/SVD.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
@@ -41,7 +41,7 @@ void Foam::LUDecompose
     {
         scalar largestCoeff = 0.0;
         scalar temp;
-        const scalar* __restrict__ matrixi = matrix[i];
+        const scalar*  matrixi = matrix[i];
 
         for (register label j=0; j<n; j++)
         {
@@ -65,11 +65,11 @@ void Foam::LUDecompose
 
     for (register label j=0; j<n; j++)
     {
-        scalar* __restrict__ matrixj = matrix[j];
+        scalar*  matrixj = matrix[j];
 
         for (register label i=0; i<j; i++)
         {
-            scalar* __restrict__ matrixi = matrix[i];
+            scalar*  matrixi = matrix[i];
 
             scalar sum = matrixi[j];
             for (register label k=0; k<i; k++)
@@ -84,7 +84,7 @@ void Foam::LUDecompose
         scalar largestCoeff = 0.0;
         for (register label i=j; i<n; i++)
         {
-            scalar* __restrict__ matrixi = matrix[i];
+            scalar*  matrixi = matrix[i];
             scalar sum = matrixi[j];
 
             for (register label k=0; k<j; k++)
@@ -106,7 +106,7 @@ void Foam::LUDecompose
 
         if (j != iMax)
         {
-            scalar* __restrict__ matrixiMax = matrix[iMax];
+            scalar*  matrixiMax = matrix[iMax];
 
             for (register label k=0; k<n; k++)
             {

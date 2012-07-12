@@ -35,7 +35,7 @@ SourceFiles
 #ifndef POSIX_H
 #define POSIX_H
 
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

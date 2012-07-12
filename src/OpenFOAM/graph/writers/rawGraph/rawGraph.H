@@ -35,7 +35,7 @@ SourceFiles
 #ifndef rawGraph_H
 #define rawGraph_H
 
-#include "graph.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/graph/graph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

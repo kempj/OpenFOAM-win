@@ -32,7 +32,7 @@ Description
 #ifndef atomicConstants_H
 #define atomicConstants_H
 
-#include "dimensionedScalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

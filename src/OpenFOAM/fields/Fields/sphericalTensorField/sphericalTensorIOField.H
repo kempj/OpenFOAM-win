@@ -32,8 +32,8 @@ Description
 #ifndef sphericalTensorIOField_H
 #define sphericalTensorIOField_H
 
-#include "sphericalTensorField.H"
-#include "IOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/sphericalTensorField/sphericalTensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

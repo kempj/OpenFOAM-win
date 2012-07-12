@@ -35,12 +35,12 @@ SourceFiles
 #ifndef tensorFieldField_H
 #define tensorFieldField_H
 
-#include "sphericalTensorFieldField.H"
-#include "symmTensorFieldField.H"
-#include "tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/symmTensorFieldField/symmTensorFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/FieldField/FieldFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -80,10 +80,10 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/undefFieldFunctionsM.H"
 
 #ifdef NoRepository
-#   include "tensorFieldField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/tensorFieldField/tensorFieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

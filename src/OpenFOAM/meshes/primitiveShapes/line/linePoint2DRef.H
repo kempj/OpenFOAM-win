@@ -31,8 +31,8 @@ Description
 #ifndef linePoint2DRef_H
 #define linePoint2DRef_H
 
-#include "point2D.H"
-#include "line.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point2D/point2D.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/line/line.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

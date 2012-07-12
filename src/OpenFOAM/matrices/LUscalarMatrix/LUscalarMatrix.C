@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LUscalarMatrix.H"
-#include "lduMatrix.H"
-#include "procLduMatrix.H"
-#include "procLduInterface.H"
-#include "cyclicLduInterface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/LUscalarMatrix/procLduMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/LUscalarMatrix/procLduInterface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

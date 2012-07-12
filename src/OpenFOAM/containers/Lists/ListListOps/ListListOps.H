@@ -86,7 +86,7 @@ SourceFiles
 #ifndef ListListOps_H
 #define ListListOps_H
 
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,7 +152,7 @@ namespace ListListOps
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "ListListOps.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListListOps/ListListOps.C"
 #endif
 
 

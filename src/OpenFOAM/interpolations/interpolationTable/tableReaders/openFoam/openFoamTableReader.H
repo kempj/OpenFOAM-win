@@ -35,7 +35,7 @@ SourceFiles
 #ifndef openFoamTableReader_H
 #define openFoamTableReader_H
 
-#include "tableReader.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationTable/tableReaders/tableReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -94,7 +94,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "openFoamTableReader.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationTable/tableReaders/openFoam/openFoamTableReader.C"
 #endif
 
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef pointBoundaryMesh_H
 #define pointBoundaryMesh_H
 
-#include "pointPatchList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatchList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

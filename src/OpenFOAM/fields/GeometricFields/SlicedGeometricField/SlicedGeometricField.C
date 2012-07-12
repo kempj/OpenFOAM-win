@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SlicedGeometricField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * * //
 

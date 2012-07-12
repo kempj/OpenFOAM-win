@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicGAMGInterface_H
 #define cyclicGAMGInterface_H
 
-#include "GAMGInterface.H"
-#include "cyclicLduInterface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

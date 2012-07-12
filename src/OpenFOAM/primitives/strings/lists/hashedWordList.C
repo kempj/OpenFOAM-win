@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hashedWordList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/hashedWordList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

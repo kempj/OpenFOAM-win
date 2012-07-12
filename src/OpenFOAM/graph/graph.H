@@ -35,10 +35,10 @@ SourceFiles
 #ifndef graph_H
 #define graph_H
 
-#include "string.H"
-#include "point.H"
-#include "HashPtrTable.H"
-#include "curve.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/string/string.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/graph/curve/curve.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

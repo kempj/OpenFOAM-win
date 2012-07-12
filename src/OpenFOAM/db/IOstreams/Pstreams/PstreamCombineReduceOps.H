@@ -36,9 +36,9 @@ Description
 #ifndef PstreamCombineReduceOps_H
 #define PstreamCombineReduceOps_H
 
-#include "UPstream.H"
-#include "Pstream.H"
-#include "ops.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/UPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

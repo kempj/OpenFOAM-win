@@ -35,11 +35,11 @@ SourceFiles
 #ifndef transformList_H
 #define transformList_H
 
-#include "transform.H"
-#include "List.H"
-#include "Map.H"
-#include "EdgeMap.H"
-#include "tensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/EdgeMap.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/tensorField/tensorField.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -145,7 +145,7 @@ inline void transformList(const tensorField&, EdgeMap<scalar>&)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "transformList.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformList/transformList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

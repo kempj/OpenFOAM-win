@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarRanges.H"
-#include "DynamicList.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ranges/scalarRange/scalarRanges.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Switch_H
 #define Switch_H
 
-#include "bool.H"
-#include "word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/bool/bool.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

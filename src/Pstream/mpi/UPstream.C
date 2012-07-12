@@ -25,11 +25,11 @@ License
 
 #include "mpi.h"
 
-#include "UPstream.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
-#include "PstreamGlobals.H"
-#include "SubList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/UPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
+#include "OpenFOAM-2.1.x/src/Pstream/mpi/PstreamGlobals.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SubList/SubList.H"
 
 #include <cstring>
 #include <cstdlib>

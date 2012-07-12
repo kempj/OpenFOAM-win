@@ -30,7 +30,7 @@ Description
 
     An example of the \c \#include directive:
     \verbatim
-        #include "includeFile"
+//        #include "includeFile"
     \endverbatim
 
     The usual expansion of environment variables and other constructs
@@ -47,7 +47,7 @@ SourceFiles
 #ifndef includeEntry_H
 #define includeEntry_H
 
-#include "functionEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

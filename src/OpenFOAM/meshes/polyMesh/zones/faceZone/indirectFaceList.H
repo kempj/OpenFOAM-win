@@ -31,8 +31,8 @@ Description
 #ifndef indirectFaceList_H
 #define indirectFaceList_H
 
-#include "face.H"
-#include "IndirectList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

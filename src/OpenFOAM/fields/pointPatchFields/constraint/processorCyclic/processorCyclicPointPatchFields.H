@@ -26,8 +26,8 @@ License
 #ifndef processorCyclicPointPatchFields_H
 #define processorCyclicPointPatchFields_H
 
-#include "processorCyclicPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/constraint/processorCyclic/processorCyclicPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

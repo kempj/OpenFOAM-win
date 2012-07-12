@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigFpe.H"
-#include "error.H"
-#include "JobInfo.H"
-#include "OSspecific.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigFpe.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/JobInfo/JobInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 #ifdef LINUX_GNUC
 

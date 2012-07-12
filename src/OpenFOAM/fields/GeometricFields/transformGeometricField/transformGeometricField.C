@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformGeometricField.H"
-#include "transformField.H"
-#include "transformFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/transformGeometricField/transformGeometricField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/transformFieldField/transformFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

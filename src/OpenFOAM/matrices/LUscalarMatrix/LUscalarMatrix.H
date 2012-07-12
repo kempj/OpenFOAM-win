@@ -35,10 +35,10 @@ SourceFiles
 #ifndef LUscalarMatrix_H
 #define LUscalarMatrix_H
 
-#include "scalarMatrices.H"
-#include "labelList.H"
-#include "FieldField.H"
-#include "lduInterfaceFieldPtrsList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/scalarMatrices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/FieldField/FieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -114,7 +114,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "LUscalarMatrixTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/LUscalarMatrix/LUscalarMatrixTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

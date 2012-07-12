@@ -41,7 +41,7 @@ SourceFiles
 #ifndef ICCG_H
 #define ICCG_H
 
-#include "PCG.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/PCG/PCG.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -50,14 +50,14 @@ SourceFiles
 #ifndef dictionary_H
 #define dictionary_H
 
-#include "entry.H"
-#include "IDLList.H"
-#include "DLList.H"
-#include "fileName.H"
-#include "ITstream.H"
-#include "HashTable.H"
-#include "wordList.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/entry/entry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/IDLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/DLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Tstreams/ITstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -531,7 +531,7 @@ dictionary operator|(const dictionary& dict1, const dictionary& dict2);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "dictionaryTemplates.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionaryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

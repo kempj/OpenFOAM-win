@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PstreamGlobals.H"
+#include "OpenFOAM-2.1.x/src/Pstream/mpi/PstreamGlobals.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

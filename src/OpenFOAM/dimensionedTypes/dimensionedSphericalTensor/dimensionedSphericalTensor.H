@@ -35,8 +35,8 @@ SourceFiles
 #ifndef dimensionedSphericalTensor_H
 #define dimensionedSphericalTensor_H
 
-#include "dimensionedType.H"
-#include "sphericalTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

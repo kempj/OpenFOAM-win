@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionObjectList.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/functionObjectList/functionObjectList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

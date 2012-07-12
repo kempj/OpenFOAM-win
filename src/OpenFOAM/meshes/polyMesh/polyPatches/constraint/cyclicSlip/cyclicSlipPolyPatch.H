@@ -36,7 +36,7 @@ SourceFiles
 #ifndef cyclicSlipPolyPatch_H
 #define cyclicSlipPolyPatch_H
 
-#include "cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

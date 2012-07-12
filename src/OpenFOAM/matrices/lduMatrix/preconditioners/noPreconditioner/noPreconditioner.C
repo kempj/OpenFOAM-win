@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noPreconditioner.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/preconditioners/noPreconditioner/noPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -62,8 +62,8 @@ void Foam::noPreconditioner::precondition
     const direction
 ) const
 {
-    scalar* __restrict__ wAPtr = wA.begin();
-    const scalar* __restrict__ rAPtr = rA.begin();
+    scalar*  wAPtr = wA.begin();
+    const scalar*  rAPtr = rA.begin();
 
     register label nCells = wA.size();
 

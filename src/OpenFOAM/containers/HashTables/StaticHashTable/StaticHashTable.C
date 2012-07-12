@@ -26,9 +26,9 @@ License
 #ifndef StaticHashTable_C
 #define StaticHashTable_C
 
-#include "StaticHashTable.H"
-#include "List.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 
@@ -552,7 +552,7 @@ bool Foam::StaticHashTable<T, Key, Hash>::operator!=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "StaticHashTableIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/StaticHashTable/StaticHashTableIO.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "keyType.H"
-#include "dictionaryEntry.H"
-#include "IOstreams.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/keyType/keyType.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

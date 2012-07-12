@@ -43,8 +43,8 @@ SourceFiles
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#include "label.H"
-#include "fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

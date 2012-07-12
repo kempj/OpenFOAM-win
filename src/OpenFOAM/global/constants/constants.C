@@ -26,13 +26,13 @@ License
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Constants supplied in the main controlDict
-#include "fundamentalConstants.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/fundamental/fundamentalConstants.C"
 
 // Derived constants
-#include "universalConstants.C"
-#include "electromagneticConstants.C"
-#include "atomicConstants.C"
-#include "physicoChemicalConstants.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/universal/universalConstants.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/electromagnetic/electromagneticConstants.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/atomic/atomicConstants.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.C"
 
 
 // ************************************************************************* //

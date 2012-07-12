@@ -36,8 +36,8 @@ SourceFiles
 #ifndef DynamicField_H
 #define DynamicField_H
 
-#include "Field.H"
-#include "StaticAssert.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/StaticAssert.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -244,12 +244,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DynamicFieldI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/DynamicField/DynamicFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "DynamicField.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/DynamicField/DynamicField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

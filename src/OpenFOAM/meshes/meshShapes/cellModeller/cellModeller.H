@@ -37,9 +37,9 @@ SourceFiles
 #ifndef cellModeller_H
 #define cellModeller_H
 
-#include "cellModel.H"
-#include "PtrList.H"
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellModel/cellModel.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

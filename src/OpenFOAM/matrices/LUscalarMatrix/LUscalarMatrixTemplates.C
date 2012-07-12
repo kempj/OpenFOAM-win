@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LUscalarMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/LUscalarMatrix/LUscalarMatrix.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

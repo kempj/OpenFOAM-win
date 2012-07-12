@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OutputFilterFunctionObject.H"
-#include "IOOutputFilter.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/OutputFilterFunctionObject/OutputFilterFunctionObject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/IOOutputFilter/IOOutputFilter.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * Private Members * * * * * * * * * * * * * * //
 

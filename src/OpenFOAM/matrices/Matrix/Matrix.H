@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Matrix_H
 #define Matrix_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "List.H"
-#include "autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/bool/bool.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/uLabel/uLabel.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -79,7 +79,7 @@ class Matrix
         label n_, m_;
 
         //- Row pointers
-        Type** __restrict__ v_;
+        Type**  v_;
 
         //- Allocate the storage for the row-pointers and the data
         //  and set the row pointers
@@ -222,12 +222,12 @@ template<class Form, class Type> Form operator*
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "MatrixI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/Matrix/MatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "Matrix.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/Matrix/Matrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

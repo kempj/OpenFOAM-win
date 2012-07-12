@@ -35,8 +35,8 @@ SourceFiles
 #ifndef vectorField_H
 #define vectorField_H
 
-#include "scalarField.H"
-#include "vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/scalarField/scalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

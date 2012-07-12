@@ -35,8 +35,8 @@ SourceFiles
 #ifndef labelSymmTensor_H
 #define labelSymmTensor_H
 
-#include "SymmTensor.H"
-#include "contiguous.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SymmTensor/SymmTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

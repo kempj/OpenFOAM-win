@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPtrDictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/UPtrDictionary/UPtrDictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

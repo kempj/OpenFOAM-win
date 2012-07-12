@@ -32,7 +32,7 @@ Description
 #ifndef unitConversion_H
 #define unitConversion_H
 
-#include "mathematicalConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

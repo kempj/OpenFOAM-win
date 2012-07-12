@@ -32,8 +32,8 @@ Description
 #ifndef SLList_H
 #define SLList_H
 
-#include "LList.H"
-#include "SLListBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/accessTypes/LList/LList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/linkTypes/SLListBase/SLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

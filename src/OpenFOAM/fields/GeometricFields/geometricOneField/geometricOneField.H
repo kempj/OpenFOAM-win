@@ -37,8 +37,8 @@ Description
 #ifndef geometricOneField_H
 #define geometricOneField_H
 
-#include "oneFieldField.H"
-#include "scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/oneFieldField/oneFieldField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -81,7 +81,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "geometricOneFieldI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

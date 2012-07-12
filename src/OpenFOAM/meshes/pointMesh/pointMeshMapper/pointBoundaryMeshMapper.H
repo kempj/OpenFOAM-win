@@ -32,8 +32,8 @@ Description
 #ifndef pointBoundaryMeshMapper_H
 #define pointBoundaryMeshMapper_H
 
-#include "PtrList.H"
-#include "pointPatchMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMeshMapper/pointPatchMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

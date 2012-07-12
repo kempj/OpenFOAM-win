@@ -53,10 +53,10 @@ SourceFiles
 #ifndef uniformInterpolationTable_H
 #define uniformInterpolationTable_H
 
-#include "List.H"
-#include "Switch.H"
-#include "IOobject.H"
-#include "objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/Switch/Switch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobject/IOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -191,7 +191,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "uniformInterpolationTableI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/uniformInterpolationTable/uniformInterpolationTableI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformInterpolationTable.C"
+    #include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/uniformInterpolationTable/uniformInterpolationTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

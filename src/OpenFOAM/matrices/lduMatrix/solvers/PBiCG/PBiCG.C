@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PBiCG.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/PBiCG/PBiCG.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -78,19 +78,19 @@ Foam::lduMatrix::solverPerformance Foam::PBiCG::solve
 
     register label nCells = psi.size();
 
-    scalar* __restrict__ psiPtr = psi.begin();
+    scalar*  psiPtr = psi.begin();
 
     scalarField pA(nCells);
-    scalar* __restrict__ pAPtr = pA.begin();
+    scalar*  pAPtr = pA.begin();
 
     scalarField pT(nCells, 0.0);
-    scalar* __restrict__ pTPtr = pT.begin();
+    scalar*  pTPtr = pT.begin();
 
     scalarField wA(nCells);
-    scalar* __restrict__ wAPtr = wA.begin();
+    scalar*  wAPtr = wA.begin();
 
     scalarField wT(nCells);
-    scalar* __restrict__ wTPtr = wT.begin();
+    scalar*  wTPtr = wT.begin();
 
     scalar wArT = matrix_.great_;
     scalar wArTold = wArT;
@@ -102,8 +102,8 @@ Foam::lduMatrix::solverPerformance Foam::PBiCG::solve
     // --- Calculate initial residual and transpose residual fields
     scalarField rA(source - wA);
     scalarField rT(source - wT);
-    scalar* __restrict__ rAPtr = rA.begin();
-    scalar* __restrict__ rTPtr = rT.begin();
+    scalar*  rAPtr = rA.begin();
+    scalar*  rTPtr = rT.begin();
 
     // --- Calculate normalisation factor
     scalar normFactor = this->normFactor(psi, source, wA, pA);

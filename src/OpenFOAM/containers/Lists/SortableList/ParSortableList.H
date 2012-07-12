@@ -47,7 +47,7 @@ SourceFiles
 #ifndef ParSortableList_H
 #define ParSortableList_H
 
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -204,7 +204,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "ParSortableList.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/ParSortableList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

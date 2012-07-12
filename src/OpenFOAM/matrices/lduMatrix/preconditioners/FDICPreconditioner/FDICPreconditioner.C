@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FDICPreconditioner.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/preconditioners/FDICPreconditioner/FDICPreconditioner.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -50,15 +50,15 @@ Foam::FDICPreconditioner::FDICPreconditioner
     rDuUpper_(sol.matrix().upper().size()),
     rDlUpper_(sol.matrix().upper().size())
 {
-    scalar* __restrict__ rDPtr = rD_.begin();
-    scalar* __restrict__ rDuUpperPtr = rDuUpper_.begin();
-    scalar* __restrict__ rDlUpperPtr = rDlUpper_.begin();
+    scalar*  rDPtr = rD_.begin();
+    scalar*  rDuUpperPtr = rDuUpper_.begin();
+    scalar*  rDlUpperPtr = rDlUpper_.begin();
 
-    const label* const __restrict__ uPtr =
+    const label* const  uPtr =
         solver_.matrix().lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr =
+    const label* const  lPtr =
         solver_.matrix().lduAddr().lowerAddr().begin();
-    const scalar* const __restrict__ upperPtr =
+    const scalar* const  upperPtr =
         solver_.matrix().upper().begin();
 
     register label nCells = rD_.size();
@@ -92,17 +92,17 @@ void Foam::FDICPreconditioner::precondition
     const direction
 ) const
 {
-    scalar* __restrict__ wAPtr = wA.begin();
-    const scalar* __restrict__ rAPtr = rA.begin();
-    const scalar* __restrict__ rDPtr = rD_.begin();
+    scalar*  wAPtr = wA.begin();
+    const scalar*  rAPtr = rA.begin();
+    const scalar*  rDPtr = rD_.begin();
 
-    const label* const __restrict__ uPtr =
+    const label* const  uPtr =
         solver_.matrix().lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr =
+    const label* const  lPtr =
         solver_.matrix().lduAddr().lowerAddr().begin();
 
-    const scalar* const __restrict__ rDuUpperPtr = rDuUpper_.begin();
-    const scalar* const __restrict__ rDlUpperPtr = rDlUpper_.begin();
+    const scalar* const  rDuUpperPtr = rDuUpper_.begin();
+    const scalar* const  rDlUpperPtr = rDlUpper_.begin();
 
     register label nCells = wA.size();
     register label nFaces = solver_.matrix().upper().size();

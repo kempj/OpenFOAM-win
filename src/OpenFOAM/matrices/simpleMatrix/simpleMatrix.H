@@ -35,7 +35,7 @@ SourceFiles
 #ifndef simpleMatrix_H
 #define simpleMatrix_H
 
-#include "scalarMatrices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/scalarMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ simpleMatrix<Type> operator*
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "simpleMatrix.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/simpleMatrix/simpleMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

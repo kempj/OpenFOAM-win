@@ -33,7 +33,7 @@ Description
 #ifndef lduSchedule_H
 #define lduSchedule_H
 
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

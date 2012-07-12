@@ -34,8 +34,8 @@ Description
 #ifndef mapClouds_H
 #define mapClouds_H
 
-#include "cloud.H"
-#include "objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/cloud/cloud.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

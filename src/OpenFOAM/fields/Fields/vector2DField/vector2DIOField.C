@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "vector2DIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vector2DField/vector2DIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

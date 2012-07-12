@@ -32,8 +32,8 @@ Description
 #ifndef DLPtrList_H
 #define DLPtrList_H
 
-#include "LPtrList.H"
-#include "DLListBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/accessTypes/LPtrList/LPtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef CocoParserErrors_H
 #define CocoParserErrors_H
 
-#include "error.H"
-#include "wchar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/chars/wchar/wchar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef SquareMatrix_H
 #define SquareMatrix_H
 
-#include "Matrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/Matrix/Matrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -87,7 +87,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "SquareMatrixI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/SquareMatrix/SquareMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

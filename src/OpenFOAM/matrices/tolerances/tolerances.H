@@ -35,7 +35,7 @@ SourceFiles
 #ifndef tolerances_H
 #define tolerances_H
 
-#include "IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

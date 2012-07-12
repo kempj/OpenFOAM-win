@@ -27,9 +27,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "token.H"
-#include "int.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/int/int.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 //  Print state of ostream.

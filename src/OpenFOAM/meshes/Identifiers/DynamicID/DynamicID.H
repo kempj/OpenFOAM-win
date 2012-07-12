@@ -36,8 +36,8 @@ Description
 #ifndef DynamicID_H
 #define DynamicID_H
 
-#include "keyType.H"
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/keyType/keyType.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

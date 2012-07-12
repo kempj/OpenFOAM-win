@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOPtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

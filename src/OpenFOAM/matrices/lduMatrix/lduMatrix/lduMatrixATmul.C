@@ -27,7 +27,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -40,18 +40,18 @@ void Foam::lduMatrix::Amul
     const direction cmpt
 ) const
 {
-    scalar* __restrict__ ApsiPtr = Apsi.begin();
+    scalar*  ApsiPtr = Apsi.begin();
 
     const scalarField& psi = tpsi();
-    const scalar* const __restrict__ psiPtr = psi.begin();
+    const scalar* const  psiPtr = psi.begin();
 
-    const scalar* const __restrict__ diagPtr = diag().begin();
+    const scalar* const  diagPtr = diag().begin();
 
-    const label* const __restrict__ uPtr = lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr = lduAddr().lowerAddr().begin();
+    const label* const  uPtr = lduAddr().upperAddr().begin();
+    const label* const  lPtr = lduAddr().lowerAddr().begin();
 
-    const scalar* const __restrict__ upperPtr = upper().begin();
-    const scalar* const __restrict__ lowerPtr = lower().begin();
+    const scalar* const  upperPtr = upper().begin();
+    const scalar* const  lowerPtr = lower().begin();
 
     // Initialise the update of interfaced interfaces
     initMatrixInterfaces
@@ -101,18 +101,18 @@ void Foam::lduMatrix::Tmul
     const direction cmpt
 ) const
 {
-    scalar* __restrict__ TpsiPtr = Tpsi.begin();
+    scalar*  TpsiPtr = Tpsi.begin();
 
     const scalarField& psi = tpsi();
-    const scalar* const __restrict__ psiPtr = psi.begin();
+    const scalar* const  psiPtr = psi.begin();
 
-    const scalar* const __restrict__ diagPtr = diag().begin();
+    const scalar* const  diagPtr = diag().begin();
 
-    const label* const __restrict__ uPtr = lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr = lduAddr().lowerAddr().begin();
+    const label* const  uPtr = lduAddr().upperAddr().begin();
+    const label* const  lPtr = lduAddr().lowerAddr().begin();
 
-    const scalar* const __restrict__ lowerPtr = lower().begin();
-    const scalar* const __restrict__ upperPtr = upper().begin();
+    const scalar* const  lowerPtr = lower().begin();
+    const scalar* const  upperPtr = upper().begin();
 
     // Initialise the update of interfaced interfaces
     initMatrixInterfaces
@@ -158,15 +158,15 @@ void Foam::lduMatrix::sumA
     const lduInterfaceFieldPtrsList& interfaces
 ) const
 {
-    scalar* __restrict__ sumAPtr = sumA.begin();
+    scalar*  sumAPtr = sumA.begin();
 
-    const scalar* __restrict__ diagPtr = diag().begin();
+    const scalar*  diagPtr = diag().begin();
 
-    const label* __restrict__ uPtr = lduAddr().upperAddr().begin();
-    const label* __restrict__ lPtr = lduAddr().lowerAddr().begin();
+    const label*  uPtr = lduAddr().upperAddr().begin();
+    const label*  lPtr = lduAddr().lowerAddr().begin();
 
-    const scalar* __restrict__ lowerPtr = lower().begin();
-    const scalar* __restrict__ upperPtr = upper().begin();
+    const scalar*  lowerPtr = lower().begin();
+    const scalar*  upperPtr = upper().begin();
 
     register const label nCells = diag().size();
     register const label nFaces = upper().size();
@@ -210,17 +210,17 @@ void Foam::lduMatrix::residual
     const direction cmpt
 ) const
 {
-    scalar* __restrict__ rAPtr = rA.begin();
+    scalar*  rAPtr = rA.begin();
 
-    const scalar* const __restrict__ psiPtr = psi.begin();
-    const scalar* const __restrict__ diagPtr = diag().begin();
-    const scalar* const __restrict__ sourcePtr = source.begin();
+    const scalar* const  psiPtr = psi.begin();
+    const scalar* const  diagPtr = diag().begin();
+    const scalar* const  sourcePtr = source.begin();
 
-    const label* const __restrict__ uPtr = lduAddr().upperAddr().begin();
-    const label* const __restrict__ lPtr = lduAddr().lowerAddr().begin();
+    const label* const  uPtr = lduAddr().upperAddr().begin();
+    const label* const  lPtr = lduAddr().lowerAddr().begin();
 
-    const scalar* const __restrict__ upperPtr = upper().begin();
-    const scalar* const __restrict__ lowerPtr = lower().begin();
+    const scalar* const  upperPtr = upper().begin();
+    const scalar* const  lowerPtr = lower().begin();
 
     // Parallel boundary initialisation.
     // Note: there is a change of sign in the coupled

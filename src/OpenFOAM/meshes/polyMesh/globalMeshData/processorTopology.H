@@ -26,8 +26,8 @@ License
 #ifndef processorTopology_H
 #define processorTopology_H
 
-#include "ProcessorTopology.H"
-#include "processorPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/ProcessorTopology/ProcessorTopology.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

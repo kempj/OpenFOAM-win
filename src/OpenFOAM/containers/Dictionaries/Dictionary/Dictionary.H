@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Dictionary_H
 #define Dictionary_H
 
-#include "DictionaryBase.H"
-#include "IDLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/IDLList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -83,7 +83,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "Dictionary.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Dictionaries/Dictionary/Dictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

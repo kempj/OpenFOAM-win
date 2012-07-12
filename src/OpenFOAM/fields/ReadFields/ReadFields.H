@@ -35,8 +35,8 @@ SourceFiles
 #ifndef ReadFields_H
 #define ReadFields_H
 
-#include "PtrList.H"
-#include "wordList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -60,7 +60,7 @@ wordList ReadFields
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "ReadFields.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/ReadFields/ReadFields.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

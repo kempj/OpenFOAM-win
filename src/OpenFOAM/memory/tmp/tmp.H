@@ -35,7 +35,7 @@ SourceFiles
 #ifndef tmp_H
 #define tmp_H
 
-#include "refCount.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/refCount/refCount.H"
 #include <cstddef>
 
 #if defined(__GNUC__) && !defined(__INTEL_COMPILER)
@@ -137,7 +137,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tmpI.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmpI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

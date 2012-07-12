@@ -35,7 +35,7 @@ SourceFiles
 #ifndef long_H
 #define long_H
 
-#include "word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

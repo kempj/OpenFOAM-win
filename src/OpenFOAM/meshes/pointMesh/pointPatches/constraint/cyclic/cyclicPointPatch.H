@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cyclicPointPatch_H
 #define cyclicPointPatch_H
 
-#include "coupledFacePointPatch.H"
-#include "cyclicPolyPatch.H"
-#include "pointBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/derived/coupled/coupledFacePointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

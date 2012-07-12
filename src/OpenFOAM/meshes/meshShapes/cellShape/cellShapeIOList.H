@@ -32,8 +32,8 @@ Description
 #ifndef cellShapeIOList_H
 #define cellShapeIOList_H
 
-#include "cellShape.H"
-#include "IOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellShape/cellShape.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

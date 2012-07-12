@@ -32,8 +32,8 @@ Description
 #ifndef pointPatchList_H
 #define pointPatchList_H
 
-#include "pointPatch.H"
-#include "PtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

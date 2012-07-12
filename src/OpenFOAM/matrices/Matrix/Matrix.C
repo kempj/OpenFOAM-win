@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Matrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/Matrix/Matrix.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 
@@ -423,6 +423,6 @@ Form Foam::operator*(const scalar s, const Matrix<Form, Type>& a)
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "MatrixIO.C"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/Matrix/MatrixIO.C"
 
 // ************************************************************************* //
