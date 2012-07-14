@@ -43,7 +43,7 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/FIFOStack.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/cpuTime/cpuTime.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/cpuTime/cpuTime.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/TimeState.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/Switch/Switch.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/instant/instantList.H"
@@ -51,9 +51,9 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/functionObjects/functionObjectList/functionObjectList.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/fileMonitor.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigWriteNow.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigStopAtWriteNow.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/fileMonitor.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/signals/sigWriteNow.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/signals/sigStopAtWriteNow.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

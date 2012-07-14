@@ -26,7 +26,7 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/inputModeEntry/inputModeEntry.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/regExp.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/regExp.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

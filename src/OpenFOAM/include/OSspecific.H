@@ -48,14 +48,23 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
+//#ifdef MSWIN
+  // Match assumptions elsewhere.
+typedef long PID_T;
+typedef long mode_t;
+//#else
+//  typedef pid_t PID_T;
+//#endif
+
+
 //- Return the PID of this process
-pid_t pid();
+PID_T pid();
 
 //- Return the parent PID of this process
-pid_t ppid();
+PID_T ppid();
 
 //- Return the group PID of this process
-pid_t pgid();
+PID_T pgid();
 
 //- Return true if environment variable of given name is defined
 bool env(const word&);
@@ -225,6 +234,8 @@ label osRandomInteger();
 //- Return random double precision (uniform distribution between 0 and 1)
 scalar osRandomDouble();
 
+//- Convert to unix path separators
+std::string toUnixPath(const std::string& path);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

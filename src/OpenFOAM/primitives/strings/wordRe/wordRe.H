@@ -51,7 +51,7 @@ SourceFiles
 #define wordRe_H
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/regExp.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/regExp.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/keyType/keyType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

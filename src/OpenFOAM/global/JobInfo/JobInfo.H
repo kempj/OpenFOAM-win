@@ -41,7 +41,7 @@ SourceFiles
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/cpuTime/cpuTime.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

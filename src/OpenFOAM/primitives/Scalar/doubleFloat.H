@@ -32,6 +32,7 @@ License
 #include "mathimf.h"
 #include <cmath>
 
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

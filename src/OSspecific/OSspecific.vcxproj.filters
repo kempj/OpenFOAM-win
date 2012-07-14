@@ -15,99 +15,90 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="POSIX\clockTime\clockTime.C">
+    <ClCompile Include="MSwindows\clockTime\clockTime.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\cpuTime\cpuTime.C">
+    <ClCompile Include="MSwindows\cpuTime\cpuTime.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\memInfo\memInfo.C">
+    <ClCompile Include="MSwindows\signals\sigFpe.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\memInfo\memInfoIO.C">
+    <ClCompile Include="MSwindows\signals\sigInt.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\signals\sigFpe.C">
+    <ClCompile Include="MSwindows\signals\sigQuit.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\signals\sigInt.C">
+    <ClCompile Include="MSwindows\signals\sigSegv.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\signals\sigQuit.C">
+    <ClCompile Include="MSwindows\signals\sigStopAtWriteNow.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\signals\sigSegv.C">
+    <ClCompile Include="MSwindows\signals\sigWriteNow.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\signals\sigStopAtWriteNow.C">
+    <ClCompile Include="MSwindows\fileMonitor.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\signals\sigWriteNow.C">
+    <ClCompile Include="MSwindows\fileStat.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\dummyPrintStack.C">
+    <ClCompile Include="MSwindows\MSwindows.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\fileMonitor.C">
+    <ClCompile Include="MSwindows\printStack.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\fileStat.C">
+    <ClCompile Include="MSwindows\regExp.C">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="POSIX\POSIX.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="POSIX\printStack.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="POSIX\regExp.C">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="POSIX\timer.C">
+    <ClCompile Include="MSwindows\timer.C">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="POSIX\clockTime\clockTime.H">
+    <ClInclude Include="MSwindows\clockTime\clockTime.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\cpuTime\cpuTime.H">
+    <ClInclude Include="MSwindows\cpuTime\cpuTime.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\memInfo\memInfo.H">
+    <ClInclude Include="MSwindows\signals\sigFpe.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\signals\sigFpe.H">
+    <ClInclude Include="MSwindows\signals\sigInt.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\signals\sigInt.H">
+    <ClInclude Include="MSwindows\signals\sigQuit.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\signals\sigQuit.H">
+    <ClInclude Include="MSwindows\signals\sigSegv.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\signals\sigSegv.H">
+    <ClInclude Include="MSwindows\signals\sigStopAtWriteNow.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\signals\sigStopAtWriteNow.H">
+    <ClInclude Include="MSwindows\signals\sigWriteNow.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\signals\sigWriteNow.H">
+    <ClInclude Include="MSwindows\deelx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\fileMonitor.H">
+    <ClInclude Include="MSwindows\fileMonitor.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\fileStat.H">
+    <ClInclude Include="MSwindows\fileStat.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\POSIX.H">
+    <ClInclude Include="MSwindows\MSwindows.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\regExp.H">
+    <ClInclude Include="MSwindows\regExp.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="POSIX\timer.H">
+    <ClInclude Include="MSwindows\timer.H">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -31,6 +31,10 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstream.H"
+//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 Foam::error::error(const string& title)

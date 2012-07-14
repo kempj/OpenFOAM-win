@@ -38,6 +38,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

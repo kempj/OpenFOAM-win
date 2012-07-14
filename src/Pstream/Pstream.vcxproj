@@ -61,10 +61,13 @@
       <CompileAs>CompileAsCpp</CompileAs>
       <C99Support>true</C99Support>
       <Cpp0xSupport>false</Cpp0xSupport>
-      <RecognizeRestrictKeyword>true</RecognizeRestrictKeyword>
+      <RecognizeRestrictKeyword>false</RecognizeRestrictKeyword>
       <DisableIntelLangExtensions>false</DisableIntelLangExtensions>
       <AdditionalOptions>/DWM_DP /DNoRepository %(AdditionalOptions)</AdditionalOptions>
       <ShowIncludes>false</ShowIncludes>
+      <UseMSVC>false</UseMSVC>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

@@ -43,6 +43,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/labelBits.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedList.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

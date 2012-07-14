@@ -49,6 +49,8 @@ SourceFiles
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

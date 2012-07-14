@@ -56,7 +56,10 @@ Foam::fileName::Type Foam::fileName::type() const
 
 bool Foam::fileName::isAbsolute() const
 {
-    return !empty() && operator[](0) == '/';
+	  return ((3 < size()) && (operator[](1) == ':' ||
+		  (operator[](0) == '\\' && operator[](1) == '\\')));
+
+    //return !empty() && operator[](0) == '/';
 }
 
 

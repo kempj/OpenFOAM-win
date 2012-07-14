@@ -91,6 +91,7 @@ public:
         //- Return the current wall-clock time as a string
         static string clockTime();
 
+		typedef long TIME_T;//JK
         //- Returns wall-clock time from clock instantiation
         time_t elapsedClockTime() const;
 

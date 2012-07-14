@@ -47,6 +47,8 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/nil/nil.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/Hash/Hash.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

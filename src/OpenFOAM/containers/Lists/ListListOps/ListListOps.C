@@ -23,6 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListListOps/ListListOps.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

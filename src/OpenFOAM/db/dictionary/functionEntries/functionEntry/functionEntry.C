@@ -25,6 +25,8 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

@@ -27,6 +27,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 defineTypeNameAndDebug(Foam::treeDataCell, 0);

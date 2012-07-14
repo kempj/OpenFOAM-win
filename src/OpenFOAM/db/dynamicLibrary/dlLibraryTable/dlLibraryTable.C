@@ -27,6 +27,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/long/long.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 defineTypeNameAndDebug(Foam::dlLibraryTable, 0);

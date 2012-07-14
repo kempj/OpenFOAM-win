@@ -85,10 +85,10 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
 
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigFpe.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigInt.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigQuit.H"
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/signals/sigSegv.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/signals/sigFpe.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/signals/sigInt.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/signals/sigQuit.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/signals/sigSegv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

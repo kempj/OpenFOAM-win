@@ -35,7 +35,7 @@ SourceFiles
 #ifndef stringListOps_H
 #define stringListOps_H
 
-#include "OpenFOAM-2.1.x/src/OSspecific/POSIX/regExp.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/regExp.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordReList.H"
