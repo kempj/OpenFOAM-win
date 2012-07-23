@@ -38,6 +38,7 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/symmTransform.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/symmTensorField/symmTensorField.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformField.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,6 +76,11 @@ tmp<Field<Type> > transform(const tensor&, const Field<Type>&);
 template<class Type>
 tmp<Field<Type> > transform(const tensor&, const tmp<Field<Type> >&);
 
+template<class Type1, class Type2>
+tmp<Field<Type1> > transformFieldMask(const Field<Type2>&);//JK
+
+template<class Type1, class Type2>
+tmp<Field<Type1> > transformFieldMask(const tmp<Field<Type2> >&);//JK
 
 template<>
 tmp<Field<sphericalTensor> > transformFieldMask<sphericalTensor>

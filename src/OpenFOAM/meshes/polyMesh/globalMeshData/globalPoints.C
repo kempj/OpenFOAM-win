@@ -29,6 +29,11 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/OPstream.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/IPstream.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 defineTypeNameAndDebug(Foam::globalPoints, 0);

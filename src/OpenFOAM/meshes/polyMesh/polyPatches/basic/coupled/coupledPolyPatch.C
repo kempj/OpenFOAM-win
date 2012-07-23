@@ -28,6 +28,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

@@ -27,6 +27,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"//JK
+
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
 namespace Foam

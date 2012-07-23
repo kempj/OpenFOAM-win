@@ -28,6 +28,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"//JK
+
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
 template<class Type, template<class> class PatchField, class GeoMesh>

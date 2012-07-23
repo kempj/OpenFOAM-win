@@ -47,7 +47,7 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/nil/nil.H"
 
-#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/Hash/Hash.H"//JK
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/Hash/Hash.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,6 +208,9 @@ HashSet<Key,Hash> operator^
 
 //- A HashSet with word keys.
 typedef HashSet<> wordHashSet;
+//JK:
+template<class PrimitiveType> class Hash;
+template<> class Hash<Foam::label>;
 
 //- A HashSet with label keys.
 typedef HashSet<label, Hash<label> > labelHashSet;

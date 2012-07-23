@@ -33,7 +33,9 @@ SourceFiles
 \*---------------------------------------------------------------------------*/
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
+//template<class PrimitiveType> class pTraits;//JK
+//typedef double doubleScalar;//JK
+//#define Scalar doubleScalar//JK
 // template specialisation for pTraits<Scalar>
 
 

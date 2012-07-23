@@ -33,6 +33,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringListOps.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 defineTypeNameAndDebug(Foam::polyBoundaryMesh, 0);

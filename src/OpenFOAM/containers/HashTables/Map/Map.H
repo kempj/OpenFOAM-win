@@ -46,6 +46,8 @@ namespace Foam
                            Class Map Declaration
 \*---------------------------------------------------------------------------*/
 
+template<class PrimitiveType> class Hash;
+
 template<class T>
 class Map
 :

@@ -23,7 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor2D/tensor2D/tensor2D.H"//JK
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Swap/Swap.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,6 +32,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 namespace Foam

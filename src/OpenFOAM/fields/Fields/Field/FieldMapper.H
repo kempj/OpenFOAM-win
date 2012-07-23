@@ -32,11 +32,28 @@ Description
 #ifndef FieldMapper_H
 #define FieldMapper_H
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UList/UList.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"//JK
+
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
+	typedef int label;
+	//template<class T> class UList;
+	//typedef UList<label> labelUList;
+	//template<class T> class List;
+	//typedef List<label> labelList;
+    //typedef List<labelList> labelListList;
+	typedef double doubleScalar;
+	typedef doubleScalar scalar;
+	typedef List<scalar> scalarList;
+	typedef List<scalarList> scalarListList;
 
+	template<class T> class tmp;
+	template<class Type> class Field;
 /*---------------------------------------------------------------------------*\
                            Class FieldMapper Declaration
 \*---------------------------------------------------------------------------*/

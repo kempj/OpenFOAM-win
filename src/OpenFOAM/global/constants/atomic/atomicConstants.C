@@ -23,7 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+
 #include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/mathematical/mathematicalConstants.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/fundamental/fundamentalConstants.H"//JK
 #include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/universal/universalConstants.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/electromagnetic/electromagneticConstants.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/atomic/atomicConstants.H"

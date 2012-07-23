@@ -27,6 +27,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/FieldM.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/DiagTensor/diagTensor/diagTensor.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/FieldReuseFunctions.H"//JK
+
 // * * * * * * * * * * * * * * * global functions  * * * * * * * * * * * * * //
 
 void Foam::transform

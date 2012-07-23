@@ -37,6 +37,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformField.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/IndirectList/IndirectList.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 namespace Foam

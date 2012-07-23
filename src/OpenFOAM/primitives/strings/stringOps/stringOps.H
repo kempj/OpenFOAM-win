@@ -38,6 +38,7 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/string/string.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+#include "OpenFOAM-2.1.x\src\OpenFOAM\db\dictionary\primitiveEntry\primitiveEntry.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

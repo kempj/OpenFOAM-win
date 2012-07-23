@@ -91,6 +91,7 @@ void checkFields
 }
 
 #else
+template<class T> class UList;//JK
 
 template<class Type1, class Type2>
 void checkFields

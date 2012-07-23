@@ -39,6 +39,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"//JK
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

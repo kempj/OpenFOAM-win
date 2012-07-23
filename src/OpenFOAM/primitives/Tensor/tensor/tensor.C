@@ -26,6 +26,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/mathematical/mathematicalConstants.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Swap/Swap.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

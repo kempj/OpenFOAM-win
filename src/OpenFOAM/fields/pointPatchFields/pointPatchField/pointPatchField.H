@@ -46,6 +46,9 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

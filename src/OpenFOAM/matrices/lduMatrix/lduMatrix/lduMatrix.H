@@ -57,6 +57,7 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

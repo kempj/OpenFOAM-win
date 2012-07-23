@@ -32,6 +32,8 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/objectHit.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/bandCompression/bandCompression.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/primitivePatch.H"//JK
+
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
 template

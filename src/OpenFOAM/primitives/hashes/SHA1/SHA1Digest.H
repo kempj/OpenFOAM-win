@@ -37,7 +37,7 @@ SourceFiles
 
 #ifndef SHA1Digest_H
 #define SHA1Digest_H
-
+#include <mathimf.h>//JK
 #include <string>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

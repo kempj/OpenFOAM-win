@@ -30,6 +30,8 @@ License
 
 namespace Foam
 {
+	template<class Type> class Field;//JK
+	template<class T> class tmp;//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

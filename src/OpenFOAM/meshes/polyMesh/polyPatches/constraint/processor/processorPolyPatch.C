@@ -35,6 +35,10 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformList/transformList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/OPstream.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/IPstream.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

@@ -29,6 +29,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformField.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"//JK
+
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
 // Distribute list.

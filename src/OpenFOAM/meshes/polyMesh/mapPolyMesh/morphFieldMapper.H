@@ -35,6 +35,8 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/FieldMapper.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

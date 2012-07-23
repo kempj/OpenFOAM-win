@@ -35,6 +35,7 @@ namespace Foam
 {
 
 /* * * * * * * * * * * * * * * * Global functions  * * * * * * * * * * * * * */
+	template<class Form, class Cmpt, int nCmpt> class VectorSpace;
 
 template<template<class> class Field, class Type>
 void component

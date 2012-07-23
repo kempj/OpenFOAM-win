@@ -26,6 +26,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ranges/scalarRange/scalarRange.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 int Foam::scalarRange::debug(::Foam::debug::debugSwitch("scalarRange", 0));

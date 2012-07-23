@@ -25,6 +25,9 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 // Note: the use of this tolerance is ad-hoc, there may be extreme

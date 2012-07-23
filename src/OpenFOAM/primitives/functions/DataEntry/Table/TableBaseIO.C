@@ -25,6 +25,7 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/Table/TableBase.H"//JK
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 
 template<class Type>

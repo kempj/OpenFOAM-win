@@ -22,7 +22,7 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 \*---------------------------------------------------------------------------*/
-
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationLookUpTable/interpolationLookUpTable.H"//JK
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

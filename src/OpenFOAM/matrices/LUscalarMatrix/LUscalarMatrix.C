@@ -29,6 +29,16 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/LUscalarMatrix/procLduInterface.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/OPstream.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/IPstream.H"//JK
+//JK:
+#ifdef  __INTEL_COMPILER 
+#define __restrict__ restrict
+#else 
+#define __restrict__ __declspec(restrict)
+#endif
+//end //JK
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
 Foam::LUscalarMatrix::LUscalarMatrix(const scalarSquareMatrix& matrix)

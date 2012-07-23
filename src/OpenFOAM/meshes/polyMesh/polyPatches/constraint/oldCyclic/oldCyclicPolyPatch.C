@@ -35,6 +35,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformList/transformList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 namespace Foam

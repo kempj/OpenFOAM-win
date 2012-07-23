@@ -29,6 +29,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 namespace Foam

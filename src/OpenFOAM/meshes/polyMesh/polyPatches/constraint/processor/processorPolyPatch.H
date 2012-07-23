@@ -43,6 +43,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceListFwd.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

@@ -48,6 +48,9 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
+//template<class TypeR, class Type1> class reuseTmp;//JK
+//template<class TypeR> class reuseTmp<TypeR, TypeR>;//JK
+
 template<class Type>
 void transform(Field<Type>&, const tensorField&, const Field<Type>&);
 

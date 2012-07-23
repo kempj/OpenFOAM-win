@@ -35,7 +35,9 @@ void Foam::LUDecompose
 )
 {
     label n = matrix.n();
-    scalar vv[n];
+    //scalar vv[n];//JK
+	scalar *vv;
+	vv = new scalar[n];
 
     for (register label i=0; i<n; i++)
     {
@@ -131,6 +133,7 @@ void Foam::LUDecompose
             }
         }
     }
+	delete [] vv;
 }
 
 

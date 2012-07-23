@@ -560,6 +560,7 @@ BINARY_TYPE_OPERATOR_FS(Type, Type, scalar, *, multiply)
 
 BINARY_TYPE_OPERATOR_FS(Type, Type, scalar, /, divide)
 
+template<class Form, class Cmpt, int nCmpt> class VectorSpace;//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

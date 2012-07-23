@@ -28,12 +28,19 @@ License
 #define TEMPLATE template<class Type, class GeoMesh>
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.C"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
 
 // * * * * * * * * * * * * * * * Global functions  * * * * * * * * * * * * * //
+
+template<class arg1, int arg2> class powProduct;
+template<class arg1, class arg2> class outerProduct;
+template<class Form, class Cmpt, int nCmpt> class VectorSpace;
 
 template<class Type, class GeoMesh, int r>
 tmp<DimensionedField<typename powProduct<Type, r>::type, GeoMesh> >

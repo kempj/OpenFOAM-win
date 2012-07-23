@@ -422,15 +422,15 @@ public:
         friend Ostream& operator<<(Ostream&, const token&);
 
         friend Ostream& operator<<(Ostream&, const punctuationToken&);
-        friend ostream& operator<<(ostream&, const punctuationToken&);
+        friend std::ostream& operator<<(std::ostream&, const punctuationToken&);
 
-        friend ostream& operator<<(ostream&, const InfoProxy<token>&);
+        friend std::ostream& operator<<(std::ostream&, const InfoProxy<token>&);
 };
 
 
 Ostream& operator<<(Ostream&, const token::punctuationToken&);
-ostream& operator<<(ostream&, const token::punctuationToken&);
-ostream& operator<<(ostream&, const InfoProxy<token>&);
+std::ostream& operator<<(std::ostream&, const token::punctuationToken&);
+std::ostream& operator<<(std::ostream&, const InfoProxy<token>&);
 Ostream& operator<<(Ostream&, const token::compound&);
 
 

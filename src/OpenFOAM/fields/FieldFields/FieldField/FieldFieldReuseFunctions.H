@@ -32,6 +32,8 @@ namespace Foam
 {
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+template<template<class> class Field, class Type> class FieldField;//JK
+template<class T> class tmp;//JK
 
 template<template<class> class Field, class TypeR, class Type1>
 class reuseTmpFieldField

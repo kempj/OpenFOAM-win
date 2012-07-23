@@ -51,6 +51,7 @@ namespace Foam
 UNARY_FUNCTION(symmTensor, vector, sqr)
 
 UNARY_FUNCTION(scalar, symmTensor, tr)
+typedef SphericalTensor<scalar> sphericalTensor;//JK
 UNARY_FUNCTION(sphericalTensor, symmTensor, sph)
 UNARY_FUNCTION(symmTensor, symmTensor, symm)
 UNARY_FUNCTION(symmTensor, symmTensor, twoSymm)
@@ -64,6 +65,7 @@ UNARY_FUNCTION(symmTensor, symmTensor, inv)
 // * * * * * * * * * * * * * * * global operators  * * * * * * * * * * * * * //
 
 UNARY_OPERATOR(vector, symmTensor, *, hdual)
+typedef Tensor<scalar> tensor;//JK
 
 BINARY_OPERATOR(tensor, symmTensor, symmTensor, &, dot)
 BINARY_TYPE_OPERATOR(tensor, symmTensor, symmTensor, &, dot)

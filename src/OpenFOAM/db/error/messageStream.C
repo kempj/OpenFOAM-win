@@ -27,6 +27,10 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 int Foam::messageStream::level(Foam::debug::debugSwitch("level", 2));

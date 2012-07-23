@@ -28,6 +28,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/IPstream.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/OPstream.H"//JK
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

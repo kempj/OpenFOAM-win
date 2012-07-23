@@ -94,6 +94,8 @@ SourceFiles
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
+#include "OpenFOAM-2.1.x\src\OpenFOAM\db\dictionary\primitiveEntry\primitiveEntry.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

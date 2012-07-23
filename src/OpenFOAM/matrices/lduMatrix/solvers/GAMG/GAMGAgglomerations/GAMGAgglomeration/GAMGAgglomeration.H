@@ -44,6 +44,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

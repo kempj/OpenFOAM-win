@@ -35,17 +35,20 @@ SourceFiles
 #ifndef indexedOctree_H
 #define indexedOctree_H
 
+
+
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Istream.H"//JK
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/labelBits.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedList.H"
 
-#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
 
 namespace Foam
 {
@@ -53,7 +56,7 @@ namespace Foam
 // Forward declaration of classes
 template<class Type> class indexedOctree;
 template<class Type> Ostream& operator<<(Ostream&, const indexedOctree<Type>&);
-class Istream;
+//class Istream;
 
 
 /*---------------------------------------------------------------------------*\

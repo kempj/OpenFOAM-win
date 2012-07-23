@@ -40,6 +40,9 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/graph/curve/curve.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"//JK
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

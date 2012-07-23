@@ -29,12 +29,23 @@ License
     template<class Type, template<class> class PatchField, class GeoMesh>
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.C"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/VectorSpace/products.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
 
 // * * * * * * * * * * * * * * * Global functions  * * * * * * * * * * * * * //
+
+	typedef unsigned char direction;//JK
+	//template<class arg1, int arg2> class powProduct;//JK
+	typedef double doubleScalar;//JK
+	typedef doubleScalar scalar;//JK
+	template <class Type> class dimensioned;//JK
+	template<class Form, class Cmpt, int nCmpt> class VectorSpace;//JK
+
 
 template<class Type, template<class> class PatchField, class GeoMesh>
 void component

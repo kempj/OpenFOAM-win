@@ -27,6 +27,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
+
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
 bool Foam::matchPoints

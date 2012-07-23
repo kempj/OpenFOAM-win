@@ -36,6 +36,9 @@ Description
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"//JK
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

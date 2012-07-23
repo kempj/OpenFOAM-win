@@ -33,6 +33,11 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
+	template<class T> class tmp;//JK
+	template<class Type, template<class> class PatchField, class GeoMesh> class GeometricField;//JK
+	class word;//JK
+	class dimensionSet;//JK
+
 template
 <
     class TypeR,

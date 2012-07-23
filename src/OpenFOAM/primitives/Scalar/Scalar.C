@@ -23,10 +23,31 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/pTraits/pTraits.H"
+
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"//JK
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Istream.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"//JK
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/floatScalar/floatScalar.H"
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/doubleScalar/doubleScalar.H"
+
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/Scalar.H"//JK
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"//JK
+
+#include <sstream>//JK
+
+#ifndef ScalarVGREAT
+#define ScalarVGREAT doubleScalarVGREAT
+#endif
+
+#define Scalar doubleScalar//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
+	typedef double doubleScalar;//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

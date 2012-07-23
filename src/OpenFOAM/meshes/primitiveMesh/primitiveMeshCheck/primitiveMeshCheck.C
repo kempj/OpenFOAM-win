@@ -31,6 +31,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/EdgeMap.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 Foam::scalar Foam::primitiveMesh::closedThreshold_  = 1.0e-6;

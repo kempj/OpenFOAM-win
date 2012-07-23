@@ -25,6 +25,8 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 defineTypeNameAndDebug(Foam::pairGAMGAgglomeration, 0);

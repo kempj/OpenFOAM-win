@@ -26,6 +26,7 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

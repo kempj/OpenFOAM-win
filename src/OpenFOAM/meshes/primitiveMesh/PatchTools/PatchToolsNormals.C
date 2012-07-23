@@ -28,6 +28,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/indirectPrimitivePatch.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"//JK
+
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

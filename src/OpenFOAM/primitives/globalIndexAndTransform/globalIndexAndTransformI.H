@@ -25,6 +25,7 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"//JK
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
 bool Foam::globalIndexAndTransform::less::operator()

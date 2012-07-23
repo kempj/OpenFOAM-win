@@ -60,6 +60,7 @@ bool readBool(Istream&);
 namespace Foam
 {
 
+	//template<class PrimitiveType> class pTraits;//JK
 // template specialisation for pTraits<bool>
 template<>
 class pTraits<bool>

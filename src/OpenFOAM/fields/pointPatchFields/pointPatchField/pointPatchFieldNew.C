@@ -23,6 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.H"//JK
+
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
 template<class Type>

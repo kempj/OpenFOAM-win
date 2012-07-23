@@ -58,6 +58,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tuple2/Tuple2.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/Table/TableBase.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

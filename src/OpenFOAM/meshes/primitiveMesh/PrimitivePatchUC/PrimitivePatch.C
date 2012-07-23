@@ -25,6 +25,8 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/primitivePatch.H"//JK
+
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
 template

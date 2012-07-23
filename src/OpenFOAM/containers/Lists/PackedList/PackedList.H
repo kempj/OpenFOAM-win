@@ -106,6 +106,7 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/StaticAssert.H"
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"//JK
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Istream.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,6 +28,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/contiguous/contiguous.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"//JK
+
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //
 
 template<class Type>

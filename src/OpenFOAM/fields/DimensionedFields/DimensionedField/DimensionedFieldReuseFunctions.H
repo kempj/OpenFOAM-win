@@ -32,6 +32,10 @@ namespace Foam
 {
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+template<class T> class tmp;
+template<class Type, class GeoMesh> class DimensionedField;
+class word;
+class dimensionSet;
 
 template<class TypeR, class Type1, class GeoMesh>
 class reuseTmpDimensionedField

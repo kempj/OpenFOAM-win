@@ -47,6 +47,7 @@ namespace Foam
 {
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+	template<class Type> class Field;
 
 template<template<class> class Field>
 void stabilise
@@ -124,6 +125,7 @@ UNARY_FUNCTION(scalar, scalar, j1)
 UNARY_FUNCTION(scalar, scalar, y0)
 UNARY_FUNCTION(scalar, scalar, y1)
 
+typedef Field<scalar> scalarField;//JK
 
 #define BesselFunc(func)                                                      \
 void func                                                                     \

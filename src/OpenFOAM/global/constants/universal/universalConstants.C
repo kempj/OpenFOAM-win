@@ -28,6 +28,8 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/dimensionedConstants.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/fundamental/fundamentalConstants.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 const char* const Foam::constant::universal::group = "universal";

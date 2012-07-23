@@ -42,6 +42,7 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/Random/Random.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UList/UList.H"
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Istream.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

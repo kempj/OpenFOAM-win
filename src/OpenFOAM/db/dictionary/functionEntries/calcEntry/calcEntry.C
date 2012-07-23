@@ -30,9 +30,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/functionEntries/codeStream/codeStream.H"
 
 
-#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/OStringStream.H"//JK
-#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"//JK
-#include "OpenFOAM-2.1.x\src\OpenFOAM\db\dictionary\primitiveEntry\primitiveEntry.H"//JK
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/OStringStream.H"//JK
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"//JK
+//#include "OpenFOAM-2.1.x\src\OpenFOAM\db\dictionary\primitiveEntry\primitiveEntry.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -89,6 +89,8 @@ bool Foam::functionEntries::calcEntry::execute
         codeDict
     );
 
+	//class OStringStream;
+	//class IStringStream;
     // use function to write stream
     OStringStream os(is.format());
     (*function)(os, parentDict);

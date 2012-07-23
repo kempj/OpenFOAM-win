@@ -24,6 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/CompatibilityConstant/CompatibilityConstant.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

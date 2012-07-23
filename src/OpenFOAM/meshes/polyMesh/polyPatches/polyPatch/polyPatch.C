@@ -33,6 +33,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 namespace Foam

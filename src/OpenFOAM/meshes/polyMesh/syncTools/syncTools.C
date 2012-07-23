@@ -25,6 +25,8 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"//JK
+
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
 // Determines for every point whether it is coupled and if so sets only one.

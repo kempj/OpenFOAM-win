@@ -49,6 +49,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

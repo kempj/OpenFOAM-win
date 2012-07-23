@@ -24,6 +24,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/BICCG/BICCG.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

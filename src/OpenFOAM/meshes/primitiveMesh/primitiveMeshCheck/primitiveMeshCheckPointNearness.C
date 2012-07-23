@@ -26,6 +26,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitiveMesh.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 bool Foam::primitiveMesh::checkPointNearness

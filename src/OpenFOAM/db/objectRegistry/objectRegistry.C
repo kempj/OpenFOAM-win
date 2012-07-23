@@ -26,6 +26,7 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 defineTypeNameAndDebug(Foam::objectRegistry, 0);

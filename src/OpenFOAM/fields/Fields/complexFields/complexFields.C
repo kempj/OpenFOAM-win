@@ -29,6 +29,8 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/complexFields/complexFields.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

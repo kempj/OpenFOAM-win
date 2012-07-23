@@ -29,6 +29,8 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/SLList.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/primitivePatch.H"//JK
+
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
 template

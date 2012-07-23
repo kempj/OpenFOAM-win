@@ -30,6 +30,8 @@ License
 #include <cctype>
 
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
+
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
 inline void Foam::UIPstream::checkEof()

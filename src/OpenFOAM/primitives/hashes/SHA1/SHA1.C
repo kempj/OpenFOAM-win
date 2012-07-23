@@ -32,7 +32,7 @@ Description
     Foundation, Inc.
 
 \*---------------------------------------------------------------------------*/
-
+#include <mathimf.h>//JK
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/hashes/SHA1/SHA1.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
 

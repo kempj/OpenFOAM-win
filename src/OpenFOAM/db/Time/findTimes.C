@@ -32,6 +32,8 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
 
+#include <algorithm>//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 Foam::instantList Foam::Time::findTimes(const fileName& directory)

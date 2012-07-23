@@ -34,6 +34,8 @@ Description
 #include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/treeDataCell.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
+
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
 Foam::labelListList Foam::polyMesh::cellShapePointCells

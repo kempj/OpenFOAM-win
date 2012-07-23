@@ -25,6 +25,8 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/tolerances/tolerances.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"//JK
+
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
 Foam::tolerances::tolerances(const Time& t, const fileName& dictName)

@@ -26,6 +26,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGSolver.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector2D/vector2D/vector2D.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
 Foam::scalar Foam::GAMGSolver::scalingFactor

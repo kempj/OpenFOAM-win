@@ -27,6 +27,9 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
 
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 const Foam::scalar Foam::boundBox::great(VGREAT);

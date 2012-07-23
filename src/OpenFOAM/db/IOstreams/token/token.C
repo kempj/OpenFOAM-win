@@ -25,6 +25,9 @@ License
 
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/token/token.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"//JK
+
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
 const char* const Foam::token::typeName = "token";

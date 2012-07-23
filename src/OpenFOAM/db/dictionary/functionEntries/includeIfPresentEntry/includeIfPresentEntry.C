@@ -27,6 +27,7 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/primitiveEntry/primitiveEntry.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

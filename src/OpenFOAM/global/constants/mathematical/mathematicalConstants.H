@@ -32,6 +32,7 @@ Description
 #ifndef mathematicalConstants_H
 #define mathematicalConstants_H
 
+
 #include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -47,10 +48,11 @@ namespace mathematical
 
     static const char* const group = "mathematical";
 
-    const scalar e(M_E);
-    const scalar pi(M_PI);
-    const scalar twoPi(2*pi);
-    const scalar piByTwo(0.5*pi);
+	//JK: pulled from math.h
+    const scalar e(2.71828182845904523536);//M_E);
+    const scalar pi(3.14159265358979323846);//M_PI);
+    const scalar twoPi(0.636619772367581343076);//2*pi);
+    const scalar piByTwo(1.57079632679489661923);//0.5*pi);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

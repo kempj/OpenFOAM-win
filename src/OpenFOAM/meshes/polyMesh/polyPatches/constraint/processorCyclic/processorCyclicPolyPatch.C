@@ -28,6 +28,8 @@ License
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
