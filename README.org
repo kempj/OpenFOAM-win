@@ -23,18 +23,13 @@
   [[http://www.gnu.org/licenses/]], for a description of the GNU General Public
   License terms under which you can copy the files.
 
-* Download and installation instructions
-  + To install from this Git repository, see
-    [[http://www.OpenFOAM.org/git.php]]
+* Do Not Use This Software for Anything
+  I have removed the Docs and Support to the OpenFOAM website because if you 
+  need support, you need to go download OpenFOAM from their website.
 
-* Release notes
-  [[http://www.OpenFOAM.com/version2.1.0]]
-
-* Documentation
-  [[http://www.OpenFOAM.com/docs]]
-
-* Support and development contracts
-  [[http://www.OpenFOAM.com/support]]
-
-* Reporting Bugs in OpenFOAM
-  [[http://www.OpenFOAM.com/bugs]]
+* What I am doing
+  I am currently shifting the 2.1 release to windows using the symscape patch 
+  to run it in Visual Studio. Most of the alterations are #includes and 
+  forward declarations. There is no other build system, I am manually adding
+  the #includes to each file that needs them. I have a python script that 
+  should be up here soon that I use to fix the case sensitivity issues.
