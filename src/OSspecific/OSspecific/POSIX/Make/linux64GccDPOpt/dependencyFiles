@@ -1,0 +1,16 @@
+DEPENDENCIES = \
+signals/sigFpe.dep\
+signals/sigSegv.dep\
+signals/sigInt.dep\
+signals/sigQuit.dep\
+signals/sigStopAtWriteNow.dep\
+signals/sigWriteNow.dep\
+regExp.dep\
+timer.dep\
+fileStat.dep\
+POSIX.dep\
+cpuTime/cpuTime.dep\
+clockTime/clockTime.dep\
+memInfo/memInfo.dep\
+fileMonitor.dep\
+printStack.dep

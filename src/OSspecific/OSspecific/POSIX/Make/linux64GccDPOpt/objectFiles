@@ -1,0 +1,16 @@
+OBJECTS = \
+$(OBJECTS_DIR)/sigFpe.o\
+$(OBJECTS_DIR)/sigSegv.o\
+$(OBJECTS_DIR)/sigInt.o\
+$(OBJECTS_DIR)/sigQuit.o\
+$(OBJECTS_DIR)/sigStopAtWriteNow.o\
+$(OBJECTS_DIR)/sigWriteNow.o\
+$(OBJECTS_DIR)/regExp.o\
+$(OBJECTS_DIR)/timer.o\
+$(OBJECTS_DIR)/fileStat.o\
+$(OBJECTS_DIR)/POSIX.o\
+$(OBJECTS_DIR)/cpuTime.o\
+$(OBJECTS_DIR)/clockTime.o\
+$(OBJECTS_DIR)/memInfo.o\
+$(OBJECTS_DIR)/fileMonitor.o\
+$(OBJECTS_DIR)/printStack.o

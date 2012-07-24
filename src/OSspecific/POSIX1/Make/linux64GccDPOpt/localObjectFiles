@@ -1,0 +1,16 @@
+LOCAL_OBJECTS = \
+sigFpe.o\
+sigSegv.o\
+sigInt.o\
+sigQuit.o\
+sigStopAtWriteNow.o\
+sigWriteNow.o\
+regExp.o\
+timer.o\
+fileStat.o\
+POSIX.o\
+cpuTime.o\
+clockTime.o\
+memInfo.o\
+fileMonitor.o\
+printStack.o

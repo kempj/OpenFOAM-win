@@ -1,0 +1,7 @@
+$(OBJECTS_DIR)/clockTime.o: clockTime/clockTime.dep
+clockTime/clockTime.dep: clockTime/clockTime.C
+clockTime/clockTime.dep: clockTime/clockTime.H
+$(OBJECTS_DIR)/clockTime.o: $(EXE_DEP)
+$(OBJECTS_DIR)/clockTime.o:
+	@SOURCE_DIR=clockTime
+	SOURCE=clockTime/clockTime.C ; $(Ctoo)

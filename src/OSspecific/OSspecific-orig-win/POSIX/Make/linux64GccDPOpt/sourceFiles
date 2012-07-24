@@ -1,0 +1,16 @@
+SOURCE = \
+signals/sigFpe.C\
+signals/sigSegv.C\
+signals/sigInt.C\
+signals/sigQuit.C\
+signals/sigStopAtWriteNow.C\
+signals/sigWriteNow.C\
+regExp.C\
+timer.C\
+fileStat.C\
+POSIX.C\
+cpuTime/cpuTime.C\
+clockTime/clockTime.C\
+memInfo/memInfo.C\
+fileMonitor.C\
+printStack.C

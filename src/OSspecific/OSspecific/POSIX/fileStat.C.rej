@@ -1,0 +1,13 @@
+--- src/OSspecific/POSIX/fileStat.C	(.../tags/2.1.x-4)	(revision 744)
++++ src/OSspecific/POSIX/fileStat.C	(.../branches/2.1.x-4)	(revision 744)
+@@ -29,7 +29,10 @@
+ 
+ #include <signal.h>
+ #include <unistd.h>
++
++#ifndef DARWIN
+ #include <sys/sysmacros.h>
++#endif
+ 
+ // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
+ 

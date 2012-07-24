@@ -1,0 +1,48 @@
+﻿Build started 7/13/2012 3:38:14 PM.
+     1>Project "C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x\src\OSspecific\OSspecific.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\OSspecific.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (Win32 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /Zi /nologo /W3 /O2 /Oi /Qipo /Qftz- /D _MBCS /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Qstd=c99 /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP MSwindows\MSwindows.C MSwindows\clockTime\clockTime.C MSwindows\cpuTime\cpuTime.C MSwindows\fileMonitor.C MSwindows\fileStat.C MSwindows\printStack.C MSwindows\regExp.C MSwindows\signals\sigFpe.C MSwindows\signals\sigInt.C MSwindows\signals\sigQuit.C MSwindows\signals\sigSegv.C MSwindows\signals\sigStopAtWriteNow.C MSwindows\signals\sigWriteNow.C MSwindows\timer.C /DWM_DP   
+         MSwindows.C
+         clockTime.C
+         cpuTime.C
+         fileMonitor.C
+         fileStat.C
+         printStack.C
+         regExp.C
+         sigFpe.C
+         sigInt.C
+         sigQuit.C
+         sigSegv.C
+         sigStopAtWriteNow.C
+         sigWriteNow.C
+         timer.C
+       Lib:
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\xilib.exe /OUT:"C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\Release\OSspecific.lib" /NOLOGO Release\clockTime.obj
+         Release\cpuTime.obj
+         Release\fileMonitor.obj
+         Release\fileStat.obj
+         Release\MSwindows.obj
+         Release\printStack.obj
+         Release\regExp.obj
+         Release\sigFpe.obj
+         Release\sigInt.obj
+         Release\sigQuit.obj
+         Release\sigSegv.obj
+         Release\sigStopAtWriteNow.obj
+         Release\sigWriteNow.obj
+         Release\timer.obj
+         xilib: executing 'lib'
+         OSspecific.vcxproj -> C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\Release\OSspecific.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\OSspecific.unsuccessfulbuild".
+         Touching "Release\OSspecific.lastbuildstate".
+     1>Done Building Project "C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x\src\OSspecific\OSspecific.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.93
