@@ -35,10 +35,10 @@ SourceFiles
 #ifndef processorMeshes_H
 #define processorMeshes_H
 
-#include "PtrList.H"
-#include "fvMesh.H"
-#include "IOobjectList.H"
-#include "labelIOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjectList/IOobjectList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

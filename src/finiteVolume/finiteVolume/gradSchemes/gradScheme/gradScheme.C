@@ -23,9 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "objectRegistry.H"
-#include "solution.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fv/fv.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/solution/solution.H"
+
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.H"//JK
 
 // * * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * //
 

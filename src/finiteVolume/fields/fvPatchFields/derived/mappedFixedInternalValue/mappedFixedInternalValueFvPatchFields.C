@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFixedInternalValueFvPatchFields.H"
-#include "volMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedInternalValue/mappedFixedInternalValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/volMesh/volMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

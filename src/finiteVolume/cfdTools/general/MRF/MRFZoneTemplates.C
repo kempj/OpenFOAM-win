@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFZone.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "geometricOneField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/MRF/MRFZone.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

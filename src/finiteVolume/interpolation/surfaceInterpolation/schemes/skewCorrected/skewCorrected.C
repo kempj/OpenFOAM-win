@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "skewCorrected.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrected.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

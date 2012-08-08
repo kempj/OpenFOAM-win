@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "centredCECCellToFaceStencilObject.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/MeshObjects/centredCECCellToFaceStencilObject.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

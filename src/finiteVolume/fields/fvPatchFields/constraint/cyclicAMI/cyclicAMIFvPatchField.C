@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIFvPatchField.H"
-#include "transformField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,7 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfacePatchIOList.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/surfacePatch/surfacePatchIOList.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/entry/entry.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

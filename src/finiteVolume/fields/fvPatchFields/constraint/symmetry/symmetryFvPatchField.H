@@ -35,8 +35,8 @@ SourceFiles
 #ifndef symmetryFvPatchField_H
 #define symmetryFvPatchField_H
 
-#include "basicSymmetryFvPatchField.H"
-#include "symmetryFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/basicSymmetry/basicSymmetryFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/symmetry/symmetryFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "symmetryFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/symmetry/symmetryFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

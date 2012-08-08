@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceAreaPairGAMGAgglomeration.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/solvers/GAMGSymSolver/GAMGAgglomerations/faceAreaPairGAMGAgglomeration/faceAreaPairGAMGAgglomeration.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

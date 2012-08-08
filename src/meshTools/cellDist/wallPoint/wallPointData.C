@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPointData.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPointData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

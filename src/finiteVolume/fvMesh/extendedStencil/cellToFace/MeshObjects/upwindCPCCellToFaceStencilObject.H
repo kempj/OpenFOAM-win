@@ -33,9 +33,9 @@ SourceFiles
 #ifndef upwindCPCCellToFaceStencilObject_H
 #define upwindCPCCellToFaceStencilObject_H
 
-#include "extendedUpwindCellToFaceStencil.H"
-#include "CPCCellToFaceStencil.H"
-#include "MeshObject.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/fullStencils/CPCCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

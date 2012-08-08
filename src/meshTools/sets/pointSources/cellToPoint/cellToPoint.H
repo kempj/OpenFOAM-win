@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cellToPoint_H
 #define cellToPoint_H
 
-#include "topoSetSource.H"
-#include "NamedEnum.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/NamedEnum/NamedEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

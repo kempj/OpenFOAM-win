@@ -30,8 +30,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "reverseLinear.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/reverseLinear/reverseLinear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

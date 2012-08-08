@@ -36,9 +36,9 @@ SourceFiles
 #ifndef pointToPointPlanarInterpolation_H
 #define pointToPointPlanarInterpolation_H
 
-#include "FixedList.H"
-#include "coordinateSystem.H"
-#include "instantList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/instant/instantList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -154,7 +154,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "pointToPointPlanarInterpolationTemplates.C"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/pointToPointPlanarInterpolationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

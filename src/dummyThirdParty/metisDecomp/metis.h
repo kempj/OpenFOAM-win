@@ -5,7 +5,7 @@
  *     installed in the correct position in $WM_THIRD_PARTY_DIR - see
  *     decompositionMethods/metisDecomp/Make/options
  */
-
+#include <stdint.h>
 #warning "Dummy metis.h - gets included since it cannot find metis installation."
 
 #define IDXTYPEWIDTH 32

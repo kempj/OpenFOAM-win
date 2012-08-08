@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceRegistry.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceRegistry/surfaceRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

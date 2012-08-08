@@ -26,8 +26,8 @@ License
 #ifndef MeshedSurfaces_H
 #define MeshedSurfaces_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfacesFwd.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurfacesFwd.H"
 
 #endif
 

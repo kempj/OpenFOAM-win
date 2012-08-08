@@ -33,8 +33,8 @@ Description
 #ifndef interpolationCellPoint_H
 #define interpolationCellPoint_H
 
-#include "interpolation.H"
-#include "cellPointWeight.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolation/interpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPoint/cellPointWeight/cellPointWeight.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -103,12 +103,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationCellPointI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPointI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "interpolationCellPoint.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

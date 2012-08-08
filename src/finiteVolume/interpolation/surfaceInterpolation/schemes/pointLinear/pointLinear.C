@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointLinear.H"
-#include "fvMesh.H"
-#include "volPointInterpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/pointLinear/pointLinear.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

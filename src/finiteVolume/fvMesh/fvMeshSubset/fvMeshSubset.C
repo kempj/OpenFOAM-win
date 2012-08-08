@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "boolList.H"
-#include "Pstream.H"
-#include "emptyPolyPatch.H"
-#include "demandDrivenData.H"
-#include "cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

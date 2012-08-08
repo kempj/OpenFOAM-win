@@ -23,9 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedLeastSquaresVectors.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/extendedLeastSquaresGrad/extendedLeastSquaresVectors.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

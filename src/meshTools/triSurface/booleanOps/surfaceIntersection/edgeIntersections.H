@@ -37,11 +37,11 @@ SourceFiles
 #ifndef edgeIntersections_H
 #define edgeIntersections_H
 
-#include "pointIndexHit.H"
-#include "scalarField.H"
-#include "pointField.H"
-#include "typeInfo.H"
-#include "boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/scalarField/scalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

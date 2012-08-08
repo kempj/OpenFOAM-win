@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcReconstruct.H"
-#include "fvMesh.H"
-#include "zeroGradientFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcReconstruct.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

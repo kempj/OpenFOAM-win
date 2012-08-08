@@ -36,8 +36,8 @@ SourceFiles
 #ifndef linearUpwindV_H
 #define linearUpwindV_H
 
-#include "upwind.H"
-#include "gaussGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

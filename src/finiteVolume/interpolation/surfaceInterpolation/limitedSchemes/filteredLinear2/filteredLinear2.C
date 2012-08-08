@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LimitedScheme.H"
-#include "filteredLinear2.H"
-#include "filteredLinear2V.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/filteredLinear2/filteredLinear2.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/filteredLinear2/filteredLinear2V.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

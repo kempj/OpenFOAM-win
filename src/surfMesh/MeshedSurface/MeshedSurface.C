@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "mergePoints.H"
-#include "Time.H"
-#include "ListOps.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "surfMesh.H"
-#include "primitivePatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshTools/mergePoints.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfMesh/surfMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/primitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -1178,8 +1178,8 @@ Foam::MeshedSurface<Face>::operator Foam::MeshedSurfaceProxy<Face>() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MeshedSurfaceZones.C"
-#include "MeshedSurfaceIO.C"
-#include "MeshedSurfaceNew.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurfaceZones.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurfaceIO.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurfaceNew.C"
 
 // ************************************************************************* //

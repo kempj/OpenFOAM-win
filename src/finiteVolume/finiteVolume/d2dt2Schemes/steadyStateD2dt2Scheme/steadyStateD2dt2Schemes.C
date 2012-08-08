@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "steadyStateD2dt2Scheme.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/d2dt2Schemes/steadyStateD2dt2Scheme/steadyStateD2dt2Scheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

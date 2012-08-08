@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

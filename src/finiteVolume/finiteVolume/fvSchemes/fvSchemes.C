@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvSchemes.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvSchemes/fvSchemes.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

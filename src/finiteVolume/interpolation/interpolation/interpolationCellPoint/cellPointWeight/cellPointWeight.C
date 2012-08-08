@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellPointWeight.H"
-#include "polyMesh.H"
-#include "tetPointRef.H"
-#include "polyMeshTetDecomposition.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPoint/cellPointWeight/cellPointWeight.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

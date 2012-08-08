@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcSmooth.H"
-#include "volFields.H"
-#include "FaceCellWave.H"
-#include "smoothData.H"
-#include "sweepData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/MeshWave/FaceCellWave.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcSmooth/smoothData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcSmooth/sweepData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

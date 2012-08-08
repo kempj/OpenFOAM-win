@@ -35,11 +35,11 @@ SourceFiles
 #ifndef surfaceInterpolationScheme_H
 #define surfaceInterpolationScheme_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -231,7 +231,7 @@ makeSurfaceInterpolationTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "surfaceInterpolationScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

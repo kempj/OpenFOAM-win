@@ -35,7 +35,7 @@ SourceFiles
 #ifndef waveTransmissiveFvPatchField_H
 #define waveTransmissiveFvPatchField_H
 
-#include "advectiveFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/advective/advectiveFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,7 +164,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "waveTransmissiveFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/waveTransmissive/waveTransmissiveFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

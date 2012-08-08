@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleCellFvMesh.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/singleCellFvMesh/singleCellFvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

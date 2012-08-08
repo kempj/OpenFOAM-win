@@ -23,16 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedFeatureEdgeMesh.H"
-#include "triSurface.H"
-#include "Random.H"
-#include "Time.H"
-#include "meshTools.H"
-#include "linePointRef.H"
-#include "ListListOps.H"
-#include "OFstream.H"
-#include "IFstream.H"
-#include "unitConversion.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMesh.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/Random/Random.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/line/linePointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListListOps/ListListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/unitConversion/unitConversion.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

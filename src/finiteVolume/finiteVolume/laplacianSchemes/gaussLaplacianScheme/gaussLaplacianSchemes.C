@@ -23,8 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussLaplacianScheme.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/laplacianSchemes/gaussLaplacianScheme/gaussLaplacianScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

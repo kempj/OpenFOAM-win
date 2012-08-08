@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataTriSurface.H"
-#include "triSurfaceTools.H"
-#include "triangleFuncs.H"
-#include "indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataTriSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triangleFuncs/triangleFuncs.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

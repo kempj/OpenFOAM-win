@@ -36,16 +36,16 @@ SourceFiles
 #ifndef fvPatch_H
 #define fvPatch_H
 
-#include "polyPatch.H"
-#include "labelList.H"
-#include "SubList.H"
-#include "typeInfo.H"
-#include "tmp.H"
-#include "primitiveFields.H"
-#include "SubField.H"
-#include "fvPatchFieldsFwd.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SubList/SubList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -268,7 +268,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvPatchTemplates.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatchTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

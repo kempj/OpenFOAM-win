@@ -70,10 +70,12 @@ SourceFiles
 #ifndef mappedPatchBase_H
 #define mappedPatchBase_H
 
-#include "pointField.H"
-#include "Tuple2.H"
-#include "pointIndexHit.H"
-#include "AMIPatchToPatchInterpolation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tuple2/Tuple2.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -378,12 +380,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "mappedPatchBaseI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPatchBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedPatchBaseTemplates.C"
+    #include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPatchBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

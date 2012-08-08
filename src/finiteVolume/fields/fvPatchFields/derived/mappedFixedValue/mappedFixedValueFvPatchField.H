@@ -54,8 +54,8 @@ SourceFiles
 #ifndef mappedFixedValueFvPatchField_H
 #define mappedFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "interpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ protected:
     // Protected Member Functions
 
         //- Field to sample. Either on my or nbr mesh
-        const GeometricField<Type, fvPatchField, volMesh>& sampleField() const;
+        const GeometricField<Type, Foam::fvPatchField, volMesh>& sampleField() const;
 
         //- Access the interpolation method
         const interpolation<Type>& interpolator() const;
@@ -189,7 +189,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "mappedFixedValueFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedValue/mappedFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

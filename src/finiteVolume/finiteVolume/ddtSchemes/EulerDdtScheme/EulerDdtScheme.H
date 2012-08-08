@@ -36,7 +36,7 @@ SourceFiles
 #ifndef EulerDdtScheme_H
 #define EulerDdtScheme_H
 
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -188,7 +188,7 @@ tmp<surfaceScalarField> EulerDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "EulerDdtScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

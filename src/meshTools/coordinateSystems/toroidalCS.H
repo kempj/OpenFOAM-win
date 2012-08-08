@@ -38,7 +38,7 @@ SourceFiles
 #ifndef toroidalCS_H
 #define toroidalCS_H
 
-#include "coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 #ifndef mixedFvPatchFields_H
 #define mixedFvPatchFields_H
 
-#include "mixedFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

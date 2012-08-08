@@ -60,9 +60,11 @@ SourceFiles
 #ifndef InteractionLists_H
 #define InteractionLists_H
 
-#include "polyMesh.H"
-#include "referredWallFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/InteractionLists/referredWallFace/referredWallFace.H"
 //#include "mapDistribute.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/Cloud.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/Switch/Switch.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -307,12 +309,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InteractionListsI.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/InteractionLists/InteractionListsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "InteractionLists.C"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/InteractionLists/InteractionLists.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

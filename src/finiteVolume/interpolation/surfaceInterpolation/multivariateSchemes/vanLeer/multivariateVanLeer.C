@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multivariateScheme.H"
-#include "LimitedScheme.H"
-#include "Limited01.H"
-#include "vanLeer.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateScheme/multivariateScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/Limited01/Limited01.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/vanLeer/vanLeer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

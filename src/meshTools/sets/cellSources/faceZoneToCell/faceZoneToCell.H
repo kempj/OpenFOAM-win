@@ -35,8 +35,8 @@ SourceFiles
 #ifndef faceZoneToCell_H
 #define faceZoneToCell_H
 
-#include "topoSetSource.H"
-#include "wordRe.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/wordRe/wordRe.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

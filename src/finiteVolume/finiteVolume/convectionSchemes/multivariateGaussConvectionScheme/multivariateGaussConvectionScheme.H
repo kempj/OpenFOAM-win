@@ -35,7 +35,7 @@ SourceFiles
 #ifndef multivariateGaussConvectionScheme_H
 #define multivariateGaussConvectionScheme_H
 
-#include "convectionScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "multivariateGaussConvectionScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/convectionSchemes/multivariateGaussConvectionScheme/multivariateGaussConvectionScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

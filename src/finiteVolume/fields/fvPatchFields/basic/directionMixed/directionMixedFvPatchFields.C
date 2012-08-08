@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directionMixedFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

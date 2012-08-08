@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "transform.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

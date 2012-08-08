@@ -35,8 +35,8 @@ SourceFiles
 #ifndef NASedgeFormat_H
 #define NASedgeFormat_H
 
-#include "edgeMesh.H"
-#include "NASCore.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeMesh.H"
+#include "OpenFOAM-2.1.x/src/fileFormats/nas/NASCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

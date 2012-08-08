@@ -35,7 +35,7 @@ SourceFiles
 #ifndef mixedFvPatchField_H
 #define mixedFvPatchField_H
 
-#include "fvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -261,7 +261,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "mixedFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

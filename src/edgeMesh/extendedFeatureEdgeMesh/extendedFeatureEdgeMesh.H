@@ -55,13 +55,15 @@ SourceFiles
 #ifndef extendedFeatureEdgeMesh_H
 #define extendedFeatureEdgeMesh_H
 
-#include "edgeMesh.H"
-#include "surfaceFeatures.H"
-#include "objectRegistry.H"
-#include "IOdictionary.H"
-#include "indexedOctree.H"
-#include "treeDataEdge.H"
-#include "pointIndexHit.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/surfaceFeatures/surfaceFeatures.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataEdge.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -368,7 +370,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "extendedFeatureEdgeMeshI.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

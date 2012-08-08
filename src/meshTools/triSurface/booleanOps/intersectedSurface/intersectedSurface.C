@@ -23,17 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "intersectedSurface.H"
-#include "surfaceIntersection.H"
-#include "faceList.H"
-#include "faceTriangulation.H"
-#include "treeBoundBox.H"
-#include "OFstream.H"
-#include "error.H"
-#include "meshTools.H"
-#include "edgeSurface.H"
-#include "DynamicList.H"
-#include "transform.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/intersectedSurface/intersectedSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceList.H"
+#include "OpenFOAM-2.1.x/src/triSurface/faceTriangulation/faceTriangulation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/intersectedSurface/edgeSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

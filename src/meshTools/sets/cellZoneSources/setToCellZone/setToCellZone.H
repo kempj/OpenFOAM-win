@@ -35,7 +35,7 @@ SourceFiles
 #ifndef setToCellZone_H
 #define setToCellZone_H
 
-#include "topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

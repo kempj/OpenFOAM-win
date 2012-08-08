@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurfaceIOAllocator.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceAllocator/MeshedSurfaceIOAllocator.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

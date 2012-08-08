@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedCellToFaceStencil.H"
-#include "globalIndex.H"
-#include "syncTools.H"
-#include "SortableList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

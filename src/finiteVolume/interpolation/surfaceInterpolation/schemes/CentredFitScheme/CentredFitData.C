@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CentredFitData.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "SVD.H"
-#include "syncTools.H"
-#include "extendedCentredCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/SVD/SVD.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedCentredCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

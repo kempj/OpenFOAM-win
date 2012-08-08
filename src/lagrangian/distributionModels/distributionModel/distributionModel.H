@@ -52,9 +52,9 @@ SourceFiles
 #ifndef distributionModel_H
 #define distributionModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "cachedRandom.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/cachedRandom/cachedRandom.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceFields.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurfaceFields/triSurfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

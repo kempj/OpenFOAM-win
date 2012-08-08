@@ -44,7 +44,7 @@ SourceFiles
 #ifndef localEulerDdtScheme_H
 #define localEulerDdtScheme_H
 
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ tmp<surfaceScalarField> localEulerDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "localEulerDdtScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

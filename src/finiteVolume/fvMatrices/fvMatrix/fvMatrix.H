@@ -40,14 +40,14 @@ SourceFiles
 #ifndef fvMatrix_H
 #define fvMatrix_H
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "lduMatrix.H"
-#include "tmp.H"
-#include "autoPtr.H"
-#include "dimensionedTypes.H"
-#include "zero.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedTypes.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/zero/zero.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1047,11 +1047,11 @@ tmp<fvMatrix<Type> > operator*
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvMatrix.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrix/fvMatrix.C"
 #endif
 
 // Specialisation for scalars
-#include "fvScalarMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

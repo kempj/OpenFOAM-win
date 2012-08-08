@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pureUpwindCFCCellToFaceStencilObject.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/MeshObjects/pureUpwindCFCCellToFaceStencilObject.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

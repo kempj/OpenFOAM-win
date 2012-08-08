@@ -38,8 +38,8 @@ SourceFiles
 #ifndef featureEdgeMesh_H
 #define featureEdgeMesh_H
 
-#include "edgeMesh.H"
-#include "regIOobject.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

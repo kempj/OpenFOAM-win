@@ -35,8 +35,8 @@ SourceFiles
 #ifndef processorFvsPatchField_H
 #define processorFvsPatchField_H
 
-#include "coupledFvsPatchField.H"
-#include "processorFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "processorFvsPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/processor/processorFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,8 +35,9 @@ SourceFiles
 #ifndef cyclicAMILduInterfaceField_H
 #define cyclicAMILduInterfaceField_H
 
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

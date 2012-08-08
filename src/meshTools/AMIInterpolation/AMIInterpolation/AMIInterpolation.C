@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AMIInterpolation.H"
-#include "meshTools.H"
-#include "mergePoints.H"
-#include "mapDistribute.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshTools/mergePoints.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

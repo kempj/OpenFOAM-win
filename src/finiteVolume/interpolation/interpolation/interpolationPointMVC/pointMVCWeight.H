@@ -43,11 +43,11 @@ SourceFiles
 #ifndef pointMVCWeight_H
 #define pointMVCWeight_H
 
-#include "scalarField.H"
-#include "vectorField.H"
-#include "Map.H"
-#include "DynamicList.H"
-#include "point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/scalarField/scalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vectorField/vectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointMVCWeightI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationPointMVC/pointMVCWeightI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

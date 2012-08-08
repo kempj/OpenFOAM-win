@@ -32,13 +32,13 @@ Description
 #ifndef interpolation_H
 #define interpolation_H
 
-#include "faceList.H"
-#include "volFieldsFwd.H"
-#include "pointFields.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "tetIndices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/pointFields/pointFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ makeInterpolationType(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "interpolation.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolation/interpolation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

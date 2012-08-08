@@ -35,8 +35,8 @@ SourceFiles
 #ifndef rotatingWallVelocityFvPatchVectorField_H
 #define rotatingWallVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "DataEntry.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

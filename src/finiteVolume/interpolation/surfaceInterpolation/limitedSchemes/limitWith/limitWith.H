@@ -36,8 +36,8 @@ SourceFiles
 #ifndef limitWith_H
 #define limitWith_H
 
-#include "surfaceInterpolationScheme.H"
-#include "limitedSurfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFixedInternalValueFvPatchField.H"
-#include "UIndirectList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedInternalValue/mappedFixedInternalValueFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UIndirectList/UIndirectList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

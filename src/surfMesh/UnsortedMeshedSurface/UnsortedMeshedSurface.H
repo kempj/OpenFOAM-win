@@ -46,13 +46,13 @@ SourceFiles
 #ifndef UnsortedMeshedSurface_H
 #define UnsortedMeshedSurface_H
 
-#include "MeshedSurface.H"
-#include "surfZoneIdentifierList.H"
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZoneIdentifier/surfZoneIdentifierList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZone/surfZoneList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/surfaceFormatsCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -378,7 +378,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "UnsortedMeshedSurface.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

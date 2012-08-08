@@ -23,11 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjustPhi.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "processorFvsPatchFields.H"
-#include "inletOutletFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/adjustPhi/adjustPhi.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/processor/processorFvsPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ SourceFiles
 #ifndef processorFvPatch_H
 #define processorFvPatch_H
 
-#include "coupledFvPatch.H"
-#include "processorLduInterface.H"
-#include "processorPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,12 +35,12 @@ SourceFiles
 #ifndef patchEdgeFaceInfo_H
 #define patchEdgeFaceInfo_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "tensor.H"
-#include "pTraits.H"
-#include "primitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/pTraits/pTraits.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -203,7 +203,7 @@ inline bool contiguous<patchEdgeFaceInfo>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchEdgeFaceInfoI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PatchEdgeFaceWave/patchEdgeFaceInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

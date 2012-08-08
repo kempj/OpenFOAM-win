@@ -23,15 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceTools.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/triSurfaceTools.H"
 
-#include "triSurface.H"
-#include "OFstream.H"
-#include "mergePoints.H"
-#include "polyMesh.H"
-#include "plane.H"
-#include "geompack.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshTools/mergePoints.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/plane/plane.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/geompack/geompack.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

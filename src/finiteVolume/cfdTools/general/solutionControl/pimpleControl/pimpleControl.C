@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pimpleControl.H"
-#include "Switch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,19 +23,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MULES.H"
-#include "upwind.H"
-#include "uncorrectedSnGrad.H"
-#include "gaussConvectionScheme.H"
-#include "gaussLaplacianScheme.H"
-#include "uncorrectedSnGrad.H"
-#include "surfaceInterpolate.H"
-#include "fvcSurfaceIntegrate.H"
-#include "slicedSurfaceFields.H"
-#include "wedgeFvPatch.H"
-#include "syncTools.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/solvers/MULES/MULES.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/uncorrectedSnGrad/uncorrectedSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/convectionSchemes/gaussConvectionScheme/gaussConvectionScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/laplacianSchemes/gaussLaplacianScheme/gaussLaplacianScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/uncorrectedSnGrad/uncorrectedSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/slicedSurfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
 
-#include "fvm.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvm.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

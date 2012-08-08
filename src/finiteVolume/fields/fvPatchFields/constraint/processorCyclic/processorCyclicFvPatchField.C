@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicFvPatchField.H"
-#include "processorCyclicFvPatch.H"
-#include "demandDrivenData.H"
-#include "transformField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

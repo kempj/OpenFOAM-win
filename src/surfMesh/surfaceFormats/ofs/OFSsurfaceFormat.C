@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OFSsurfaceFormat.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ofs/OFSsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

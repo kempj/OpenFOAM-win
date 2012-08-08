@@ -39,9 +39,9 @@ SourceFiles
 #ifndef FTRsurfaceFormat_H
 #define FTRsurfaceFormat_H
 
-#include "IFstream.H"
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "FTRsurfaceFormat.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ftr/FTRsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

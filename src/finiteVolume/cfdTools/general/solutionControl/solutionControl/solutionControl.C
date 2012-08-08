@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solutionControl.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControl.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

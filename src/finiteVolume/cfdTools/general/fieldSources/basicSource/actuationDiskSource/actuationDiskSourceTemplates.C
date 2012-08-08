@@ -24,10 +24,10 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "actuationDiskSource.H"
-#include "volFields.H"
-#include "fvMatrix.H"
-#include "fvm.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/actuationDiskSource/actuationDiskSource.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrix/fvMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvm.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

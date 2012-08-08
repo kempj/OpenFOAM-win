@@ -65,10 +65,10 @@ SourceFiles
 #ifndef timeVaryingMappedFixedValueFvPatchField_H
 #define timeVaryingMappedFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "FixedList.H"
-#include "instantList.H"
-#include "pointToPointPlanarInterpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/instant/instantList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/pointToPointPlanarInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -238,7 +238,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "timeVaryingMappedFixedValueFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

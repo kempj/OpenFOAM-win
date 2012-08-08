@@ -23,9 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcMeshPhi.H"
-#include "fvMesh.H"
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcMeshPhi.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"//JK
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"//JK
+#include "OpenFOAM-2.1.x/src/finiteVolume/volMesh/volMesh.H"//JK
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"//JK
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,6 +141,7 @@ void Foam::fvc::makeAbsolute
     }
 }
 
+//JK interpolate(rho) is declared but not defined
 void Foam::fvc::makeAbsolute
 (
     surfaceScalarField& phi,

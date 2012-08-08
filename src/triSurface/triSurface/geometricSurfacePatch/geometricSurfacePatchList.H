@@ -31,8 +31,8 @@ Description
 #ifndef geometricSurfacePatchList_H
 #define geometricSurfacePatchList_H
 
-#include "geometricSurfacePatch.H"
-#include "List.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/geometricSurfacePatch/geometricSurfacePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef boundedBackwardDdtScheme_H
 #define boundedBackwardDdtScheme_H
 
-#include "ddtScheme.H"
-#include "fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

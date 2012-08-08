@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "convectionScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -1,4 +1,4 @@
-﻿Build started 7/13/2012 3:38:09 PM.
+﻿Build started 7/24/2012 2:39:25 PM.
      1>Project "C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\OpenFoam\OpenFOAM-2.1.x\src\Pstream\Pstream.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\Pstream.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -6,7 +6,10 @@
          Building with Intel(R) C++ Compiler XE 12.1
        ClCompile:
          ***** ClCompile (Win32 - Intel C++)
-         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /Zi /nologo /W3 /O2 /Oi /Qipo /Qftz- /D _MBCS /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Qstd=c99 /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP mpi\UPstream.C /DWM_DP /DNoRepository 
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /Zi /nologo /W3 /O2 /Oi /Qipo /Qftz- /D _MBCS /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Qstd=c99 /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP mpi\PstreamGlobals.C mpi\UIPread.C mpi\UOPwrite.C mpi\UPstream.C /DWM_DP /DNoRepository 
+         PstreamGlobals.C
+         UIPread.C
+         UOPwrite.C
          UPstream.C
        Lib:
          C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\xilib.exe /OUT:"C:\Users\jeremyke\Documents\Visual Studio 2010\Projects\OpenFoam\Release\Pstream.lib" /NOLOGO Release\PstreamGlobals.obj
@@ -22,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.03
+Time Elapsed 00:00:03.43

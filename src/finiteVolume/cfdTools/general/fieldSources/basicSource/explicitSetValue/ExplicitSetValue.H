@@ -47,8 +47,8 @@ SourceFiles
 #ifndef ExplicitSetValue_H
 #define ExplicitSetValue_H
 
-#include "basicSource.H"
-#include "Tuple2.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/basicSource/basicSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tuple2/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,8 +122,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "ExplicitSetValue.C"
-#   include "ExplicitSetValueIO.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/explicitSetValue/ExplicitSetValueUC.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/explicitSetValue/ExplicitSetValueIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

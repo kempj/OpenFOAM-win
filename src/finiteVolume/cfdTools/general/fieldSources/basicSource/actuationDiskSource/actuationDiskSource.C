@@ -24,11 +24,14 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "actuationDiskSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/actuationDiskSource/actuationDiskSource.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

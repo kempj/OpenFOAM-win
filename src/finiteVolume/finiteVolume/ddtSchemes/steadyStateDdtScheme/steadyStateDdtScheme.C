@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "steadyStateDdtScheme.H"
-#include "fvcDiv.H"
-#include "fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/steadyStateDdtScheme/steadyStateDdtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcDiv.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

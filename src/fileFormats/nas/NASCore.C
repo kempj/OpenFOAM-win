@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASCore.H"
-#include "IStringStream.H"
+#include "OpenFOAM-2.1.x/src/fileFormats/nas/NASCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

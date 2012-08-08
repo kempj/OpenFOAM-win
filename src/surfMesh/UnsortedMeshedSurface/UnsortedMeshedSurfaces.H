@@ -26,8 +26,8 @@ License
 #ifndef UnsortedMeshedSurfaces_H
 #define UnsortedMeshedSurfaces_H
 
-#include "UnsortedMeshedSurface.H"
-#include "UnsortedMeshedSurfacesFwd.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurfacesFwd.H"
 
 #endif
 

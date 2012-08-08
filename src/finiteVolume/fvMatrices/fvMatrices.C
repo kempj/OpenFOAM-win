@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

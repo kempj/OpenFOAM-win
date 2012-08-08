@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cellPointWeight_H
 #define cellPointWeight_H
 
-#include "vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

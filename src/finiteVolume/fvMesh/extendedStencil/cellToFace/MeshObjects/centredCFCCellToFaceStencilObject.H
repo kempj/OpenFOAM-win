@@ -33,9 +33,9 @@ SourceFiles
 #ifndef centredCFCCellToFaceStencilObject_H
 #define centredCFCCellToFaceStencilObject_H
 
-#include "extendedCentredCellToFaceStencil.H"
-#include "CFCCellToFaceStencil.H"
-#include "MeshObject.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedCentredCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/fullStencils/CFCCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

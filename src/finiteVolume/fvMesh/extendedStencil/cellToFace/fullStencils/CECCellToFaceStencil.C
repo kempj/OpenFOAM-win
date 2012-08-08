@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CECCellToFaceStencil.H"
-#include "CECCellToCellStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/fullStencils/CECCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToCell/fullStencils/CECCellToCellStencil.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

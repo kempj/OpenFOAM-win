@@ -35,10 +35,10 @@ SourceFiles
 #ifndef triSurfaceFields_H
 #define triSurfaceFields_H
 
-#include "DimensionedField.H"
-#include "triSurfaceGeoMesh.H"
-#include "triSurfacePointGeoMesh.H"
-#include "triSurfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurfaceFields/triSurfaceGeoMesh.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurfaceFields/triSurfacePointGeoMesh.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurfaceFields/triSurfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

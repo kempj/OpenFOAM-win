@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "activeBaffleVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "cyclicFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reflectionVectors.H"
-#include "wallFvPatch.H"
-#include "surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/wallDist/reflectionVectors.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

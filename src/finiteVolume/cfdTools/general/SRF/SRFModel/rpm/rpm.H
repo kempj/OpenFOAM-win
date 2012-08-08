@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SRFModelRpm_H
 #define SRFModelRpm_H
 
-#include "SRFModel.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,9 +37,9 @@ SourceFiles
 #ifndef GTSsurfaceFormat_H
 #define GTSsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "GTSsurfaceFormat.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/gts/GTSsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

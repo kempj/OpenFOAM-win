@@ -36,7 +36,7 @@ SourceFiles
 #ifndef fvcSup_H
 #define fvcSup_H
 
-#include "volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvcSup.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcSup.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

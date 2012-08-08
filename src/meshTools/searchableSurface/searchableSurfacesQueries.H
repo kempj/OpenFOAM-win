@@ -35,7 +35,7 @@ SourceFiles
 #ifndef searchableSurfacesQueries_H
 #define searchableSurfacesQueries_H
 
-#include "searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

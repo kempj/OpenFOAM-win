@@ -35,8 +35,8 @@ SourceFiles
 #ifndef mappedVariableThicknessWallPolyPatch_H
 #define mappedVariableThicknessWallPolyPatch_H
 
-#include "wallPolyPatch.H"
-#include "mappedWallPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

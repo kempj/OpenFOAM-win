@@ -35,7 +35,7 @@ SourceFiles
 #ifndef faceZoneToFaceZone_H
 #define faceZoneToFaceZone_H
 
-#include "topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

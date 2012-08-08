@@ -35,10 +35,10 @@ SourceFiles
 #ifndef AC3DsurfaceFormatCore_H
 #define AC3DsurfaceFormatCore_H
 
-#include "IFstream.H"
-#include "Ostream.H"
-#include "OFstream.H"
-#include "MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -89,7 +89,7 @@ protected:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "AC3DsurfaceFormatCoreTemplates.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ac3d/AC3DsurfaceFormatCoreTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

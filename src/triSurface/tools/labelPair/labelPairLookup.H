@@ -37,8 +37,8 @@ Note
 #ifndef labelPairLookup_H
 #define labelPairLookup_H
 
-#include "FixedList.H"
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

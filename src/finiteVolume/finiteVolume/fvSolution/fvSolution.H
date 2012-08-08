@@ -34,7 +34,7 @@ Description
 #ifndef fvSolution_H
 #define fvSolution_H
 
-#include "solution.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/solution/solution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

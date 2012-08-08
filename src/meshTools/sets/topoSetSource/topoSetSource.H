@@ -38,15 +38,17 @@ SourceFiles
 #ifndef topoSetSource_H
 #define topoSetSource_H
 
-#include "pointField.H"
-#include "word.H"
-#include "labelList.H"
-#include "faceList.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "NamedEnum.H"
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/NamedEnum/NamedEnum.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

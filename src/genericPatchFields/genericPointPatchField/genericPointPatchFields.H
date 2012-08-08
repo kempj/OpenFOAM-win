@@ -26,8 +26,8 @@ License
 #ifndef genericPointPatchFields_H
 #define genericPointPatchFields_H
 
-#include "genericPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/genericPatchFields/genericPointPatchField/genericPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

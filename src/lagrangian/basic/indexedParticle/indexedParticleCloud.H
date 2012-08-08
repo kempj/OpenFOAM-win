@@ -35,8 +35,8 @@ SourceFiles
 #ifndef indexedParticleCloud_H
 #define indexedParticleCloud_H
 
-#include "Cloud.H"
-#include "indexedParticle.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/Cloud.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/indexedParticle/indexedParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

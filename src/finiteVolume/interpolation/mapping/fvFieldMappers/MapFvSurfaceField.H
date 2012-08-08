@@ -30,8 +30,8 @@ Description
 #ifndef MapFvSurfaceField_H
 #define MapFvSurfaceField_H
 
-#include "Field.H"
-#include "surfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

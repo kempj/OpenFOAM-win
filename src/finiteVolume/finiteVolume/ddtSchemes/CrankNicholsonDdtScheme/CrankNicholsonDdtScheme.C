@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CrankNicholsonDdtScheme.H"
-#include "surfaceInterpolate.H"
-#include "fvcDiv.H"
-#include "fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/CrankNicholsonDdtScheme/CrankNicholsonDdtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcDiv.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -40,6 +40,8 @@ namespace fv
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
+	//JK: adding to the header because of errors
+/*
 template<class Type>
 template<class GeoField>
 CrankNicholsonDdtScheme<Type>::DDt0Field<GeoField>::DDt0Field
@@ -70,7 +72,7 @@ CrankNicholsonDdtScheme<Type>::DDt0Field<GeoField>::DDt0Field
     GeoField(io, mesh, dimType),
     startTimeIndex_(mesh.time().timeIndex())
 {}
-
+*/
 
 template<class Type>
 template<class GeoField>

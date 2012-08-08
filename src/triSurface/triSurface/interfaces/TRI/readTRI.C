@@ -30,12 +30,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "STLpoint.H"
-#include "SLList.H"
-#include "IFstream.H"
-#include "readHexLabel.H"
-#include "stringList.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/interfaces/STL/STLpoint.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/SLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Sstreams/readHexLabel.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/stringList.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"//JK
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

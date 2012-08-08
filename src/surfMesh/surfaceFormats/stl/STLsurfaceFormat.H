@@ -40,10 +40,10 @@ SourceFiles
 #ifndef STLsurfaceFormat_H
 #define STLsurfaceFormat_H
 
-#include "STLsurfaceFormatCore.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/stl/STLsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "STLsurfaceFormat.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/stl/STLsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SRFModel.H"
-#include "SRFVelocityFvPatchVectorField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFVelocityFvPatchVectorField/SRFVelocityFvPatchVectorField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

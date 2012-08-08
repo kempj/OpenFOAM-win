@@ -61,7 +61,7 @@ SourceFiles
 #ifndef syringePressureFvPatchScalarField_H
 #define syringePressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

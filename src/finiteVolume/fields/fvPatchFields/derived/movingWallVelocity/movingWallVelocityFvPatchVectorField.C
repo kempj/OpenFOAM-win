@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "movingWallVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvcMeshPhi.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/movingWallVelocity/movingWallVelocityFvPatchVectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcMeshPhi.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

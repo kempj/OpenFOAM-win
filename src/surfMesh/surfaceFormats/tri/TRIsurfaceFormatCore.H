@@ -35,12 +35,12 @@ SourceFiles
 #ifndef TRIsurfaceFormatCore_H
 #define TRIsurfaceFormatCore_H
 
-#include "surfaceFormatsCore.H"
-#include "triFace.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/surfaceFormatsCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFace.H"
 
-#include "IFstream.H"
-#include "Ostream.H"
-#include "OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

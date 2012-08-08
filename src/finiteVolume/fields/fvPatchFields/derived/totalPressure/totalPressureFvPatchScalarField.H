@@ -35,7 +35,7 @@ SourceFiles
 #ifndef totalPressureFvPatchScalarField_H
 #define totalPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

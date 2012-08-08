@@ -23,8 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvFieldDecomposer.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompose/fvFieldDecomposer.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"//JK
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

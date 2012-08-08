@@ -33,12 +33,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "limitedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "correctedSnGrad.H"
-#include "localMax.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fv/fv.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/localMax/localMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedFvsPatchField.H"
-#include "fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/basic/calculated/calculatedFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

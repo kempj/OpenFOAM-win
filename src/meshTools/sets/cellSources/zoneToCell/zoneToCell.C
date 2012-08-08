@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zoneToCell.H"
-#include "polyMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/cellSources/zoneToCell/zoneToCell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

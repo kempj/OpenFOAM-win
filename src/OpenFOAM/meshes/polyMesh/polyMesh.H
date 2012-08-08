@@ -55,6 +55,8 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/zones/ZoneMesh/faceZoneMesh.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/zones/ZoneMesh/cellZoneMesh.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

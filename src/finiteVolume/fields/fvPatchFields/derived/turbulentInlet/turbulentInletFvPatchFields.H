@@ -26,8 +26,8 @@ License
 #ifndef turbulentInletFvPatchFields_H
 #define turbulentInletFvPatchFields_H
 
-#include "turbulentInletFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/turbulentInlet/turbulentInletFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

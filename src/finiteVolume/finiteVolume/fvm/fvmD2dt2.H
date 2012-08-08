@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvmD2dt2_H
 #define fvmD2dt2_H
 
-#include "volFieldsFwd.H"
-#include "fvMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -78,7 +78,7 @@ namespace fvm
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvmD2dt2.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmD2dt2.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

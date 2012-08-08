@@ -25,10 +25,10 @@ License
 
 //extern "C"
 //{
-#include "mgridgen.h"
+#include "OpenFOAM-2.1.x/src/dummyThirdParty/MGridGen/mgridgen.h"
 //}
 
-#include "error.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/error/error.H"
 
 using namespace Foam;
 

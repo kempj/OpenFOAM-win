@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "normalToFace.H"
-#include "polyMesh.H"
-#include "faceSet.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/faceSources/normalToFace/normalToFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/faceSet.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,12 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLsurfaceFormatCore.H"
-#include "gzstream.h"
-#include "OSspecific.H"
-#include "Map.H"
-#include "IFstream.H"
-#include "Ostream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/stl/STLsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/gzstream/gzstream.h"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/OSspecific.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
 
 #undef DEBUG_STLBINARY
 

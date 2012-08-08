@@ -26,8 +26,8 @@ License
 #ifndef nonuniformTransformCyclicFvsPatchFields_H
 #define nonuniformTransformCyclicFvsPatchFields_H
 
-#include "nonuniformTransformCyclicFvsPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

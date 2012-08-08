@@ -47,9 +47,9 @@ SourceFiles
 #ifndef FaceCellWave_H
 #define FaceCellWave_H
 
-#include "boolList.H"
-#include "labelList.H"
-#include "primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -359,7 +359,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "FaceCellWave.C"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/MeshWave/FaceCellWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

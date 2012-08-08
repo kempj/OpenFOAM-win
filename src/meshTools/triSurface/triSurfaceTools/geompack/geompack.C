@@ -8,7 +8,7 @@
 
 using namespace std;
 
-# include "geompack.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/geompack/geompack.H"
 
 //******************************************************************************
 

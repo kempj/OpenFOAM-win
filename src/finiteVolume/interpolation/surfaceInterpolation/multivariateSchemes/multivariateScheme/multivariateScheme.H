@@ -36,8 +36,8 @@ SourceFiles
 #ifndef multivariateScheme_H
 #define multivariateScheme_H
 
-#include "multivariateSurfaceInterpolationScheme.H"
-#include "surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateSurfaceInterpolationScheme/multivariateSurfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -204,7 +204,7 @@ multivariateSurfaceInterpolationScheme<scalar>::addIstreamConstructorToTable   \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "multivariateScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateScheme/multivariateScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

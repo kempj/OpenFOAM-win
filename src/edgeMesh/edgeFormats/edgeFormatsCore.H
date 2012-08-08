@@ -35,9 +35,9 @@ SourceFiles
 #ifndef edgeFormatsCore_H
 #define edgeFormatsCore_H
 
-#include "Map.H"
-#include "HashSet.H"
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

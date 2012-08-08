@@ -23,6 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/basicSource/basicSourceList.H"//JK
+
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
 template<class Type>

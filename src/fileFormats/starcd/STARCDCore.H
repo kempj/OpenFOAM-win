@@ -35,8 +35,8 @@ SourceFiles
 #ifndef STARCDCore_H
 #define STARCDCore_H
 
-#include "IFstream.H"
-#include "pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -88,18 +88,18 @@ SourceFiles
 #ifndef porousZone_H
 #define porousZone_H
 
-#include "dictionary.H"
-#include "coordinateSystem.H"
-#include "coordinateSystems.H"
-#include "wordList.H"
-#include "labelList.H"
-#include "dimensionedScalar.H"
-#include "dimensionedTensor.H"
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "fvMatricesFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystems.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/lists/wordList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedTensor/dimensionedTensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatricesFwd.H"
 
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -379,7 +379,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "porousZoneTemplates.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/porousMedia/porousZoneTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

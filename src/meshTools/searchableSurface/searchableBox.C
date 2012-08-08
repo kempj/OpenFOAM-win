@@ -23,9 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableBox.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableBox.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

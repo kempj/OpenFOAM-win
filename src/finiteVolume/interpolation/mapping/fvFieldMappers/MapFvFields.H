@@ -28,9 +28,9 @@ Description
 #ifndef MapFvFields_H
 #define MapFvFields_H
 
-#include "MapGeometricFields.H"
-#include "MapFvSurfaceField.H"
-#include "MapFvVolField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/MapGeometricFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/mapping/fvFieldMappers/MapFvSurfaceField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/mapping/fvFieldMappers/MapFvVolField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

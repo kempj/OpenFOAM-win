@@ -42,11 +42,11 @@ SourceFiles
 #ifndef MULES_H
 #define MULES_H
 
-#include "volFields.H"
-#include "surfaceFieldsFwd.H"
-#include "primitiveFieldsFwd.H"
-#include "geometricOneField.H"
-#include "zero.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/zero/zero.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -154,7 +154,7 @@ void limitSum(SurfaceScalarFieldList& phiPsiCorrs);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "MULESTemplates.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/solvers/MULES/MULESTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

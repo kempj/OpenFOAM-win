@@ -23,13 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OBJedgeFormat.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "IStringStream.H"
-#include "Ostream.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeFormats/obj/OBJedgeFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

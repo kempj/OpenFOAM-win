@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volPointInterpolation.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "demandDrivenData.H"
-#include "coupledPointPatchFields.H"
-#include "pointConstraint.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/pointFields/pointFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/coupled/coupledPointPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
 
-#include "surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

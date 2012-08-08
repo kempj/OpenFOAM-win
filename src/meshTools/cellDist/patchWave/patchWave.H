@@ -37,9 +37,9 @@ SourceFiles
 #ifndef patchWave_H
 #define patchWave_H
 
-#include "cellDistFuncs.H"
-#include "FieldField.H"
-#include "MeshWave.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/cellDistFuncs.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/FieldFields/FieldField/FieldField.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/MeshWave/MeshWave.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

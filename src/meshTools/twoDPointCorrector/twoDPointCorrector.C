@@ -23,11 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "twoDPointCorrector.H"
-#include "polyMesh.H"
-#include "wedgePolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "SubField.H"
+#include "OpenFOAM-2.1.x/src/meshTools/twoDPointCorrector/twoDPointCorrector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

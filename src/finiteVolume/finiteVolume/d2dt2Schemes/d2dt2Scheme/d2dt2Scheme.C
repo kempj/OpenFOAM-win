@@ -26,8 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "HashTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fv/fv.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/d2dt2Schemes/d2dt2Scheme/d2dt2Scheme.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

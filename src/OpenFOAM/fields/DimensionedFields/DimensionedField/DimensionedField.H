@@ -42,6 +42,11 @@ SourceFiles
 #include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
 #include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/GeoMesh/GeoMesh.H"//JK
+
+//JK: causes cyclical reference, put in C file that calls it
+//#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

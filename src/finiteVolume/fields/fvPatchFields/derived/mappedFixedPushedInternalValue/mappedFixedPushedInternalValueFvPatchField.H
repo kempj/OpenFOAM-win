@@ -36,7 +36,7 @@ SourceFiles
 #ifndef mappedFixedPushedInternalValueFvPatchField_H
 #define mappedFixedPushedInternalValueFvPatchField_H
 
-#include "mappedFixedValueFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedValue/mappedFixedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "mappedFixedPushedInternalValueFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedPushedInternalValue/mappedFixedPushedInternalValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

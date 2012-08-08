@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValueFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

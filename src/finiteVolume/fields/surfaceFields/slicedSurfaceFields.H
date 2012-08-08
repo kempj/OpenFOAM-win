@@ -29,10 +29,10 @@ InClass
 #ifndef slicedSurfaceFields_H
 #define slicedSurfaceFields_H
 
-#include "SlicedGeometricField.H"
-#include "slicedFvsPatchField.H"
-#include "surfaceMesh.H"
-#include "slicedSurfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/basic/sliced/slicedFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/slicedSurfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

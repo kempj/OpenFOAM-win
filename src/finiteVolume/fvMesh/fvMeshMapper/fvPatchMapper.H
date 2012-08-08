@@ -35,10 +35,10 @@ SourceFiles
 #ifndef fvPatchMapper_H
 #define fvPatchMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "faceMapper.H"
-#include "fvPatch.H"
-#include "primitiveFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

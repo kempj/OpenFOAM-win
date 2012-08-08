@@ -32,7 +32,7 @@ Description
 #ifndef interpolationCell_H
 #define interpolationCell_H
 
-#include "interpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -85,7 +85,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "interpolationCell.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCell/interpolationCell.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

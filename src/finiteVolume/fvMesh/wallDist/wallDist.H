@@ -61,8 +61,8 @@ SourceFiles
 #ifndef wallDist_H
 #define wallDist_H
 
-#include "volFields.H"
-#include "cellDistFuncs.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/cellDistFuncs.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

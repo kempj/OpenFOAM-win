@@ -23,11 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SRFVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFVelocityFvPatchVectorField/SRFVelocityFvPatchVectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
 
-#include "SRFModel.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.H"
+
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"//JK
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

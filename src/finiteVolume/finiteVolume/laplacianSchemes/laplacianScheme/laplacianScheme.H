@@ -35,13 +35,13 @@ SourceFiles
 #ifndef laplacianScheme_H
 #define laplacianScheme_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "linear.H"
-#include "correctedSnGrad.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -242,7 +242,7 @@ makeFvLaplacianTypeScheme(SS, tensor, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "laplacianScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

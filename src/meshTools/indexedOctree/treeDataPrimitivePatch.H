@@ -35,9 +35,9 @@ SourceFiles
 #ifndef treeDataPrimitivePatch_H
 #define treeDataPrimitivePatch_H
 
-#include "PrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PrimitivePatchUC/PrimitivePatch.H"
 //#include "indexedOctree.H"
-#include "treeBoundBoxList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "treeDataPrimitivePatch.C"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataPrimitivePatch.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

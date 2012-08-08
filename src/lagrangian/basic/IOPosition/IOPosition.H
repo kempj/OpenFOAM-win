@@ -35,7 +35,7 @@ SourceFiles
 #ifndef IOPosition_H
 #define IOPosition_H
 
-#include "regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -93,7 +93,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "IOPosition.C"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/IOPosition/IOPosition.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

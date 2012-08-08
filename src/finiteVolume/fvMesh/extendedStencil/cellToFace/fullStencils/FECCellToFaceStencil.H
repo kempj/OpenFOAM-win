@@ -35,8 +35,8 @@ SourceFiles
 #ifndef FECCellToFaceStencil_H
 #define FECCellToFaceStencil_H
 
-#include "cellToFaceStencil.H"
-#include "EdgeMap.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/fullStencils/cellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/EdgeMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,15 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceToCell.H"
-#include "polyMesh.H"
-#include "meshSearch.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "cellClassification.H"
-#include "cpuTime.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/cellSources/surfaceToCell/surfaceToCell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshSearch/meshSearch.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellClassification/cellClassification.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/cpuTime/cpuTime.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

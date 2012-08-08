@@ -36,9 +36,9 @@ SourceFiles
 #ifndef fvFieldDecomposer_H
 #define fvFieldDecomposer_H
 
-#include "fvMesh.H"
-#include "fvPatchFieldMapper.H"
-#include "surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -265,7 +265,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvFieldDecomposerDecomposeFields.C"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompose/fvFieldDecomposerDecomposeFields.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

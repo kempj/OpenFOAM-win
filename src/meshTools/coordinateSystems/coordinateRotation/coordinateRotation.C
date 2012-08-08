@@ -23,9 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateRotation.H"
-#include "dictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateRotation/coordinateRotation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

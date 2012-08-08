@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "orthogonalSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/orthogonalSnGrad/orthogonalSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

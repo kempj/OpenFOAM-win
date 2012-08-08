@@ -35,9 +35,9 @@ SourceFiles
 #ifndef multiphaseFixedFluxPressureFvPatchScalarFields_H
 #define multiphaseFixedFluxPressureFvPatchScalarFields_H
 
-#include "fvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
-#include "Switch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

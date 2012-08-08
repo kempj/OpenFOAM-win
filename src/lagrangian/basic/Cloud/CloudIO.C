@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Cloud.H"
-#include "Time.H"
-#include "IOPosition.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/Cloud.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/IOPosition/IOPosition.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

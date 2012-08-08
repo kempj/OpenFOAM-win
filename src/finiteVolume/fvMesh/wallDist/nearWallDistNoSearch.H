@@ -36,7 +36,7 @@ SourceFiles
 #ifndef nearWallDistNoSearch_H
 #define nearWallDistNoSearch_H
 
-#include "volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef nbrToCell_H
 #define nbrToCell_H
 
-#include "topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

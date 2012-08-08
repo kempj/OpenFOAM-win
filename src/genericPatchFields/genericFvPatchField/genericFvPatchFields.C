@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
+#include "OpenFOAM-2.1.x/src/genericPatchFields/genericFvPatchField/genericFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

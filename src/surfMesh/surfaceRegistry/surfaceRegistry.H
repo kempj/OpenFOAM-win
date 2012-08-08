@@ -35,7 +35,7 @@ SourceFiles
 #ifndef surfaceRegistry_H
 #define surfaceRegistry_H
 
-#include "objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

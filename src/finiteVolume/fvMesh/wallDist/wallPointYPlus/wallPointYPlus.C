@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPointYPlus.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/wallDist/wallPointYPlus/wallPointYPlus.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

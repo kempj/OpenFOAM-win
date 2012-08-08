@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIFvsPatchFields.H"
-#include "fvsPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/cyclicAMI/cyclicAMIFvsPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

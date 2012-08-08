@@ -37,9 +37,9 @@ SourceFiles
 #ifndef cellInfo_H
 #define cellInfo_H
 
-#include "point.H"
-#include "label.H"
-#include "tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -215,7 +215,7 @@ inline bool contiguous<cellInfo>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellInfoI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellClassification/cellInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedUpwindCellToFaceStencil.H"
-#include "cellToFaceStencil.H"
-#include "syncTools.H"
-#include "SortableList.H"
-#include "dummyTransform.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/fullStencils/cellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

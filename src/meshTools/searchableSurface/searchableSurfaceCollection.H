@@ -36,12 +36,13 @@ SourceFiles
 #ifndef searchableSurfaceCollection_H
 #define searchableSurfaceCollection_H
 
-#include "searchableSurface.H"
-#include "treeBoundBox.H"
-#include "coordinateSystem.H"
-#include "UPtrList.H"
-#include "Switch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UPtrList/UPtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/Switch/Switch.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"//JK
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

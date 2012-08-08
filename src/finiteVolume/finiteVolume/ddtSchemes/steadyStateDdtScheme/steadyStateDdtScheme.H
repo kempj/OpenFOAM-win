@@ -35,7 +35,7 @@ SourceFiles
 #ifndef steadyStateDdtScheme_H
 #define steadyStateDdtScheme_H
 
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ tmp<surfaceScalarField> steadyStateDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "steadyStateDdtScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/steadyStateDdtScheme/steadyStateDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

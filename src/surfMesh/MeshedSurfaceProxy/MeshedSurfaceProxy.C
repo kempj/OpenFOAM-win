@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
 
-#include "Time.H"
-#include "surfMesh.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfMesh/surfMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

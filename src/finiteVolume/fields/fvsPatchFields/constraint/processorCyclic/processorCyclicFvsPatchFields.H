@@ -26,8 +26,8 @@ License
 #ifndef processorCyclicFvsPatchFields_H
 #define processorCyclicFvsPatchFields_H
 
-#include "processorCyclicFvsPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/processorCyclic/processorCyclicFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

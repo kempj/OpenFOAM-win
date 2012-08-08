@@ -37,12 +37,13 @@ SourceFiles
 #ifndef fvcCurl_H
 #define fvcCurl_H
 
-#include "volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
+	template<class T> class tmp;//JK
 
 /*---------------------------------------------------------------------------*\
                      Namespace fvc functions Declaration
@@ -71,7 +72,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvcCurl.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcCurl.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

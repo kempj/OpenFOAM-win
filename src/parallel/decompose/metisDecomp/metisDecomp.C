@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "metisDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "floatScalar.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/metisDecomp/metisDecomp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/floatScalar/floatScalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 extern "C"
 {
 #define OMPI_SKIP_MPICXX
-#   include "metis.h"
+#   include "OpenFOAM-2.1.x/src/dummyThirdParty/metisDecomp/metis.h"
 }
 
 

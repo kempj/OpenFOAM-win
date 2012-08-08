@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributedTriSurfaceMesh.H"
-#include "triSurfaceFields.H"
-#include "mapDistribute.H"
+#include "OpenFOAM-2.1.x/src/parallel/distributed/distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurfaceFields/triSurfaceFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

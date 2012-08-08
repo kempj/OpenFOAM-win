@@ -35,7 +35,7 @@ SourceFiles
 #ifndef uniform_H
 #define uniform_H
 
-#include "distributionModel.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/distributionModels/distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

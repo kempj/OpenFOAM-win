@@ -35,7 +35,7 @@ SourceFiles
 #ifndef limitedSurfaceInterpolationScheme_H
 #define limitedSurfaceInterpolationScheme_H
 
-#include "surfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ makelimitedSurfaceInterpolationTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "limitedSurfaceInterpolationScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

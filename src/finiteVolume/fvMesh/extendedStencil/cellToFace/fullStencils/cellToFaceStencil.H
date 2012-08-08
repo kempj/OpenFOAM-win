@@ -36,10 +36,10 @@ SourceFiles
 #ifndef cellToFaceStencil_H
 #define cellToFaceStencil_H
 
-#include "globalIndex.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "indirectPrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

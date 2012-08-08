@@ -33,7 +33,7 @@ Description
 #ifndef pimpleControl_H
 #define pimpleControl_H
 
-#include "solutionControl.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pimpleControlI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/pimpleControl/pimpleControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

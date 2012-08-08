@@ -35,7 +35,7 @@ SourceFiles
 #ifndef VTKedgeFormat_H
 #define VTKedgeFormat_H
 
-#include "edgeMesh.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -47,12 +47,12 @@ SourceFiles
 #ifndef surfaceFeatures_H
 #define surfaceFeatures_H
 
-#include "pointField.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "pointIndexHit.H"
-#include "edgeList.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/edgeList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,9 +36,9 @@ SourceFiles
 #ifndef targetVolumeToCell_H
 #define targetVolumeToCell_H
 
-#include "topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
 //#include "plane.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

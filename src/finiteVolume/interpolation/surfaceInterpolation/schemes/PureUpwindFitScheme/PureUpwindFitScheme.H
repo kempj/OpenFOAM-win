@@ -33,9 +33,9 @@ Description
 #ifndef PureUpwindFitScheme_H
 #define PureUpwindFitScheme_H
 
-#include "UpwindFitData.H"
-#include "upwind.H"
-#include "Switch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

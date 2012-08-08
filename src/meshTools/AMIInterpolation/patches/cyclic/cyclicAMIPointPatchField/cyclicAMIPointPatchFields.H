@@ -26,8 +26,8 @@ License
 #ifndef cyclicAMIPointPatchFields_H
 #define cyclicAMIPointPatchFields_H
 
-#include "cyclicAMIPointPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMIPointPatchField/cyclicAMIPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

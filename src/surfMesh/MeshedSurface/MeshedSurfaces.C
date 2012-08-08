@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurfaces.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

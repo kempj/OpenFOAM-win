@@ -36,12 +36,13 @@ SourceFiles
 #ifndef fvcD2dt2_H
 #define fvcD2dt2_H
 
-#include "volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
+	template<class T> class tmp;//JK
 
 /*---------------------------------------------------------------------------*\
                      Namespace fvc functions Declaration
@@ -71,7 +72,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvcD2dt2.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcD2dt2.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

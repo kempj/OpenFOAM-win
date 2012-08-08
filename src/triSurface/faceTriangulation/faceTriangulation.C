@@ -23,9 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceTriangulation.H"
-#include "plane.H"
+#include "OpenFOAM-2.1.x/src/triSurface/faceTriangulation/faceTriangulation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/plane/plane.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UIndirectList/UIndirectList.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

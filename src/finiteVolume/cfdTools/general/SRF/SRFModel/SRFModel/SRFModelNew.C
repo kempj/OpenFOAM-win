@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SRFModel.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

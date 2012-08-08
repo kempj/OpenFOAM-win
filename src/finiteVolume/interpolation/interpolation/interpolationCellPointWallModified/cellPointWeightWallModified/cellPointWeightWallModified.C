@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellPointWeightWallModified.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPointWallModified/cellPointWeightWallModified/cellPointWeightWallModified.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

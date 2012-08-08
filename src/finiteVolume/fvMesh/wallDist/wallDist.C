@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallDist.H"
-#include "patchWave.H"
-#include "fvMesh.H"
-#include "wallPolyPatch.H"
-#include "fvPatchField.H"
-#include "Field.H"
-#include "emptyFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/wallDist/wallDist.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/patchWave/patchWave.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

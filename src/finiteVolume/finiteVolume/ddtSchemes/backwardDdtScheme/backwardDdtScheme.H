@@ -36,7 +36,7 @@ SourceFiles
 #ifndef backwardDdtScheme_H
 #define backwardDdtScheme_H
 
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ tmp<surfaceScalarField> backwardDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "backwardDdtScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/backwardDdtScheme/backwardDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

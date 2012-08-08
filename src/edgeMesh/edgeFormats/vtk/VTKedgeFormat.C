@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKedgeFormat.H"
-#include "OFstream.H"
-#include "clock.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeFormats/vtk/VTKedgeFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

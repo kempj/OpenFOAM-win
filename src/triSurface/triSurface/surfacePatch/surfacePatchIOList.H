@@ -35,10 +35,10 @@ SourceFiles
 #ifndef surfacePatchIOList_H
 #define surfacePatchIOList_H
 
-#include "surfacePatchList.H"
-#include "regIOobject.H"
-#include "faceList.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/surfacePatch/surfacePatchList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

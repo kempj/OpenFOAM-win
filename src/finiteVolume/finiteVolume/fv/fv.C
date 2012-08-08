@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fv/fv.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -36,14 +36,14 @@ SourceFiles
 #ifndef fvcAverage_H
 #define fvcAverage_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
-
+	template<class T> class tmp;//JK
 /*---------------------------------------------------------------------------*\
                      Namespace fvc functions Declaration
 \*---------------------------------------------------------------------------*/
@@ -88,7 +88,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvcAverage.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcAverage.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

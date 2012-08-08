@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FitData.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "SVD.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/FitData/FitData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/SVD/SVD.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

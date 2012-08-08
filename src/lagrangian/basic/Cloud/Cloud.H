@@ -36,15 +36,15 @@ SourceFiles
 #ifndef Cloud_H
 #define Cloud_H
 
-#include "cloud.H"
-#include "IDLList.H"
-#include "IOField.H"
-#include "CompactIOField.H"
-#include "polyMesh.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "tetPointRef.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/cloud/cloud.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/IDLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOField/IOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/treeDataCell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -342,7 +342,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "Cloud.C"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/Cloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

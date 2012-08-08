@@ -58,7 +58,7 @@ SourceFiles
 #ifndef mappedFlowRateFvPatchVectorField_H
 #define mappedFlowRateFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussGrad.H"
-#include "zeroGradientFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

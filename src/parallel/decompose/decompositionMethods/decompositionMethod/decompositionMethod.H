@@ -35,9 +35,9 @@ SourceFiles
 #ifndef decompositionMethod_H
 #define decompositionMethod_H
 
-#include "polyMesh.H"
-#include "pointField.H"
-#include "CompactListList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/CompactListList/CompactListList.H"
 
 namespace Foam
 {

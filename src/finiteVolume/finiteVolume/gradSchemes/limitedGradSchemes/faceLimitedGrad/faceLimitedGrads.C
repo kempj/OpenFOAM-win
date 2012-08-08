@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceLimitedGrad.H"
-#include "gaussGrad.H"
-#include "fvMesh.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
-#include "volFields.H"
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/limitedGradSchemes/faceLimitedGrad/faceLimitedGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/volMesh/volMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

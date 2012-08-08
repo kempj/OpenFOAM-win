@@ -23,18 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellClassification.H"
-#include "triSurfaceSearch.H"
-#include "indexedOctree.H"
-#include "treeDataFace.H"
-#include "meshSearch.H"
-#include "cellInfo.H"
-#include "polyMesh.H"
-#include "MeshWave.H"
-#include "ListOps.H"
-#include "meshTools.H"
-#include "cpuTime.H"
-#include "globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellClassification/cellClassification.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataFace.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshSearch/meshSearch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellClassification/cellInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/MeshWave/MeshWave.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/cpuTime/cpuTime.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

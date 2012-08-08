@@ -23,10 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstream.H"
-#include "coordinateSystem.H"
-#include "coordinateSystems.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/IOstream.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystems.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

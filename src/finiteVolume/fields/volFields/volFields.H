@@ -34,12 +34,12 @@ SourceFiles
 #ifndef volFields_H
 #define volFields_H
 
-#include "GeometricFields.H"
-#include "volMesh.H"
-#include "fvMesh.H"
-#include "fvPatchField.H"
-#include "volFieldsFwd.H"
-#include "calculatedFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/volMesh/volMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

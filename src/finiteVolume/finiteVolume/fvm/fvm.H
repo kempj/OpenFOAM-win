@@ -40,11 +40,11 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvmDdt.H"
-#include "fvmD2dt2.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmDdt.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmD2dt2.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmDiv.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmLaplacian.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

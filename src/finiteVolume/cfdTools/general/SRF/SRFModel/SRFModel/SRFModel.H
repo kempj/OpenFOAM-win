@@ -42,12 +42,12 @@ SourceFiles
 #ifndef SRFModel_H
 #define SRFModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "vectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

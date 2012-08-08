@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "Time.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 
@@ -767,6 +767,6 @@ Foam::MeshedSurfaceProxy<Face>() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UnsortedMeshedSurfaceNew.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurfaceNew.C"
 
 // ************************************************************************* //

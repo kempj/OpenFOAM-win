@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fourthGrad_H
 #define fourthGrad_H
 
-#include "gradScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -107,7 +107,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fourthGrad.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/fourthGrad/fourthGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

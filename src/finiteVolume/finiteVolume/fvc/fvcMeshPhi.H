@@ -37,14 +37,15 @@ SourceFiles
 #ifndef fvcMeshPhi_H
 #define fvcMeshPhi_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
+	template<class T> class tmp;//JK
 
 /*---------------------------------------------------------------------------*\
                      Namespace fvc functions Declaration

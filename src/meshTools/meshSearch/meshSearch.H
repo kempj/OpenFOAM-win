@@ -36,9 +36,9 @@ SourceFiles
 #ifndef meshSearch_H
 #define meshSearch_H
 
-#include "pointIndexHit.H"
-#include "pointField.H"
-#include "polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

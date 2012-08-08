@@ -35,7 +35,7 @@ SourceFiles
 #ifndef blended_H
 #define blended_H
 
-#include "limitedSurfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

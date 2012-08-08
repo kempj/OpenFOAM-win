@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfZone.H"
-#include "dictionary.H"
-#include "word.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZone/surfZone.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

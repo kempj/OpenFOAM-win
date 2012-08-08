@@ -35,11 +35,11 @@ SourceFiles
 #ifndef reconstructLagrangian_H
 #define reconstructLagrangian_H
 
-#include "cloud.H"
-#include "polyMesh.H"
-#include "IOobjectList.H"
-#include "CompactIOField.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/cloud/cloud.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjectList/IOobjectList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -107,7 +107,7 @@ void reconstructLagrangianFieldFields
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "reconstructLagrangianFields.C"
+#include "OpenFOAM-2.1.x/src/parallel/reconstruct/reconstruct/reconstructLagrangianFields.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

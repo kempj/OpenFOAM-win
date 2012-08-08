@@ -35,7 +35,7 @@ SourceFiles
 #ifndef fixedValueFvsPatchField_H
 #define fixedValueFvsPatchField_H
 
-#include "fvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -189,7 +189,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fixedValueFvsPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

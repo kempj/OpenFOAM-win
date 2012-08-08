@@ -35,8 +35,8 @@ SourceFiles
 #ifndef processorCyclicFvPatchField_H
 #define processorCyclicFvPatchField_H
 
-#include "processorCyclicFvPatch.H"
-#include "processorFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/processor/processorFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "processorCyclicFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

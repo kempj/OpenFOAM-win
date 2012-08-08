@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellDistFuncs.H"
-#include "polyMesh.H"
-#include "polyBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/cellDistFuncs.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

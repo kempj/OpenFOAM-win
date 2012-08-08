@@ -35,8 +35,8 @@ SourceFiles
 #ifndef mappedWallPointPatch_H
 #define mappedWallPointPatch_H
 
-#include "wallPointPatch.H"
-#include "mappedWallPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/derived/wall/wallPointPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef wedgeFvPatch_H
 #define wedgeFvPatch_H
 
-#include "fvPatch.H"
-#include "wedgePolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

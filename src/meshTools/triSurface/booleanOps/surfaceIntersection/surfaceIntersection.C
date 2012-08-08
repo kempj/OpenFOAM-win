@@ -23,16 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceIntersection.H"
-#include "triSurfaceSearch.H"
-#include "labelPairLookup.H"
-#include "OFstream.H"
-#include "HashSet.H"
-#include "triSurface.H"
-#include "pointIndexHit.H"
-#include "mergePoints.H"
-#include "plane.H"
-#include "edgeIntersections.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/triSurface/tools/labelPair/labelPairLookup.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshTools/mergePoints.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/plane/plane.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/surfaceIntersection/edgeIntersections.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

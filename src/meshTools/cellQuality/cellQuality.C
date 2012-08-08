@@ -24,9 +24,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellQuality.H"
-#include "unitConversion.H"
-#include "SubField.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellQuality/cellQuality.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/unitConversion/unitConversion.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

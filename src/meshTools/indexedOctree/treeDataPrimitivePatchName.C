@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataPrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

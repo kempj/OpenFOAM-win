@@ -62,9 +62,9 @@ SourceFiles
 #ifndef intersectedSurface_H
 #define intersectedSurface_H
 
-#include "triSurface.H"
-#include "Map.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

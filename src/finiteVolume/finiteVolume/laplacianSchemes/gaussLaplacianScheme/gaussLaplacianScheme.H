@@ -35,7 +35,7 @@ SourceFiles
 #ifndef gaussLaplacianScheme_H
 #define gaussLaplacianScheme_H
 
-#include "laplacianScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -174,7 +174,7 @@ defineFvmLaplacianScalarGamma(tensor);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "gaussLaplacianScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/laplacianSchemes/gaussLaplacianScheme/gaussLaplacianScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

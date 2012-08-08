@@ -32,7 +32,7 @@ Description
 #ifndef Limited01_H
 #define Limited01_H
 
-#include "Limited.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/Limited/Limited.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

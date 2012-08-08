@@ -38,9 +38,9 @@ SourceFiles
 #ifndef EMESHedgeFormat_H
 #define EMESHedgeFormat_H
 
-#include "edgeMesh.H"
-#include "Ostream.H"
-#include "OFstream.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

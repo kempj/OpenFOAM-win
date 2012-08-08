@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "calculatedFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "coupledFvPatchFields.H"
-#include "UIndirectList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/coupled/coupledFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UIndirectList/UIndirectList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
@@ -2436,6 +2436,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const fvMatrix<Type>& fvm)
 
 // * * * * * * * * * * * * * * * * Solvers * * * * * * * * * * * * * * * * * //
 
-#include "fvMatrixSolve.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrix/fvMatrixSolve.C"
 
 // ************************************************************************* //

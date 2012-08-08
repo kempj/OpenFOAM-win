@@ -35,10 +35,10 @@ SourceFiles
 #ifndef triangleFuncs_H
 #define triangleFuncs_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,10 +35,10 @@ SourceFiles
 #ifndef cyclicFvPatch_H
 #define cyclicFvPatch_H
 
-#include "coupledFvPatch.H"
-#include "cyclicLduInterface.H"
-#include "cyclicPolyPatch.H"
-#include "fvBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,14 +23,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "demandDrivenData.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "Time.H"
-#include "boundBox.H"
-#include "SortableList.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/boundBox/boundBox.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

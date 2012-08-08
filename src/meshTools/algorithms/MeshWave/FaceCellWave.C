@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FaceCellWave.H"
-#include "polyMesh.H"
-#include "processorPolyPatch.H"
-#include "cyclicPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
-#include "OPstream.H"
-#include "IPstream.H"
-#include "PstreamReduceOps.H"
-#include "debug.H"
-#include "typeInfo.H"
-#include "SubField.H"
-#include "globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/MeshWave/FaceCellWave.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/OPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/IPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/debug/debug.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

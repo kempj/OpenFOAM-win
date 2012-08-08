@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triangleFuncs.H"
-#include "pointField.H"
-#include "treeBoundBox.H"
-#include "SortableList.H"
-#include "boolList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triangleFuncs/triangleFuncs.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

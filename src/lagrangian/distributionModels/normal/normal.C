@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "normal.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mathematicalConstants.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/distributionModels/normal/normal.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

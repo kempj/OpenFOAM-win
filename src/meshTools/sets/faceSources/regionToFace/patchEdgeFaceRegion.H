@@ -38,11 +38,11 @@ SourceFiles
 #ifndef patchEdgeFaceRegion_H
 #define patchEdgeFaceRegion_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "tensor.H"
-#include "indirectPrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -184,7 +184,7 @@ inline bool contiguous<patchEdgeFaceRegion>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchEdgeFaceRegionI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/faceSources/regionToFace/patchEdgeFaceRegionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

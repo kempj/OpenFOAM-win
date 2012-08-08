@@ -35,9 +35,9 @@ SourceFiles
 #ifndef MeshedSurfaceIOAllocator_H
 #define MeshedSurfaceIOAllocator_H
 
-#include "pointIOField.H"
-#include "faceIOList.H"
-#include "surfZoneIOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceIOList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZone/surfZoneIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

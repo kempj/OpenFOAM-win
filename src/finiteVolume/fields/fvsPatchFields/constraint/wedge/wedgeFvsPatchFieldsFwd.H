@@ -26,7 +26,7 @@ License
 #ifndef wedgeFvsPatchFieldsFwd_H
 #define wedgeFvsPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

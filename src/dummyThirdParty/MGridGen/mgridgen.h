@@ -36,7 +36,7 @@ SourceFiles
 #ifndef mgridgen_H
 #define mgridgen_H
 
-#include "scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
 
 #ifndef idxtype
 #define idxtype int

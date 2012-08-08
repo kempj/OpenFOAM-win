@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDsurfaceFormat.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/starcd/STARCDsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataPoint.H"
-#include "treeBoundBox.H"
-#include "indexedOctree.H"
-#include "triangleFuncs.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataPoint.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triangleFuncs/triangleFuncs.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

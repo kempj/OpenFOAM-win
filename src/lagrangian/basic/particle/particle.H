@@ -32,16 +32,16 @@ Description
 #ifndef particle_H
 #define particle_H
 
-#include "vector.H"
-#include "Cloud.H"
-#include "IDLList.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "OFstream.H"
-#include "tetPointRef.H"
-#include "FixedList.H"
-#include "polyMeshTetDecomposition.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/Cloud.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/LinkedLists/user/IDLList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/faceList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -554,7 +554,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "particleI.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/particle/particleI.H"
 /*
 #define defineParticleTypeNameAndDebug(Type, DebugSwitch)                     \
     template<>                                                                \
@@ -565,7 +565,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "particleTemplates.C"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/particle/particleTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

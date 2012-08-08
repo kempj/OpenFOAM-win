@@ -44,8 +44,10 @@ SourceFiles
 #ifndef fvPatchField_H
 #define fvPatchField_H
 
-#include "fvPatch.H"
-#include "DimensionedField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/Pstream.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -490,8 +492,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvPatchField.C"
-#   include "calculatedFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
 #endif
 
 

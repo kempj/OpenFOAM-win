@@ -26,8 +26,8 @@ License
 #ifndef cyclicSlipFvsPatchFields_H
 #define cyclicSlipFvsPatchFields_H
 
-#include "cyclicSlipFvsPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/cyclicSlip/cyclicSlipFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,9 +38,9 @@ SourceFiles
 #ifndef surfZoneIdentifier_H
 #define surfZoneIdentifier_H
 
-#include "word.H"
-#include "label.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

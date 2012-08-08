@@ -23,15 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionToFace.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "mappedPatchBase.H"
-#include "indirectPrimitivePatch.H"
-#include "PatchTools.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PatchEdgeFaceWave.H"
-#include "patchEdgeFaceRegion.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/faceSources/regionToFace/regionToFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/faceSet.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/indirectPrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/faceSources/regionToFace/patchEdgeFaceRegion.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

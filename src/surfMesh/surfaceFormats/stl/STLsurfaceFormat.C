@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLsurfaceFormat.H"
-#include "ListOps.H"
-#include "triPointRef.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/stl/STLsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

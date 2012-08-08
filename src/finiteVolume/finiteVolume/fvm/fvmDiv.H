@@ -35,10 +35,10 @@ SourceFiles
 #ifndef fvmDiv_H
 #define fvmDiv_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "surfaceInterpolationScheme.H"
-#include "fvMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -91,7 +91,7 @@ namespace fvm
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvmDiv.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmDiv.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,14 +36,14 @@ SourceFiles
 #ifndef surfaceSets_H
 #define surfaceSets_H
 
-#include "label.H"
-#include "scalar.H"
-#include "fileName.H"
-#include "pointField.H"
-#include "polyMesh.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "pointSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/fileName/fileName.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/pointSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

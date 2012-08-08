@@ -23,9 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFieldFvPatchFields.H"
-#include "volMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/mappedField/mappedFieldFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/volMesh/volMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+
+//#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.H"//JK
+//#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

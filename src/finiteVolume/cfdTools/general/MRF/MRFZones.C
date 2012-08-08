@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFZones.H"
-#include "Time.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/MRF/MRFZones.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

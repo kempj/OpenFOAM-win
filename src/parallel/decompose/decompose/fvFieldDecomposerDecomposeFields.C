@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvFieldDecomposer.H"
-#include "processorFvPatchField.H"
-#include "processorFvsPatchField.H"
-#include "processorCyclicFvPatchField.H"
-#include "processorCyclicFvsPatchField.H"
-#include "emptyFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompose/fvFieldDecomposer.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/processor/processorFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/processor/processorFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/processorCyclic/processorCyclicFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

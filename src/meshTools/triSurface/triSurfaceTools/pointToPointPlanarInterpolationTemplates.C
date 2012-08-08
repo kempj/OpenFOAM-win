@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointToPointPlanarInterpolation.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/pointToPointPlanarInterpolation.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

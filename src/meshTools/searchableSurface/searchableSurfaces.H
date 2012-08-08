@@ -35,8 +35,10 @@ SourceFiles
 #ifndef searchableSurfaces_H
 #define searchableSurfaces_H
 
-#include "searchableSurface.H"
-#include "labelPair.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Pair/labelPair.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

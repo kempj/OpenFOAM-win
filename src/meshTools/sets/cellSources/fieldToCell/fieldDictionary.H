@@ -32,8 +32,8 @@ Description
 #ifndef fieldDictionary_H
 #define fieldDictionary_H
 
-#include "regIOobject.H"
-#include "dictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

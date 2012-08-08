@@ -36,8 +36,8 @@ SourceFiles
 #ifndef MRFZones_H
 #define MRFZones_H
 
-#include "MRFZone.H"
-#include "IOPtrList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/MRF/MRFZone.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

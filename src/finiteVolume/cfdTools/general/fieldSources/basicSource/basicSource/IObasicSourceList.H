@@ -35,9 +35,9 @@ SourceFiles
 #ifndef IObasicSourceList_H
 #define IObasicSourceList_H
 
-#include "basicSourceList.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/basicSource/basicSourceList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

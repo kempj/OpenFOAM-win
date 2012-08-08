@@ -23,11 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressureInletOutletVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/pressureInletOutletVelocity/pressureInletOutletVelocityFvPatchVectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
 
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/symmTransformField/symmTransformField.H"//JK
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

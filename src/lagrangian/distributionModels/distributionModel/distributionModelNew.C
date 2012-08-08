@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributionModel.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/distributionModels/distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

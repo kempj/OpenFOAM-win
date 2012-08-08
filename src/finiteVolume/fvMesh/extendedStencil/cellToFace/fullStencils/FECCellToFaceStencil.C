@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FECCellToFaceStencil.H"
-#include "syncTools.H"
-#include "emptyPolyPatch.H"
-#include "dummyTransform.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/fullStencils/FECCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

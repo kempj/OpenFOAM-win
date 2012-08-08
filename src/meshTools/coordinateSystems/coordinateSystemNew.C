@@ -23,8 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateSystem.H"
-#include "dictionary.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"//JK
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

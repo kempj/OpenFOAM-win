@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AC3DsurfaceFormatCore.H"
-#include "clock.H"
-#include "IFstream.H"
-#include "IStringStream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ac3d/AC3DsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

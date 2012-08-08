@@ -32,7 +32,7 @@ Description
 #ifndef interpolationCellPointFace_H
 #define interpolationCellPointFace_H
 
-#include "interpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "interpolationCellPointFace.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPointFace/interpolationCellPointFace.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPointFace.H"
-#include "volFields.H"
-#include "polyMesh.H"
-#include "volPointInterpolation.H"
-#include "linear.H"
-#include "findCellPointFaceTet.H"
-#include "findCellPointFaceTriangle.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPointFace/interpolationCellPointFace.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTet.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTriangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

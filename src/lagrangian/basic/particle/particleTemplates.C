@@ -23,14 +23,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOPosition.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/IOPosition/IOPosition.H"
 
-#include "cyclicPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "meshTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/particle/particle.H"//JK
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

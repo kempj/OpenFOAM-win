@@ -37,10 +37,10 @@ SourceFiles
 #ifndef wallPoint_H
 #define wallPoint_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -230,7 +230,7 @@ inline bool contiguous<wallPoint>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPointI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

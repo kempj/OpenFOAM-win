@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointFieldReconstructor.H"
+#include "OpenFOAM-2.1.x/src/parallel/reconstruct/reconstruct/pointFieldReconstructor.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

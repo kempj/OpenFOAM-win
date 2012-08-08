@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "mergePoints.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshTools/mergePoints.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

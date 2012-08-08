@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicSlipFvPatch_H
 #define cyclicSlipFvPatch_H
 
-#include "cyclicFvPatch.H"
-#include "cyclicSlipPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclicSlip/cyclicSlipPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

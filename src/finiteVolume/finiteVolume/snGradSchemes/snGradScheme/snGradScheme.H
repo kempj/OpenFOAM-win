@@ -35,11 +35,11 @@ SourceFiles
 #ifndef snGradScheme_H
 #define snGradScheme_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -199,7 +199,7 @@ makeSnGradTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "snGradScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/snGradScheme/snGradScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,12 +35,12 @@ SourceFiles
 #ifndef convectionScheme_H
 #define convectionScheme_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "multivariateSurfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/multivariateSchemes/multivariateSurfaceInterpolationScheme/multivariateSurfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ makeMultivariateFvConvectionTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "convectionScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

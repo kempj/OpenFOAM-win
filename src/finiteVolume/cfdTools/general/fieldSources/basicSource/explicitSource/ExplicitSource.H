@@ -52,8 +52,8 @@ SourceFiles
 #ifndef ExplicitSource_H
 #define ExplicitSource_H
 
-#include "Tuple2.H"
-#include "basicSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tuple2/Tuple2.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/basicSource/basicSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,13 +187,13 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "ExplicitSource.C"
-#   include "ExplicitSourceIO.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/explicitSource/ExplicitSourceUC.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/explicitSource/ExplicitSourceIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ExplicitSourceI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/explicitSource/ExplicitSourceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

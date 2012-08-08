@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOField.H"
-#include "CompactIOField.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOField/IOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/CompactIOField/CompactIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

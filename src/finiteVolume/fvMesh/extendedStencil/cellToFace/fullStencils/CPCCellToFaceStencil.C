@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CPCCellToFaceStencil.H"
-#include "CPCCellToCellStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/fullStencils/CPCCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToCell/fullStencils/CPCCellToCellStencil.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

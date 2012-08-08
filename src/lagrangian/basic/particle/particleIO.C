@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particle.H"
-#include "IOstreams.H"
-#include "IOPosition.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/particle/particle.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/IOPosition/IOPosition.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

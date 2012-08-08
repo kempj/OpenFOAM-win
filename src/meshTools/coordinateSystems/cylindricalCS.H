@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cylindricalCS_H
 #define cylindricalCS_H
 
-#include "coordinateSystem.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

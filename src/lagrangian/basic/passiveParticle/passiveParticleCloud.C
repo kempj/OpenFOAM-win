@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "passiveParticleCloud.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/passiveParticle/passiveParticleCloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,15 +37,15 @@ SourceFiles
 #ifndef MeshedSurfaceProxy_H
 #define MeshedSurfaceProxy_H
 
-#include "pointField.H"
-#include "face.H"
-#include "triFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFace.H"
 
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZone/surfZoneList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/surfaceFormatsCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "MeshedSurfaceProxy.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

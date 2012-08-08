@@ -26,8 +26,8 @@ License
 #ifndef outletMappedUniformInletFvPatchFields_H
 #define outletMappedUniformInletFvPatchFields_H
 
-#include "outletMappedUniformInletFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/outletMappedUniformInlet/outletMappedUniformInletFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

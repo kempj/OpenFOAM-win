@@ -35,8 +35,8 @@ SourceFiles
 #ifndef mappedFvPatch_H
 #define mappedFvPatch_H
 
-#include "fvPatch.H"
-#include "mappedPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

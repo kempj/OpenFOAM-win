@@ -23,7 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfZoneIOList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZone/surfZoneIOList.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

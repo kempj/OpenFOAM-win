@@ -42,7 +42,7 @@ SourceFiles
 #ifndef RosinRammler_H
 #define RosinRammler_H
 
-#include "distributionModel.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/distributionModels/distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,7 +44,7 @@ SourceFiles
 #ifndef extendedUpwindCellToFaceStencil_H
 #define extendedUpwindCellToFaceStencil_H
 
-#include "extendedCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "extendedUpwindCellToFaceStencilTemplates.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencilTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

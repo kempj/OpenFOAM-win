@@ -23,10 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatrix.H"
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrix/fvMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/one/one.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

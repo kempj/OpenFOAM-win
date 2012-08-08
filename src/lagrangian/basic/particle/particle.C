@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particle.H"
-#include "transform.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/particle/particle.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ SourceFiles
 #ifndef CFCCellToCellStencil_H
 #define CFCCellToCellStencil_H
 
-#include "cellToCellStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToCell/fullStencils/cellToCellStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

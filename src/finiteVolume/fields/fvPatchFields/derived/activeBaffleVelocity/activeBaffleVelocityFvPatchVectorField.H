@@ -35,8 +35,8 @@ SourceFiles
 #ifndef activeBaffleVelocityFvPatchVectorField_H
 #define activeBaffleVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,10 +39,10 @@ SourceFiles
 #ifndef TRIsurfaceFormat_H
 #define TRIsurfaceFormat_H
 
-#include "TRIsurfaceFormatCore.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/tri/TRIsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "TRIsurfaceFormat.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/tri/TRIsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

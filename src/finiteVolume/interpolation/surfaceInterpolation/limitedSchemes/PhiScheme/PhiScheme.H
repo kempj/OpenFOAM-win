@@ -45,7 +45,7 @@ SourceFiles
 #ifndef PhiScheme_H
 #define PhiScheme_H
 
-#include "limitedSurfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ limitedSurfaceInterpolationScheme<TYPE>::addMeshFluxConstructorToTable         \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "PhiScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/PhiScheme/PhiScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

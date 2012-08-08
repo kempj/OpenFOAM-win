@@ -23,13 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellLimitedGrad.H"
-#include "gaussGrad.H"
-#include "fvMesh.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
-#include "volFields.H"
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/limitedGradSchemes/cellLimitedGrad/cellLimitedGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/volMesh/volMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fv/fv.H"//JK
+//#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"//JK
+
+//#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvSchemes/fvSchemes.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -38,6 +43,7 @@ namespace Foam
 namespace fv
 {
     makeFvGradScheme(cellLimitedGrad)
+
 }
 }
 

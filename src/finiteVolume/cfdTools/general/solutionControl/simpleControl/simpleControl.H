@@ -33,7 +33,7 @@ Description
 #ifndef simpleControl_H
 #define simpleControl_H
 
-#include "solutionControl.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

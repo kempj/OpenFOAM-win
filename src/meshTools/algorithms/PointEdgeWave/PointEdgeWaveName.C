@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PointEdgeWave.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PointEdgeWave/PointEdgeWave.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

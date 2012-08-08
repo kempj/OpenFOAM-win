@@ -23,8 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CoEulerDdtScheme.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/CoEulerDdtScheme/CoEulerDdtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"//JK
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -33,6 +36,59 @@ namespace Foam
 namespace fv
 {
     makeFvDdtScheme(CoEulerDdtScheme)
+
+
+/*
+defineNamedTemplateTypeNameAndDebug(CoEulerDdtScheme<scalar>, 0);    
+
+ddtScheme<scalar>::addIstreamConstructorToTable<CoEulerDdtScheme<scalar> >      
+	addCoEulerDdtSchemescalarIstreamConstructorToTable_;
+
+//makeFvDdtTypeScheme(CoEulerDdtScheme, vector)                
+	defineNamedTemplateTypeNameAndDebug(CoEulerDdtScheme<vector>, 0);                   
+ddtScheme<vector>::addIstreamConstructorToTable<CoEulerDdtScheme<vector> >      
+	addCoEulerDdtSchemevectorIstreamConstructorToTable_;
+
+//makeFvDdtTypeScheme(CoEulerDdtScheme, sphericalTensor)                
+	defineNamedTemplateTypeNameAndDebug(CoEulerDdtScheme<sphericalTensor>, 0);                   
+ddtScheme<sphericalTensor>::addIstreamConstructorToTable<CoEulerDdtScheme<sphericalTensor> >      
+	addCoEulerDdtSchemesphericalTensorIstreamConstructorToTable_;
+
+//makeFvDdtTypeScheme(CoEulerDdtScheme, symmTensor)                     
+	defineNamedTemplateTypeNameAndDebug(CoEulerDdtScheme<symmTensor>, 0);                   
+ddtScheme<symmTensor>::addIstreamConstructorToTable<CoEulerDdtScheme<symmTensor> >      
+	addCoEulerDdtSchemesymmTensorIstreamConstructorToTable_;
+
+//makeFvDdtTypeScheme(CoEulerDdtScheme, tensor)                  
+	defineNamedTemplateTypeNameAndDebug(CoEulerDdtScheme<tensor>, 0);                   
+ddtScheme<tensor>::addIstreamConstructorToTable<CoEulerDdtScheme<tensor> >      
+	addCoEulerDdtSchemetensorIstreamConstructorToTable_;
+                                                                               
+template<>                                                                     
+tmp<surfaceScalarField> CoEulerDdtScheme<scalar>::fvcDdtPhiCorr                              
+(                                                                              
+    const volScalarField& rA,                                                  
+    const volScalarField& U,                                                   
+    const surfaceScalarField& phi                                              
+)                                                                              
+{                                                                              
+    notImplemented("CoEulerDdtScheme<scalar>::fvcDdtPhiCorr");                              
+    return surfaceScalarField::null();                                         
+}                                                                              
+                                                                               
+template<>                                                                     
+tmp<surfaceScalarField> CoEulerDdtScheme<scalar>::fvcDdtPhiCorr                              
+(                                                                              
+    const volScalarField& rA,                                                  
+    const volScalarField& rho,                                                 
+    const volScalarField& U,                                                   
+    const surfaceScalarField& phi                                              
+)                                                                              
+{                                                                              
+    notImplemented("CoEulerDdtScheme<scalar>::fvcDdtPhiCorr");                              
+    return surfaceScalarField::null();                                         
+}*/
+
 }
 }
 

@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "manualDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IFstream.H"
-#include "labelIOList.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/manualDecomp/manualDecomp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

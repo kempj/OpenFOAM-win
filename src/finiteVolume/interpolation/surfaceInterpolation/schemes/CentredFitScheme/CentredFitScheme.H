@@ -33,8 +33,8 @@ Description
 #ifndef CentredFitScheme_H
 #define CentredFitScheme_H
 
-#include "CentredFitData.H"
-#include "linear.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

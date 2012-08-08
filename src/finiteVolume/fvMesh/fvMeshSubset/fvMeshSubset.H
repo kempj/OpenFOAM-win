@@ -54,13 +54,13 @@ SourceFiles
 #ifndef fvMeshSubset_H
 #define fvMeshSubset_H
 
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "fvPatchFieldMapper.H"
-#include "pointPatchFieldMapper.H"
-#include "GeometricField.H"
-#include "HashSet.H"
-#include "surfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -352,7 +352,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvMeshSubsetInterpolate.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMeshSubset/fvMeshSubsetInterpolate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

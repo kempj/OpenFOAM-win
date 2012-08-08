@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FTRsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ftr/FTRsurfaceFormat.H"
 
-#include "addToRunTimeSelectionTable.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleControl.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

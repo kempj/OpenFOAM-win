@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geometricSurfacePatch.H"
-#include "dictionary.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/geometricSurfacePatch/geometricSurfacePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

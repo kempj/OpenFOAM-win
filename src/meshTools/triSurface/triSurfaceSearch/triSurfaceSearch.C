@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceSearch.H"
-#include "indexedOctree.H"
-#include "boolList.H"
-#include "treeDataTriSurface.H"
-#include "triSurface.H"
-#include "line.H"
-#include "cpuTime.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataTriSurface.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/line/line.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

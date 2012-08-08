@@ -35,8 +35,8 @@ SourceFiles
 #ifndef searchableSphere_H
 #define searchableSphere_H
 
-#include "treeBoundBox.H"
-#include "searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

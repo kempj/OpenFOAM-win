@@ -45,11 +45,13 @@ SourceFiles
 #ifndef basicSource_H
 #define basicSource_H
 
-#include "fvMatricesFwd.H"
-#include "volFieldsFwd.H"
-#include "cellSet.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatricesFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/cellSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -416,7 +418,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicSourceI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/basicSource/basicSourceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

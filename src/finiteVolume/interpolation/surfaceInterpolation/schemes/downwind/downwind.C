@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "downwind.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/downwind/downwind.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

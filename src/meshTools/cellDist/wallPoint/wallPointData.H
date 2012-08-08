@@ -39,7 +39,7 @@ SourceFiles
 #ifndef wallPointData_H
 #define wallPointData_H
 
-#include "wallPoint.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,12 +208,12 @@ inline bool contiguous<wallPointData<tensor> >()
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "wallPointData.C"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPointData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointDataI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPointDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

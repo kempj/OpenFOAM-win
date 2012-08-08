@@ -32,8 +32,8 @@ Description
 #ifndef fvBoundaryMeshMapper_H
 #define fvBoundaryMeshMapper_H
 
-#include "PtrList.H"
-#include "fvPatchMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMeshMapper/fvPatchMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

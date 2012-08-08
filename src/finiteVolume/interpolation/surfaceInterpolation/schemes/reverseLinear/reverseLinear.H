@@ -37,8 +37,8 @@ SourceFiles
 #ifndef reverseLinear_H
 #define reverseLinear_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef searchablePlane_H
 #define searchablePlane_H
 
-#include "searchableSurface.H"
-#include "plane.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/plane/plane.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

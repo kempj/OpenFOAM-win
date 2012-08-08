@@ -35,8 +35,8 @@ SourceFiles
 #ifndef pointZoneSet_H
 #define pointZoneSet_H
 
-#include "pointSet.H"
-#include "boolList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/pointSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

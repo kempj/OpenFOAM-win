@@ -35,11 +35,11 @@ SourceFiles
 #ifndef surfaceFormatsCore_H
 #define surfaceFormatsCore_H
 
-#include "Map.H"
-#include "HashSet.H"
-#include "labelList.H"
-#include "surfZoneList.H"
-#include "surfZoneIdentifierList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZone/surfZoneList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZoneIdentifier/surfZoneIdentifierList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

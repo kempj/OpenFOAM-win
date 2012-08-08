@@ -40,9 +40,9 @@ SourceFiles
 #ifndef uniformTotalPressureFvPatchScalarField_H
 #define uniformTotalPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "interpolationTable.H"
-#include "DataEntry.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationTable/interpolationTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

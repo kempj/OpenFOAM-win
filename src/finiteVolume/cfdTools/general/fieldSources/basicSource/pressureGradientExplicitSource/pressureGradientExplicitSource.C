@@ -23,11 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressureGradientExplicitSource.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/pressureGradientExplicitSource/pressureGradientExplicitSource.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

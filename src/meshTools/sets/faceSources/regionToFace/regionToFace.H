@@ -36,9 +36,9 @@ SourceFiles
 #ifndef regionToFace_H
 #define regionToFace_H
 
-#include "topoSetSource.H"
-#include "PackedBoolList.H"
-#include "indirectPrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

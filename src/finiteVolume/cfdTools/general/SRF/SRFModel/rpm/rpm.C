@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rpm.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mathematicalConstants.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/SRF/SRFModel/rpm/rpm.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

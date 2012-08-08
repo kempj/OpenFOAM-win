@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussDivScheme.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/divSchemes/gaussDivScheme/gaussDivScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

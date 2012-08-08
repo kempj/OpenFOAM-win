@@ -26,10 +26,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvSurfaceMapper.H"
-#include "fvMesh.H"
-#include "mapPolyMesh.H"
-#include "faceMapper.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMeshMapper/fvSurfaceMapper.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

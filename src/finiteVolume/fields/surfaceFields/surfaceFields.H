@@ -35,12 +35,12 @@ SourceFiles
 #ifndef surfaceFields_H
 #define surfaceFields_H
 
-#include "GeometricFields.H"
-#include "surfaceMesh.H"
-#include "fvMesh.H"
-#include "fvsPatchFields.H"
-#include "surfaceFieldsFwd.H"
-#include "calculatedFvsPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/surfaceMesh/surfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/basic/calculated/calculatedFvsPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

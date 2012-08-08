@@ -47,22 +47,23 @@ SourceFiles
 #ifndef fvMesh_H
 #define fvMesh_H
 
-#include "polyMesh.H"
-#include "lduMesh.H"
-#include "primitiveMesh.H"
-#include "fvBoundaryMesh.H"
-#include "surfaceInterpolation.H"
-#include "fvSchemes.H"
-#include "fvSolution.H"
-#include "data.H"
-#include "DimensionedField.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "pointFieldsFwd.H"
-#include "slicedVolFieldsFwd.H"
-#include "slicedSurfaceFieldsFwd.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/lduMesh/lduMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitiveMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvSchemes/fvSchemes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvSolution/fvSolution.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/data/data.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/slicedVolFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/slicedSurfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"//JK
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
@@ -75,6 +76,7 @@ class volMesh;
 /*---------------------------------------------------------------------------*\
                            Class fvMesh Declaration
 \*---------------------------------------------------------------------------*/
+template<class Type, class GeoMesh> class DimensionedField;
 
 class fvMesh
 :
@@ -352,7 +354,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvPatchFvMeshTemplates.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatchFvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

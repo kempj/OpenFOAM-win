@@ -36,8 +36,8 @@ SourceFiles
 #ifndef adjustPhi_H
 #define adjustPhi_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

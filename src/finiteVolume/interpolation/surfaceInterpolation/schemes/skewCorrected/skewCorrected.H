@@ -36,10 +36,10 @@ SourceFiles
 #ifndef skewCorrected_H
 #define skewCorrected_H
 
-#include "surfaceInterpolationScheme.H"
-#include "skewCorrectionVectors.H"
-#include "linear.H"
-#include "gaussGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrectionVectors.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

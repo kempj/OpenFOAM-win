@@ -35,7 +35,7 @@ SourceFiles
 #ifndef sphericalCS_H
 #define sphericalCS_H
 
-#include "coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

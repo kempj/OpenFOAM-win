@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceIntersection.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

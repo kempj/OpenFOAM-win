@@ -37,10 +37,12 @@ SourceFiles
 #ifndef PatchEdgeFaceWave_H
 #define PatchEdgeFaceWave_H
 
-#include "scalarField.H"
-#include "PackedBoolList.H"
-#include "PrimitivePatch.H"
-#include "vectorTensorTransform.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/scalarField/scalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PrimitivePatchUC/PrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -358,7 +360,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "PatchEdgeFaceWave.C"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -47,17 +47,17 @@ SourceFiles
 #ifndef MeshedSurface_H
 #define MeshedSurface_H
 
-#include "PrimitivePatch.H"
-#include "PatchTools.H"
-#include "pointField.H"
-#include "face.H"
-#include "triFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PrimitivePatchUC/PrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFace.H"
 
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfZone/surfZone/surfZoneList.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/surfaceFormatsCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -485,7 +485,7 @@ inline label MeshedSurface<triFace>::triangulate(List<label>& faceMap)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "MeshedSurface.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

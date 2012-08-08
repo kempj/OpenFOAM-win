@@ -48,17 +48,17 @@ SourceFiles
 #ifndef AMIInterpolation_H
 #define AMIInterpolation_H
 
-#include "className.H"
-#include "DynamicList.H"
-#include "searchableSurface.H"
-#include "boolList.H"
-#include "primitivePatch.H"
-#include "faceAreaIntersect.H"
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
-#include "treeBoundBoxList.H"
-#include "globalIndex.H"
-#include "ops.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/primitivePatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/faceAreaIntersect/faceAreaIntersect.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataPrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -543,12 +543,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AMIInterpolationI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/AMIInterpolation/AMIInterpolationI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "AMIInterpolation.C"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/AMIInterpolation/AMIInterpolation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

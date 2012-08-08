@@ -35,9 +35,9 @@ SourceFiles
 #ifndef uniformFixedValueFvPatchField_H
 #define uniformFixedValueFvPatchField_H
 
-#include "Random.H"
-#include "fixedValueFvPatchFields.H"
-#include "DataEntry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/Random/Random.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "uniformFixedValueFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/uniformFixedValue/uniformFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

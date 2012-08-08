@@ -42,9 +42,9 @@ SourceFiles
 #ifndef surfaceLocation_H
 #define surfaceLocation_H
 
-#include "pointIndexHit.H"
-#include "triPointRef.H"
-#include "InfoProxy.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/triangle/triPointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

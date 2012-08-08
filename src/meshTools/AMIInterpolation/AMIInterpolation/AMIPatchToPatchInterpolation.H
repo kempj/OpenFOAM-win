@@ -26,11 +26,11 @@ License
 #ifndef AMIPatchToPatchInterpolation_H
 #define AMIPatchToPatchInterpolation_H
 
-#include "AMIInterpolation.H"
-#include "PrimitivePatch.H"
-#include "face.H"
-#include "SubList.H"
-#include "pointField.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/PrimitivePatchUC/PrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SubList/SubList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

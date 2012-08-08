@@ -82,8 +82,8 @@ SourceFiles
 #ifndef codedMixedFvPatchField_H
 #define codedMixedFvPatchField_H
 
-#include "mixedFvPatchFields.H"
-#include "codedBase.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,7 +243,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "codedMixedFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/codedMixed/codedMixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

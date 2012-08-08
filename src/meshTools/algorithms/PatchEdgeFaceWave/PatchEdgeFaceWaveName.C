@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchEdgeFaceWave.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

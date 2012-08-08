@@ -26,7 +26,7 @@ License
 #ifndef freestreamFvPatchFieldsFwd_H
 #define freestreamFvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

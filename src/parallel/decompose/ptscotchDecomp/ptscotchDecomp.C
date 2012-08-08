@@ -113,11 +113,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ptscotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "globalIndex.H"
-#include "SubField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
 
 extern "C"
 {

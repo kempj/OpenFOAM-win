@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchEdgeFaceInfo.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PatchEdgeFaceWave/patchEdgeFaceInfo.H"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

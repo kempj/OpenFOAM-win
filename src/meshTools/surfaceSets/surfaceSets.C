@@ -23,18 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceSets.H"
-#include "polyMesh.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "pointSet.H"
-#include "cellSet.H"
-#include "surfaceToCell.H"
-#include "cellToPoint.H"
-#include "cellToCell.H"
-#include "pointToCell.H"
-#include "meshSearch.H"
-#include "cellClassification.H"
+#include "OpenFOAM-2.1.x/src/meshTools/surfaceSets/surfaceSets.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/pointSet.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/cellSet.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/cellSources/surfaceToCell/surfaceToCell.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/pointSources/cellToPoint/cellToPoint.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/cellSources/cellToCell/cellToCell.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/cellSources/pointToCell/pointToCell.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshSearch/meshSearch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellClassification/cellClassification.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

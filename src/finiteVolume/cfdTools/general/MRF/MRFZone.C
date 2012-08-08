@@ -23,14 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFZone.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatrices.H"
-#include "syncTools.H"
-#include "faceSet.H"
-#include "geometricOneField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/MRF/MRFZone.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrices.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/faceSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/geometricOneField/geometricOneField.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

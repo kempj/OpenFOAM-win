@@ -35,10 +35,10 @@ SourceFiles
 #ifndef treeDataFace_H
 #define treeDataFace_H
 
-#include "face.H"
-#include "indexedOctree.H"
-#include "treeBoundBoxList.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBoxList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

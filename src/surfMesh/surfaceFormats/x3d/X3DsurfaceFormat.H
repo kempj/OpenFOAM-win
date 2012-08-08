@@ -35,10 +35,10 @@ SourceFiles
 #ifndef X3DsurfaceFormat_H
 #define X3DsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "X3DsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/x3d/X3DsurfaceFormatCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -100,7 +100,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "X3DsurfaceFormat.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/x3d/X3DsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

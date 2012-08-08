@@ -40,7 +40,7 @@ SourceFiles
 #ifndef faceMDLimitedGrad_H
 #define faceMDLimitedGrad_H
 
-#include "gradScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

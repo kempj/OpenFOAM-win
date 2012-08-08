@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "booleanSurface.H"
-#include "intersectedSurface.H"
-#include "orientedSurface.H"
-#include "triSurfaceSearch.H"
-#include "OFstream.H"
-#include "treeBoundBox.H"
-#include "meshTools.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/booleanSurface/booleanSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/intersectedSurface/intersectedSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/orientedSurface/orientedSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

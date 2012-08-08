@@ -35,7 +35,7 @@ SourceFiles
 #ifndef labelToFace_H
 #define labelToFace_H
 
-#include "topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

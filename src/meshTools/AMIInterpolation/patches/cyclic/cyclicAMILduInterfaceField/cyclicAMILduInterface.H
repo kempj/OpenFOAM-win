@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cyclicAMILduInterface_H
 #define cyclicAMILduInterface_H
 
-#include "primitiveFieldsFwd.H"
-#include "AMIPatchToPatchInterpolation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

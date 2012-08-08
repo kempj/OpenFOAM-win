@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CFCCellToCellStencil.H"
-#include "syncTools.H"
-#include "SortableList.H"
-#include "emptyPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToCell/fullStencils/CFCCellToCellStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

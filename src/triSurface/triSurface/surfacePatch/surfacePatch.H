@@ -35,10 +35,10 @@ SourceFiles
 #ifndef surfacePatch_H
 #define surfacePatch_H
 
-#include "geometricSurfacePatch.H"
-#include "word.H"
-#include "label.H"
-#include "className.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/geometricSurfacePatch/geometricSurfacePatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/word/word.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef rotatingTotalPressureFvPatchScalarField_H
 #define rotatingTotalPressureFvPatchScalarField_H
 
-#include "totalPressureFvPatchScalarField.H"
-#include "DataEntry.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/functions/DataEntry/DataEntry/DataEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,10 +43,10 @@ SourceFiles
 #ifndef NASsurfaceFormat_H
 #define NASsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "NASCore.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/fileFormats/nas/NASCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -114,7 +114,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "NASsurfaceFormat.C"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/nas/NASsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

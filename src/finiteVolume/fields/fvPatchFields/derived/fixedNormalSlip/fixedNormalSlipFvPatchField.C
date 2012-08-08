@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedNormalSlipFvPatchField.H"
-#include "symmTransformField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalSlip/fixedNormalSlipFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/symmTransformField/symmTransformField.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

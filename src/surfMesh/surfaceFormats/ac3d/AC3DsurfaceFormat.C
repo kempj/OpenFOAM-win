@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AC3DsurfaceFormat.H"
-#include "clock.H"
-#include "IStringStream.H"
-#include "tensor.H"
-#include "primitivePatch.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ac3d/AC3DsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

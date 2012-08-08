@@ -40,9 +40,9 @@ SourceFiles
 #ifndef treeDataPoint_H
 #define treeDataPoint_H
 
-#include "pointField.H"
-#include "treeBoundBox.H"
-#include "linePointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/line/linePointRef.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

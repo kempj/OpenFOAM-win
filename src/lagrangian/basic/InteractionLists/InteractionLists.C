@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InteractionLists.H"
-#include "globalIndexAndTransform.H"
-#include "indexedOctree.H"
-#include "treeDataFace.H"
-#include "treeDataCell.H"
-#include "volFields.H"
-#include "meshTools.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/InteractionLists/InteractionLists.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/globalIndexAndTransform/globalIndexAndTransform.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/treeDataCell.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

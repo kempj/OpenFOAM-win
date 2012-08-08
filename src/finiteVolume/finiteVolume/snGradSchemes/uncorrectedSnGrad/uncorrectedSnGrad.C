@@ -26,9 +26,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "uncorrectedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/uncorrectedSnGrad/uncorrectedSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

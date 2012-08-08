@@ -23,7 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "findRefCell.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/findRefCell/findRefCell.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

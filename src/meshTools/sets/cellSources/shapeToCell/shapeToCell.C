@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shapeToCell.H"
-#include "polyMesh.H"
-#include "unitConversion.H"
-#include "hexMatcher.H"
-#include "cellFeatures.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/cellSources/shapeToCell/shapeToCell.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/unitConversion/unitConversion.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cellMatcher/hexMatcher.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellFeatures/cellFeatures.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

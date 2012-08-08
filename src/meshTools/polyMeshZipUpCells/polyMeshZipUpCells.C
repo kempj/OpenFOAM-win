@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshZipUpCells.H"
-#include "polyMesh.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/meshTools/polyMeshZipUpCells/polyMeshZipUpCells.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // #define DEBUG_ZIPUP 1
 // #define DEBUG_CHAIN 1

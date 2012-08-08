@@ -50,7 +50,7 @@ Description
 #ifndef EulerCoordinateRotation_H
 #define EulerCoordinateRotation_H
 
-#include "coordinateRotation.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateRotation/coordinateRotation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

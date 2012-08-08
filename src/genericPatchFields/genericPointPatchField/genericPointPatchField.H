@@ -36,8 +36,10 @@ SourceFiles
 #ifndef genericPointPatchField_H
 #define genericPointPatchField_H
 
-#include "calculatedPointPatchField.H"
-#include "HashPtrTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +165,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#    include "genericPointPatchField.C"
+#include "OpenFOAM-2.1.x/src/genericPatchFields/genericPointPatchField/genericPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

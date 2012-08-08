@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cyclicAMIPointPatch_H
 #define cyclicAMIPointPatch_H
 
-#include "coupledFacePointPatch.H"
-#include "cyclicAMIPolyPatch.H"
-#include "pointBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/derived/coupled/coupledFacePointPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -46,7 +46,7 @@ SourceFiles
 #ifndef turbulentIntensityKineticEnergyInletFvPatchScalarField_H
 #define turbulentIntensityKineticEnergyInletFvPatchScalarField_H
 
-#include "inletOutletFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

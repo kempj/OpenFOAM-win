@@ -43,7 +43,7 @@ SourceFiles
 #ifndef phaseHydrostaticPressureFvPatchScalarField_H
 #define phaseHydrostaticPressureFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

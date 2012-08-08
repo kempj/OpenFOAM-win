@@ -35,8 +35,8 @@ SourceFiles
 #ifndef boxToPoint_H
 #define boxToPoint_H
 
-#include "topoSetSource.H"
-#include "treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

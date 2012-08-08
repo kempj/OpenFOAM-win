@@ -38,8 +38,8 @@ SourceFiles
 #ifndef coordinateSystems_H
 #define coordinateSystems_H
 
-#include "coordinateSystem.H"
-#include "IOPtrList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateSystem.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOPtrList/IOPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -58,9 +58,9 @@ SourceFiles
 #ifndef PointEdgeWave_H
 #define PointEdgeWave_H
 
-#include "boolList.H"
-#include "scalarField.H"
-#include "tensorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/scalarField/scalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/tensorField/tensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -354,7 +354,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "PointEdgeWave.C"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PointEdgeWave/PointEdgeWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

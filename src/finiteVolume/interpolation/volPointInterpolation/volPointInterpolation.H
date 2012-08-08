@@ -37,10 +37,10 @@ SourceFiles
 #ifndef volPointInterpolation_H
 #define volPointInterpolation_H
 
-#include "MeshObject.H"
-#include "scalarList.H"
-#include "volFields.H"
-#include "pointFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/MeshObject/MeshObject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/lists/scalarList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -250,7 +250,7 @@ void volPointInterpolation::applyCornerConstraints<scalar>
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "volPointInterpolate.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/volPointInterpolation/volPointInterpolate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

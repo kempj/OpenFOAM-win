@@ -35,9 +35,9 @@ SourceFiles
 #ifndef cyclicAMIGAMGInterfaceField_H
 #define cyclicAMIGAMGInterfaceField_H
 
-#include "GAMGInterfaceField.H"
-#include "cyclicAMIGAMGInterface.H"
-#include "cyclicAMILduInterfaceField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/GAMG/interfaces/cyclicAMIGAMGInterface/cyclicAMIGAMGInterface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMILduInterfaceField/cyclicAMILduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

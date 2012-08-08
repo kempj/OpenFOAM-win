@@ -23,6 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"//JK
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"//JK
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 template<class Type>

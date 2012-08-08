@@ -37,8 +37,10 @@ SourceFiles
 #ifndef fvcSurfaceIntegrate_H
 #define fvcSurfaceIntegrate_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvc.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -93,7 +95,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvcSurfaceIntegrate.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcSurfaceIntegrate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

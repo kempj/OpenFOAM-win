@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDsurfaceFormatCore.H"
-#include "clock.H"
-#include "regExp.H"
-#include "IStringStream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/starcd/STARCDsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
+#include "OpenFOAM-2.1.x/src/OSspecific/MSwindows/regExp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

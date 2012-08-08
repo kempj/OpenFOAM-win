@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchWave.H"
-#include "polyMesh.H"
-#include "wallPoint.H"
-#include "globalMeshData.H"
-#include "SubField.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/patchWave/patchWave.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPoint.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

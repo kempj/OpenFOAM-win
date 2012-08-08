@@ -35,9 +35,9 @@ SourceFiles
 #ifndef X3DsurfaceFormatCore_H
 #define X3DsurfaceFormatCore_H
 
-#include "Ostream.H"
-#include "OFstream.H"
-#include "MeshedSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/Ostream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/MeshedSurface/MeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

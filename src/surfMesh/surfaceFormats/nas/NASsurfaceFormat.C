@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASsurfaceFormat.H"
-#include "IFstream.H"
-#include "IStringStream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/nas/NASsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

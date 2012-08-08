@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FTRsurfaceFormat.H"
-#include "Keyed.H"
-#include "IFstream.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ftr/FTRsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Identifiers/Keyed/Keyed.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

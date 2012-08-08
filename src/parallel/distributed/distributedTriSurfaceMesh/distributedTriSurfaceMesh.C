@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributedTriSurfaceMesh.H"
-#include "mapDistribute.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triangleFuncs.H"
-#include "matchPoints.H"
-#include "globalIndex.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/parallel/distributed/distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/Random/Random.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triangleFuncs/triangleFuncs.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshTools/matchPoints.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
-#include "IFstream.H"
-#include "decompositionMethod.H"
-#include "geomDecomp.H"
-#include "vectorList.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/lists/vectorList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

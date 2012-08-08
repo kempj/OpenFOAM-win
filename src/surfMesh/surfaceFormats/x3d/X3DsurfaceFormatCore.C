@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "X3DsurfaceFormatCore.H"
-#include "clock.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/x3d/X3DsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

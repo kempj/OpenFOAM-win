@@ -36,8 +36,8 @@ SourceFiles
 #ifndef topoDistanceData_H
 #define topoDistanceData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ inline bool contiguous<topoDistanceData>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "topoDistanceDataI.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/structuredDecomp/topoDistanceDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

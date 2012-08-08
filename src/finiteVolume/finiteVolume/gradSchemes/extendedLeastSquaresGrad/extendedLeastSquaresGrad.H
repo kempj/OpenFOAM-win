@@ -35,7 +35,7 @@ SourceFiles
 #ifndef extendedLeastSquaresGrad_H
 #define extendedLeastSquaresGrad_H
 
-#include "gradScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/gradScheme/gradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -126,7 +126,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "extendedLeastSquaresGrad.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/gradSchemes/extendedLeastSquaresGrad/extendedLeastSquaresGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

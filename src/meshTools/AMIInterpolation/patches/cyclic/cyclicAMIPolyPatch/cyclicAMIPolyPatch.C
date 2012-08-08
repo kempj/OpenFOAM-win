@@ -23,14 +23,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIPolyPatch.H"
-#include "transformField.H"
-#include "SubField.H"
-#include "polyMesh.H"
-#include "Time.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faceAreaIntersect.H"
-#include "ops.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/transformField/transformField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/faceAreaIntersect/faceAreaIntersect.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ops/ops.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"//JK
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

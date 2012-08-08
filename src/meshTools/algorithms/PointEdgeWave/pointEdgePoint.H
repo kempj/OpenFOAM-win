@@ -38,11 +38,11 @@ SourceFiles
 #ifndef pointEdgePoint_H
 #define pointEdgePoint_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "tensor.H"
-#include "pTraits.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/label/label.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Scalar/scalar/scalar.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/pTraits/pTraits.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ inline bool contiguous<pointEdgePoint>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointEdgePointI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PointEdgeWave/pointEdgePointI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

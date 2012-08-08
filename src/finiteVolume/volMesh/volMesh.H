@@ -32,9 +32,9 @@ Description
 #ifndef volMesh_H
 #define volMesh_H
 
-#include "GeoMesh.H"
-#include "fvMesh.H"
-#include "primitiveMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/GeoMesh/GeoMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitiveMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

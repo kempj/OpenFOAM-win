@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellInfo.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellClassification/cellInfo.H"
 
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //

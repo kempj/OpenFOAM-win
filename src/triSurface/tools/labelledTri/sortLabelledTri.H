@@ -37,7 +37,7 @@ SourceFiles
 #ifndef sortLabelledTri_H
 #define sortLabelledTri_H
 
-#include "labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,9 +42,9 @@ SourceFiles
 #ifndef twoDPointCorrector_H
 #define twoDPointCorrector_H
 
-#include "pointField.H"
-#include "labelList.H"
-#include "vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

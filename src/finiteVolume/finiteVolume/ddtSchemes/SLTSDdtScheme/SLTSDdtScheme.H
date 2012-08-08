@@ -43,7 +43,9 @@ SourceFiles
 #ifndef SLTSDdtScheme_H
 #define SLTSDdtScheme_H
 
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/scalarField/scalarField.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -211,7 +213,7 @@ tmp<surfaceScalarField> SLTSDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "SLTSDdtScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/SLTSDdtScheme/SLTSDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

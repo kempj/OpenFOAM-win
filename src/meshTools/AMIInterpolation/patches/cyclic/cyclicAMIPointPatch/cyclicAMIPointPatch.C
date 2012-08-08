@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIPointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMIPointPatch/cyclicAMIPointPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

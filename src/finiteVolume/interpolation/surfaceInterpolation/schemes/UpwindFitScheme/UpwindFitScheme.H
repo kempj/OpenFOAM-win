@@ -33,8 +33,8 @@ Description
 #ifndef UpwindFitScheme_H
 #define UpwindFitScheme_H
 
-#include "UpwindFitData.H"
-#include "linear.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/linear/linear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

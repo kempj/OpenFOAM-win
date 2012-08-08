@@ -35,8 +35,8 @@ SourceFiles
 #ifndef primitiveMeshGeometry_H
 #define primitiveMeshGeometry_H
 
-#include "pointFields.H"
-#include "HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/pointFields/pointFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

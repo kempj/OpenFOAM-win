@@ -26,7 +26,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

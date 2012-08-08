@@ -39,8 +39,8 @@ SourceFiles
 #ifndef meshTriangulation_H
 #define meshTriangulation_H
 
-#include "triSurface.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hierarchGeomDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PstreamReduceOps.H"
-#include "SortableList.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/hierarchGeomDecomp/hierarchGeomDecomp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

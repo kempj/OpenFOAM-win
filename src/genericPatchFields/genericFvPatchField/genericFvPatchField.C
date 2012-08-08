@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericFvPatchField.H"
-#include "fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/genericPatchFields/genericFvPatchField/genericFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

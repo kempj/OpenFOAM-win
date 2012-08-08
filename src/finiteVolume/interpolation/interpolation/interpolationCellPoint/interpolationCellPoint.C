@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPoint.H"
-#include "volPointInterpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

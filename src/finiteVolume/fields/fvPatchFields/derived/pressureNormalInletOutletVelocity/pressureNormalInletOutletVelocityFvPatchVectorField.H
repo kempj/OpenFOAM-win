@@ -38,8 +38,8 @@ SourceFiles
 #ifndef pressureNormalInletOutletVelocityFvPatchVectorField_H
 #define pressureNormalInletOutletVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "mixedFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

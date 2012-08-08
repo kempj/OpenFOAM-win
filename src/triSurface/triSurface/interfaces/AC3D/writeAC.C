@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "IOmanip.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/IOmanip.H"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

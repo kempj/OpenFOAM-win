@@ -23,13 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFixedValueFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "stringOps.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/codedFixedValue/codedFixedValueFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

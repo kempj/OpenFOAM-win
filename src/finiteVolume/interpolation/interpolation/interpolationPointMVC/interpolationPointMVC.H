@@ -33,8 +33,8 @@ Description
 #ifndef interpolationPointMVC_H
 #define interpolationPointMVC_H
 
-#include "interpolation.H"
-#include "pointMVCWeight.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolation/interpolation.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationPointMVC/pointMVCWeight.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -94,12 +94,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationPointMVCI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationPointMVC/interpolationPointMVCI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "interpolationPointMVC.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationPointMVC/interpolationPointMVC.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

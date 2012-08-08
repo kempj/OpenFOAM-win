@@ -35,7 +35,7 @@ SourceFiles
 #ifndef totalTemperatureFvPatchScalarField_H
 #define totalTemperatureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

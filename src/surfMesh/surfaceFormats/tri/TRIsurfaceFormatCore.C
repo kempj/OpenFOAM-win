@@ -23,11 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TRIsurfaceFormat.H"
-#include "IFstream.H"
-#include "IOmanip.H"
-#include "IStringStream.H"
-#include "Map.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/tri/TRIsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/IOmanip.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/StringStreams/IStringStream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/DynamicList/DynamicList.H"//JK
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

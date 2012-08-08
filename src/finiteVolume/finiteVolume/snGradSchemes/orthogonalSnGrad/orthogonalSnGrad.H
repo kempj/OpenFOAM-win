@@ -35,7 +35,7 @@ SourceFiles
 #ifndef orthogonalSnGrad_H
 #define orthogonalSnGrad_H
 
-#include "snGradScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "orthogonalSnGrad.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/orthogonalSnGrad/orthogonalSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

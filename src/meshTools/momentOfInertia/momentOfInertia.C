@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "momentOfInertia.H"
-#include "polyMeshTetDecomposition.H"
+#include "OpenFOAM-2.1.x/src/meshTools/momentOfInertia/momentOfInertia.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef regionSplit_H
 #define regionSplit_H
 
-#include "polyMesh.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

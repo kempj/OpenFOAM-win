@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UpwindFitData.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "SVD.H"
-#include "extendedUpwindCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/scalarMatrices/SVD/SVD.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

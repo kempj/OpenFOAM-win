@@ -36,14 +36,14 @@ SourceFiles
 #ifndef fvcReconstruct_H
 #define fvcReconstruct_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
-
+	template<class T> class tmp;//JK
 /*---------------------------------------------------------------------------*\
                      Namespace fvc functions Declaration
 \*---------------------------------------------------------------------------*/
@@ -79,7 +79,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvcReconstruct.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcReconstruct.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

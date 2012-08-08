@@ -32,7 +32,9 @@ Description
 #ifndef fvPatchFieldMapper_H
 #define fvPatchFieldMapper_H
 
-#include "primitiveFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFields.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/FieldMapper.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

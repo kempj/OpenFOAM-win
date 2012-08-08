@@ -39,8 +39,8 @@ SourceFiles
 #ifndef mappedVelocityFluxFixedValueFvPatchField_H
 #define mappedVelocityFluxFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "mappedFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/derived/mapped/mappedFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

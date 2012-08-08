@@ -23,15 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Cloud.H"
-#include "processorPolyPatch.H"
-#include "globalMeshData.H"
-#include "PstreamCombineReduceOps.H"
-#include "mapPolyMesh.H"
-#include "Time.H"
-#include "OFstream.H"
-#include "wallPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/Cloud.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/patches/cyclic/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 
@@ -459,6 +459,6 @@ void Foam::Cloud<ParticleType>::writePositions() const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "CloudIO.C"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/CloudIO.C"
 
 // ************************************************************************* //

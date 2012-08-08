@@ -26,8 +26,8 @@ License
 #ifndef mappedFieldFvPatchFields_H
 #define mappedFieldFvPatchFields_H
 
-#include "mappedFieldFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/mappedField/mappedFieldFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

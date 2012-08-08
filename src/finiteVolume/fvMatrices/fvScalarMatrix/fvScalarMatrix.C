@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvScalarMatrix.H"
-#include "zeroGradientFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef cellSet_H
 #define cellSet_H
 
-#include "topoSet.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSets/topoSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

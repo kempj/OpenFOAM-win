@@ -26,8 +26,8 @@ License
 #ifndef partialSlipFvPatchFields_H
 #define partialSlipFvPatchFields_H
 
-#include "partialSlipFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

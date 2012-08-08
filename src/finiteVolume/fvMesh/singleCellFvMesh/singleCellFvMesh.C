@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleCellFvMesh.H"
-#include "syncTools.H"
-#include "uindirectPrimitivePatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/singleCellFvMesh/singleCellFvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveMesh/primitivePatchLC/uindirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

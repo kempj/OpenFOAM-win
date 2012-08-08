@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UpwindFitScheme.H"
-#include "quadraticUpwindFitPolynomial.H"
-#include "upwindFECCellToFaceStencilObject.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/quadraticUpwindFit/quadraticUpwindFitPolynomial.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/MeshObjects/upwindFECCellToFaceStencilObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

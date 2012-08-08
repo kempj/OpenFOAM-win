@@ -42,7 +42,7 @@ SourceFiles
 #ifndef limitedSnGrad_H
 #define limitedSnGrad_H
 
-#include "snGradScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "limitedSnGrad.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "orthogonalSnGrad.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/orthogonalSnGrad/orthogonalSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,7 +44,7 @@ SourceFiles
 #ifndef wallPointYPlus_H
 #define wallPointYPlus_H
 
-#include "wallPointData.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPointData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ inline bool contiguous<wallPointYPlus>()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointYPlusI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/wallDist/wallPointYPlus/wallPointYPlusI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

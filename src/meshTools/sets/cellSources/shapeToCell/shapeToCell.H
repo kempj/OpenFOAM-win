@@ -38,7 +38,7 @@ SourceFiles
 #ifndef shapeToCell_H
 #define shapeToCell_H
 
-#include "topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

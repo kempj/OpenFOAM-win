@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvmDiv.H"
-#include "fvMesh.H"
-#include "fvMatrix.H"
-#include "convectionScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvm/fvmDiv.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatrix/fvMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/convectionSchemes/convectionScheme/convectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,11 +36,11 @@ SourceFiles
 #ifndef fvFieldReconstructor_H
 #define fvFieldReconstructor_H
 
-#include "PtrList.H"
-#include "fvMesh.H"
-#include "IOobjectList.H"
-#include "fvPatchFieldMapper.H"
-#include "labelIOList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjectList/IOobjectList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -221,7 +221,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvFieldReconstructorReconstructFields.C"
+#include "OpenFOAM-2.1.x/src/parallel/reconstruct/reconstruct/fvFieldReconstructorReconstructFields.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef surfaceToCell_H
 #define surfaceToCell_H
 
-#include "topoSetSource.H"
-#include "Map.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/topoSetSource/topoSetSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

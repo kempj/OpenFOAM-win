@@ -36,7 +36,7 @@ SourceFiles
 #ifndef CrankNicholsonDdtScheme_H
 #define CrankNicholsonDdtScheme_H
 
-#include "ddtScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,15 @@ class CrankNicholsonDdtScheme
             (
                 const IOobject& io,
                 const fvMesh& mesh
-            );
+            ):
+				GeoField(io, mesh),
+				startTimeIndex_(-2) // This field is for a restart and thus correct so set
+									// the start time-index to correspond to a previous run
+			{
+				// Set the time-index to the beginning of the run to ensure the field
+				// is updated during the first time-step
+				this->timeIndex() = mesh.time().startTimeIndex();
+			}
 
             //- Constructor from components, initisalised to zero with given
             //  dimensions.
@@ -85,7 +93,10 @@ class CrankNicholsonDdtScheme
                 const IOobject& io,
                 const fvMesh& mesh,
                 const dimensioned<typename GeoField::value_type>& dimType
-            );
+            ):
+				GeoField(io, mesh, dimType),
+				startTimeIndex_(mesh.time().timeIndex())
+			{}
 
             //- Return the start-time index
             label startTimeIndex() const;
@@ -282,7 +293,7 @@ tmp<surfaceScalarField> CrankNicholsonDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "CrankNicholsonDdtScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/ddtSchemes/CrankNicholsonDdtScheme/CrankNicholsonDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -49,9 +49,9 @@ SourceFiles
 #ifndef booleanSurface_H
 #define booleanSurface_H
 
-#include "triSurface.H"
-#include "surfaceIntersection.H"
-#include "typeInfo.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef processorCyclicFvPatch_H
 #define processorCyclicFvPatch_H
 
-#include "processorCyclicPolyPatch.H"
-#include "processorFvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "orientedSurface.H"
-#include "triSurfaceTools.H"
-#include "triSurfaceSearch.H"
-#include "treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/orientedSurface/orientedSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -41,13 +41,13 @@ SourceFiles
 #ifndef triSurfaceMesh_H
 #define triSurfaceMesh_H
 
-#include "treeBoundBox.H"
-#include "searchableSurface.H"
-#include "objectRegistry.H"
-#include "indexedOctree.H"
-#include "treeDataTriSurface.H"
-#include "treeDataEdge.H"
-#include "EdgeMap.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataTriSurface.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataEdge.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/EdgeMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

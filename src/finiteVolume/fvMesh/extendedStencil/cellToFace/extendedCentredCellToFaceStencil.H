@@ -34,7 +34,7 @@ SourceFiles
 #ifndef extendedCentredCellToFaceStencil_H
 #define extendedCentredCellToFaceStencil_H
 
-#include "extendedCellToFaceStencil.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToFace/extendedCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

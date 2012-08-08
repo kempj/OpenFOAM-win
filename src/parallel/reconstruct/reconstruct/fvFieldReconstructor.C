@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvFieldReconstructor.H"
+#include "OpenFOAM-2.1.x/src/parallel/reconstruct/reconstruct/fvFieldReconstructor.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

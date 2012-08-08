@@ -23,9 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMeshGeometry.H"
-#include "pyramidPointFaceRef.H"
-#include "unitConversion.H"
+#include "OpenFOAM-2.1.x/src/meshTools/primitiveMeshGeometry/primitiveMeshGeometry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/cell/pyramidPointFaceRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/unitConversion/unitConversion.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamReduceOps.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

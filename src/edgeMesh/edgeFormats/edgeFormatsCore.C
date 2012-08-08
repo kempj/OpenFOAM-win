@@ -23,12 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeFormatsCore.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeFormats/edgeFormatsCore.H"
 
-#include "Time.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "edgeMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/IFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/edgeMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

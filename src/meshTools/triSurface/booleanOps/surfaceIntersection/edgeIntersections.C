@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeIntersections.H"
-#include "triSurfaceSearch.H"
-#include "labelPairLookup.H"
-#include "OFstream.H"
-#include "HashSet.H"
-#include "triSurface.H"
-#include "pointIndexHit.H"
-#include "treeDataTriSurface.H"
-#include "indexedOctree.H"
-#include "meshTools.H"
-#include "plane.H"
-#include "Random.H"
-#include "unitConversion.H"
-#include "treeBoundBox.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/booleanOps/surfaceIntersection/edgeIntersections.H"
+#include "OpenFOAM-2.1.x/src/meshTools/triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "OpenFOAM-2.1.x/src/triSurface/tools/labelPair/labelPairLookup.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/objectHit/pointIndexHitLC.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataTriSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/plane/plane.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/Random/Random.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/unitConversion/unitConversion.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,10 +35,10 @@ SourceFiles
 #ifndef cellPointWeightWallModified_H
 #define cellPointWeightWallModified_H
 
-#include "cellPointWeight.H"
-#include "wallPolyPatch.H"
-#include "polyMesh.H"
-#include "polyBoundaryMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/interpolation/interpolationCellPoint/cellPointWeight/cellPointWeight.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

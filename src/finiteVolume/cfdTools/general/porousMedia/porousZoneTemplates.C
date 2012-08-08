@@ -23,8 +23,8 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "porousZone.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/porousMedia/porousZone.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

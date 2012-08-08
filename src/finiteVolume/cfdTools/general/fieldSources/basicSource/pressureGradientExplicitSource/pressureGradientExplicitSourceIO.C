@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressureGradientExplicitSource.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/pressureGradientExplicitSource/pressureGradientExplicitSource.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

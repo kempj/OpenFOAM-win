@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geomDecomp.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

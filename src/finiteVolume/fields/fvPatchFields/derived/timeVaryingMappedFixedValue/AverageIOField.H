@@ -35,8 +35,8 @@ SourceFiles
 #ifndef AverageIOField_H
 #define AverageIOField_H
 
-#include "regIOobject.H"
-#include "Field.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/regIOobject/regIOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "AverageIOField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/timeVaryingMappedFixedValue/AverageIOField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

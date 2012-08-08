@@ -35,9 +35,9 @@ SourceFiles
 #ifndef mappedPointPatch_H
 #define mappedPointPatch_H
 
-#include "facePointPatch.H"
-#include "mappedPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

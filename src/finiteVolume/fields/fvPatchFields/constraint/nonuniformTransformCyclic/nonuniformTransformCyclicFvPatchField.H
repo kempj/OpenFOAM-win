@@ -35,8 +35,8 @@ SourceFiles
 #ifndef nonuniformTransformCyclicFvPatchField_H
 #define nonuniformTransformCyclicFvPatchField_H
 
-#include "cyclicFvPatchField.H"
-#include "nonuniformTransformCyclicFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -131,7 +131,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "nonuniformTransformCyclicFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

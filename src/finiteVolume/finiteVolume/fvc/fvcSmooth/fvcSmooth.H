@@ -49,7 +49,7 @@ SourceFiles
 #ifndef fvcSmooth_H
 #define fvcSmooth_H
 
-#include "volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

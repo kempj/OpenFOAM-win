@@ -35,8 +35,8 @@ SourceFiles
 #ifndef symmetryFvPatch_H
 #define symmetryFvPatch_H
 
-#include "fvPatch.H"
-#include "symmetryPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

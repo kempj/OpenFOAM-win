@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericPointPatchField.H"
-#include "pointPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/genericPatchFields/genericPointPatchField/genericPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

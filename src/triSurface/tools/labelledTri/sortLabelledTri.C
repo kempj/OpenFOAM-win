@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sortLabelledTri.H"
-#include "labelledTri.H"
-#include "triSurface.H"
+#include "OpenFOAM-2.1.x/src/triSurface/tools/labelledTri/sortLabelledTri.H"
+#include "OpenFOAM-2.1.x/src/triSurface/tools/labelledTri/labelledTri.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

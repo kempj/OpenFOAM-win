@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOPosition.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/IOPosition/IOPosition.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

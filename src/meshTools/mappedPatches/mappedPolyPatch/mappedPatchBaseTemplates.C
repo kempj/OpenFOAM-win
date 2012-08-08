@@ -23,6 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.H"//JK
+
 template<class Type>
 void Foam::mappedPatchBase::distribute(List<Type>& lst) const
 {

@@ -35,8 +35,8 @@ SourceFiles
 #ifndef fvBoundaryMesh_H
 #define fvBoundaryMesh_H
 
-#include "fvPatchList.H"
-#include "lduInterfacePtrsList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatchList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

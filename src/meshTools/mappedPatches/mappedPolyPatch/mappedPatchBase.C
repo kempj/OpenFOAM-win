@@ -23,20 +23,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedPatchBase.H"
-#include "addToRunTimeSelectionTable.H"
-#include "ListListOps.H"
-#include "meshSearch.H"
-#include "meshTools.H"
-#include "OFstream.H"
-#include "Random.H"
-#include "treeDataFace.H"
-#include "indexedOctree.H"
-#include "polyMesh.H"
-#include "polyPatch.H"
-#include "Time.H"
-#include "mapDistribute.H"
-#include "SubField.H"
+#include "OpenFOAM-2.1.x/src/meshTools/mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListListOps/ListListOps.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshSearch/meshSearch.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/Random/Random.H"
+#include "OpenFOAM-2.1.x/src/meshTools/indexedOctree/treeDataFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/algorithms/indexedOctree/indexedOctree.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

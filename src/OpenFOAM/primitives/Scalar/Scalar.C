@@ -82,14 +82,15 @@ word name(const Scalar val)
 
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
-
+//This is duplicated in scalar.C so I am removing this one
+/*
 Scalar readScalar(Istream& is)
 {
     Scalar rs;
     is  >> rs;
 
     return rs;
-}
+}*///JK
 
 
 Istream& operator>>(Istream& is, Scalar& s)

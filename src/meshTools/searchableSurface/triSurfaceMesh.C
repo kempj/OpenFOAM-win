@@ -23,13 +23,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceMesh.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
-#include "EdgeMap.H"
-#include "triSurfaceFields.H"
-#include "Time.H"
-#include "PackedBoolList.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/triSurfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/random/Random/Random.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/edge/EdgeMap.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurfaceFields/triSurfaceFields.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PackedList/PackedBoolList.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

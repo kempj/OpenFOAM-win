@@ -26,10 +26,10 @@ InClass
 
 \*---------------------------------------------------------------------------*/
 
-#include "decompositionMethod.H"
-#include "globalIndex.H"
-#include "cyclicPolyPatch.H"
-#include "syncTools.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

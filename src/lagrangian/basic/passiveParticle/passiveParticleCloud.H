@@ -35,8 +35,8 @@ SourceFiles
 #ifndef passiveParticleCloud_H
 #define passiveParticleCloud_H
 
-#include "Cloud.H"
-#include "passiveParticle.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/Cloud/Cloud.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/passiveParticle/passiveParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ SourceFiles
 #ifndef labelledTri_H
 #define labelledTri_H
 
-#include "triFace.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -121,7 +121,7 @@ inline bool contiguous<labelledTri>()  {return true;}
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelledTriI.H"
+#include "OpenFOAM-2.1.x/src/triSurface/tools/labelledTri/labelledTriI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

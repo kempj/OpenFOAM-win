@@ -34,7 +34,7 @@ SourceFiles
 #ifndef simpleGeomDecomp_H
 #define simpleGeomDecomp_H
 
-#include "geomDecomp.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.H"
 
 namespace Foam
 {

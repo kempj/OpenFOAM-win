@@ -35,7 +35,7 @@ SourceFiles
 #ifndef STLtriangle_H
 #define STLtriangle_H
 
-#include "STLpoint.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/interfaces/STL/STLpoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -107,7 +107,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "STLtriangleI.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/interfaces/STL/STLtriangleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

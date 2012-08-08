@@ -23,10 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "emptyFvsPatchField.H"
-#include "emptyPointPatchField.H"
-#include "emptyFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/pointPatchFields/constraint/empty/emptyPointPatchField.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfMesh.H"
-#include "globalMeshData.H"
-#include "demandDrivenData.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfMesh/surfMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

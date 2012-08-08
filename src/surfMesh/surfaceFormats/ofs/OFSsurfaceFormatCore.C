@@ -23,8 +23,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OFSsurfaceFormatCore.H"
-#include "clock.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/ofs/OFSsurfaceFormatCore.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/clock/clock.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobject/IOobject.H"//JK
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

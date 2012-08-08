@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reconstructLagrangian.H"
-#include "labelIOList.H"
-#include "passiveParticleCloud.H"
+#include "OpenFOAM-2.1.x/src/parallel/reconstruct/reconstruct/reconstructLagrangian.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/ints/lists/labelIOList.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/passiveParticle/passiveParticleCloud.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

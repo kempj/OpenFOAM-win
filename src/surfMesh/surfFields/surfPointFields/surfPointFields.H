@@ -35,9 +35,9 @@ SourceFiles
 #ifndef surfPointFields_H
 #define surfPointFields_H
 
-#include "DimensionedField.H"
-#include "surfPointGeoMesh.H"
-#include "surfPointFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfFields/surfPointFields/surfPointGeoMesh.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfFields/surfPointFields/surfPointFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

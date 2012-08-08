@@ -35,7 +35,7 @@ SourceFiles
 #ifndef STLpoint_H
 #define STLpoint_H
 
-#include "point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -80,7 +80,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "STLpointI.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/interfaces/STL/STLpointI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

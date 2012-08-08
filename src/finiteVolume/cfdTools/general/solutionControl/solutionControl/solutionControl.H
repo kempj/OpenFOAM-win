@@ -32,7 +32,9 @@ Description
 #ifndef solutionControl_H
 #define solutionControl_H
 
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/strings/wordRe/wordRe.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,12 +187,12 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solutionControlTemplates.C"
+    #include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControlTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solutionControlI.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/solutionControl/solutionControl/solutionControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

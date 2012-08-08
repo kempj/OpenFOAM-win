@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfPointFields.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfFields/surfPointFields/surfPointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

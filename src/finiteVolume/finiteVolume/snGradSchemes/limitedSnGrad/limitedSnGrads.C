@@ -30,8 +30,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitedSnGrad.H"
-#include "fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

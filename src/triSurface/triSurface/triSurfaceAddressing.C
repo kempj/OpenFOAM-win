@@ -27,11 +27,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "HashTable.H"
-#include "SortableList.H"
-#include "transform.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashTable/HashTable.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/SortableList/SortableList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/transform/transform.H"
 
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"//JK
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UIndirectList/UIndirectList.H"//JK
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

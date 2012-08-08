@@ -23,8 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellClassification.H"
-#include "polyMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellClassification/cellClassification.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

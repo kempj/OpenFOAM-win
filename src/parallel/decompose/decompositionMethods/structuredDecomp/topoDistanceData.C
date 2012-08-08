@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoDistanceData.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/structuredDecomp/topoDistanceData.H"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

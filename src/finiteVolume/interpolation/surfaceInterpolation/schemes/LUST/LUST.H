@@ -41,7 +41,7 @@ SourceFiles
 #ifndef LUST_H
 #define LUST_H
 
-#include "linearUpwind.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwind.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

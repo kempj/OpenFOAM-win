@@ -48,10 +48,10 @@ SourceFiles
 #ifndef distributedTriSurfaceMesh_H
 #define distributedTriSurfaceMesh_H
 
-#include "triSurfaceMesh.H"
-#include "IOdictionary.H"
-#include "Pair.H"
-#include "globalIndex.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/triSurfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobjects/IOdictionary/IOdictionary.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Pair/Pair.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -463,7 +463,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "distributedTriSurfaceMeshTemplates.C"
+#include "OpenFOAM-2.1.x/src/parallel/distributed/distributedTriSurfaceMesh/distributedTriSurfaceMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

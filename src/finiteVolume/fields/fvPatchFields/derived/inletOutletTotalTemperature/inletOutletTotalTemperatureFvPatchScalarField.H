@@ -35,7 +35,7 @@ SourceFiles
 #ifndef inletOutletTotalTemperatureFvPatchScalarField_H
 #define inletOutletTotalTemperatureFvPatchScalarField_H
 
-#include "inletOutletFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

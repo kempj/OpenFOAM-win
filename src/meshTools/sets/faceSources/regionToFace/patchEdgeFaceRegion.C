@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchEdgeFaceRegion.H"
+#include "OpenFOAM-2.1.x/src/meshTools/sets/faceSources/regionToFace/patchEdgeFaceRegion.H"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

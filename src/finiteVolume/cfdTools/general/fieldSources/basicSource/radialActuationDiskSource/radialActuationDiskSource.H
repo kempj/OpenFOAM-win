@@ -65,8 +65,8 @@ SourceFiles
 #ifndef radialActuationDiskSource_H
 #define radialActuationDiskSource_H
 
-#include "actuationDiskSource.H"
-#include "FixedList.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/actuationDiskSource/actuationDiskSource.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "radialActuationDiskSourceTemplates.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/fieldSources/basicSource/radialActuationDiskSource/radialActuationDiskSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

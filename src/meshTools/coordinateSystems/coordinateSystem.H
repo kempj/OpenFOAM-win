@@ -128,14 +128,14 @@ SourceFiles
 #ifndef coordinateSystem_H
 #define coordinateSystem_H
 
-#include "vector.H"
-#include "point.H"
-#include "tensor.H"
-#include "vectorField.H"
-#include "pointField.H"
-#include "tmp.H"
-#include "coordinateRotation.H"
-#include "objectRegistry.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Vector/vector/vector.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/point.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Tensor/tensor/tensor.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/vectorField/vectorField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/meshTools/coordinateSystems/coordinateRotation/coordinateRotation.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

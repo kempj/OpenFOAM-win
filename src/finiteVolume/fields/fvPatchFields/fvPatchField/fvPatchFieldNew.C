@@ -23,6 +23,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.H"//JK
+
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 
 template<class Type>

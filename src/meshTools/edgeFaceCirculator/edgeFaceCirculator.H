@@ -69,8 +69,8 @@ SourceFiles
 #ifndef edgeFaceCirculator_H
 #define edgeFaceCirculator_H
 
-#include "face.H"
-#include "ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/face/face.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -205,7 +205,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeFaceCirculatorI.H"
+#include "OpenFOAM-2.1.x/src/meshTools/edgeFaceCirculator/edgeFaceCirculatorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

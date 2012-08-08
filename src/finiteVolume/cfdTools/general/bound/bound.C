@@ -23,12 +23,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bound.H"
-#include "volFields.H"
-#include "fvc.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/cfdTools/general/bound/bound.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvc.H"
+
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
-
+//JK as far as I can tell, this is not called 
 Foam::volScalarField&
 Foam::bound(volScalarField& vsf, const dimensionedScalar& lowerBound)
 {

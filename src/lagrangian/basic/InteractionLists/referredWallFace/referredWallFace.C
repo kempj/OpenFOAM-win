@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "referredWallFace.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/InteractionLists/referredWallFace/referredWallFace.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -37,10 +37,10 @@ SourceFiles
 #ifndef momentOfInertia_H
 #define momentOfInertia_H
 
-#include "tetPointRef.H"
-#include "triFaceList.H"
-#include "triSurface.H"
-#include "polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/tetrahedron/tetPointRef.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFaceList.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

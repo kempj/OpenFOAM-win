@@ -23,10 +23,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "fvPatchFieldMapper.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOobject/IOobject.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/dictionary/dictionary.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -414,6 +416,6 @@ Ostream& operator<<(Ostream& os, const fvsPatchField<Type>& ptf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#   include "fvsPatchFieldNew.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvsPatchFields/fvsPatchField/fvsPatchFieldNew.C"
 
 // ************************************************************************* //

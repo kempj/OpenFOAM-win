@@ -37,7 +37,7 @@ SourceFiles
 #ifndef closedTriSurfaceMesh_H
 #define closedTriSurfaceMesh_H
 
-#include "triSurfaceMesh.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/triSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ Description
 #ifndef fvMatrices_H
 #define fvMatrices_H
 
-#include "fvMatricesFwd.H"
-#include "fvScalarMatrix.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvMatricesFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

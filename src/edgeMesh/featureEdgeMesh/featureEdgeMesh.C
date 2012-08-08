@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "featureEdgeMesh.H"
+#include "OpenFOAM-2.1.x/src/edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

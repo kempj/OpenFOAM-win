@@ -23,17 +23,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PointEdgeWave.H"
-#include "polyMesh.H"
-#include "processorPolyPatch.H"
-#include "cyclicPolyPatch.H"
-#include "OPstream.H"
-#include "IPstream.H"
-#include "PstreamCombineReduceOps.H"
-#include "debug.H"
-#include "typeInfo.H"
-#include "globalMeshData.H"
-#include "pointFields.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/PointEdgeWave/PointEdgeWave.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyMesh.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/OPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/IPstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Pstreams/PstreamCombineReduceOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/global/debug/debug.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/typeInfo/typeInfo.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

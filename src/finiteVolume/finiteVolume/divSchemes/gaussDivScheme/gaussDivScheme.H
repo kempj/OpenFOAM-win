@@ -35,7 +35,7 @@ SourceFiles
 #ifndef gaussDivScheme_H
 #define gaussDivScheme_H
 
-#include "divScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/divSchemes/divScheme/divScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -110,7 +110,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "gaussDivScheme.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/divSchemes/gaussDivScheme/gaussDivScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

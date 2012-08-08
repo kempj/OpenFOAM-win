@@ -35,10 +35,10 @@ SourceFiles
 #ifndef surfaceInterpolate_H
 #define surfaceInterpolate_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "surfaceInterpolationScheme.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/tmp/tmp.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,6 +163,7 @@ namespace fvc
         const tmp<GeometricField<Type, fvPatchField, volMesh> >& tvf
     );
 
+	//JK not defined in the .C file
     //- Interpolate tmp field onto faces using 'interpolate(\<name\>)'
     template<class Type>
     static tmp<GeometricField<Type, fvsPatchField, surfaceMesh> > interpolate
@@ -179,7 +180,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "surfaceInterpolate.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

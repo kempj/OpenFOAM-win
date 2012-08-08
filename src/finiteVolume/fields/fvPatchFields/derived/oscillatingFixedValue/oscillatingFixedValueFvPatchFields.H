@@ -26,8 +26,8 @@ License
 #ifndef oscillatingFixedValueFvPatchFields_H
 #define oscillatingFixedValueFvPatchFields_H
 
-#include "oscillatingFixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/oscillatingFixedValue/oscillatingFixedValueFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

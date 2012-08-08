@@ -35,10 +35,10 @@ SourceFiles
 #ifndef extendedLeastSquaresVectors_H
 #define extendedLeastSquaresVectors_H
 
-#include "MeshObject.H"
-#include "fvMesh.H"
-#include "surfaceFieldsFwd.H"
-#include "labelPair.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/MeshObject/MeshObject.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/surfaceFields/surfaceFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Pair/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

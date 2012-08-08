@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedParticleCloud.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/indexedParticle/indexedParticleCloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

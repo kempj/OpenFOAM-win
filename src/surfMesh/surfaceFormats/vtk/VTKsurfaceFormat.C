@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKsurfaceFormat.H"
+#include "OpenFOAM-2.1.x/src/surfMesh/surfaceFormats/vtk/VTKsurfaceFormat.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

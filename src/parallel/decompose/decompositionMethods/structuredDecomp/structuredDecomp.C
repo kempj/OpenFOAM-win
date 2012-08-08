@@ -23,11 +23,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "structuredDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "FaceCellWave.H"
-#include "topoDistanceData.H"
-#include "fvMeshSubset.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/structuredDecomp/structuredDecomp.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/MeshWave/FaceCellWave.H"
+#include "OpenFOAM-2.1.x/src/parallel/decompose/decompositionMethods/structuredDecomp/topoDistanceData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

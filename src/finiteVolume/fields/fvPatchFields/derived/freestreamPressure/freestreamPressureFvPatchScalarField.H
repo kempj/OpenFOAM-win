@@ -35,8 +35,8 @@ SourceFiles
 #ifndef freestreamPressureFvPatchScalarFields_H
 #define freestreamPressureFvPatchScalarFields_H
 
-#include "fvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

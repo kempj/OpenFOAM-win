@@ -23,10 +23,12 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "searchableSurfacesQueries.H"
-#include "ListOps.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurfacesQueries.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/Fstreams/OFstream.H"
+#include "OpenFOAM-2.1.x/src/meshTools/meshTools/meshTools.H"
+
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/PtrList/PtrList.H"//JK
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

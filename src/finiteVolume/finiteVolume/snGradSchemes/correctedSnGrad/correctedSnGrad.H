@@ -35,7 +35,7 @@ SourceFiles
 #ifndef correctedSnGrad_H
 #define correctedSnGrad_H
 
-#include "snGradScheme.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ tmp<surfaceVectorField> correctedSnGrad<vector>::correction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "correctedSnGrad.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

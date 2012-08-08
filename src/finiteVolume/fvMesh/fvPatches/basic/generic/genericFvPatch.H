@@ -35,8 +35,8 @@ SourceFiles
 #ifndef genericFvPatch_H
 #define genericFvPatch_H
 
-#include "fvPatch.H"
-#include "genericPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/basic/generic/genericPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

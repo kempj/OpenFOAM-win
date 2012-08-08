@@ -35,9 +35,9 @@ SourceFiles
 #ifndef indexedParticle_H
 #define indexedParticle_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
+#include "OpenFOAM-2.1.x/src/lagrangian/basic/particle/particle.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/IOstreams/IOstreams/IOstream.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

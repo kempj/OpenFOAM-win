@@ -26,8 +26,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "blended.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvMesh.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/interpolation/surfaceInterpolation/limitedSchemes/blended/blended.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

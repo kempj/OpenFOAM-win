@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceAreaIntersect.H"
+#include "OpenFOAM-2.1.x/src/meshTools/AMIInterpolation/faceAreaIntersect/faceAreaIntersect.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

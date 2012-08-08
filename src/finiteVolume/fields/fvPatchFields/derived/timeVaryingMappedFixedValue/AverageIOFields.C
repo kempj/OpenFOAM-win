@@ -25,8 +25,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "AverageIOField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/timeVaryingMappedFixedValue/AverageIOField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 namespace Foam
 {

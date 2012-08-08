@@ -36,8 +36,8 @@ SourceFiles
 #ifndef genericFvPatchField_H
 #define genericFvPatchField_H
 
-#include "calculatedFvPatchField.H"
-#include "HashPtrTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "genericFvPatchField.C"
+#include "OpenFOAM-2.1.x/src/genericPatchFields/genericFvPatchField/genericFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

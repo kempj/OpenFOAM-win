@@ -26,8 +26,8 @@ License
 #ifndef timeVaryingMappedFixedValueFvPatchFields_H
 #define timeVaryingMappedFixedValueFvPatchFields_H
 
-#include "timeVaryingMappedFixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValueFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

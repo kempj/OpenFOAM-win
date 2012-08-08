@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchDataWave.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/patchWave/patchDataWave.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

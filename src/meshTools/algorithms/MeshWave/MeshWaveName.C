@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshWave.H"
+#include "OpenFOAM-2.1.x/src/meshTools/algorithms/MeshWave/MeshWave.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

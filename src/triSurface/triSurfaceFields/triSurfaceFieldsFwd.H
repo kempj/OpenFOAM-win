@@ -26,8 +26,8 @@ License
 #ifndef triSurfaceFieldsFwd_H
 #define triSurfaceFieldsFwd_H
 
-#include "fieldTypes.H"
-#include "triSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/triSurface/triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

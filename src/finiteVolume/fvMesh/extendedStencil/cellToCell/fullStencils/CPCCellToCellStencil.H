@@ -34,10 +34,10 @@ SourceFiles
 #ifndef CPCCellToCellStencil_H
 #define CPCCellToCellStencil_H
 
-#include "cellToCellStencil.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToCell/fullStencils/cellToCellStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/bools/lists/boolList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/HashSet/HashSet.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -49,8 +49,8 @@ SourceFiles
 #ifndef faceTriangulation_H
 #define faceTriangulation_H
 
-#include "triFaceList.H"
-#include "pointField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/meshShapes/triFace/triFaceList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

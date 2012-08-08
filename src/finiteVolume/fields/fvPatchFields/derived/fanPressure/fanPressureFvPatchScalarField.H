@@ -67,8 +67,8 @@ SourceFiles
 #ifndef fanPressureFvPatchScalarField_H
 #define fanPressureFvPatchScalarField_H
 
-#include "totalPressureFvPatchScalarField.H"
-#include "interpolationTable.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/interpolations/interpolationTable/interpolationTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

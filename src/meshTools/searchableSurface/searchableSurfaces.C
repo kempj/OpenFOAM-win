@@ -23,10 +23,10 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "searchableSurfaces.H"
-#include "searchableSurfacesQueries.H"
-#include "ListOps.H"
-#include "Time.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurfaces.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurfacesQueries.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/ListOps/ListOps.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/db/Time/Time.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

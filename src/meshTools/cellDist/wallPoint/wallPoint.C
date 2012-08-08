@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPoint.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPoint.H"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

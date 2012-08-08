@@ -42,9 +42,9 @@ SourceFiles
 #ifndef searchableSurfaceWithGaps_H
 #define searchableSurfaceWithGaps_H
 
-#include "searchableSurface.H"
-#include "UPtrList.H"
-#include "Pair.H"
+#include "OpenFOAM-2.1.x/src/meshTools/searchableSurface/searchableSurface.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/containers/Lists/UPtrList/UPtrList.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/primitives/Pair/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

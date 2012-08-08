@@ -26,8 +26,8 @@ License
 #ifndef uniformFixedValueFvPatchFields_H
 #define uniformFixedValueFvPatchFields_H
 
-#include "uniformFixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/fvPatchFields/derived/uniformFixedValue/uniformFixedValueFvPatchField.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

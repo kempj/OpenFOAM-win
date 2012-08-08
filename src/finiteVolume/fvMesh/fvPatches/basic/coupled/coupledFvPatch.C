@@ -27,7 +27,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledFvPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

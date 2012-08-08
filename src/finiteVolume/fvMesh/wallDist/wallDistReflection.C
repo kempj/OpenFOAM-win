@@ -23,7 +23,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallDistReflection.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/wallDist/wallDistReflection.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

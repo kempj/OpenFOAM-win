@@ -35,9 +35,9 @@ SourceFiles
 #ifndef wallDistReflection_H
 #define wallDistReflection_H
 
-#include "reflectionVectors.H"
-#include "wallDistData.H"
-#include "wallPointData.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/wallDist/reflectionVectors.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/wallDist/wallDistData.H"
+#include "OpenFOAM-2.1.x/src/meshTools/cellDist/wallPoint/wallPointData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

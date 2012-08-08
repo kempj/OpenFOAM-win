@@ -36,8 +36,8 @@ SourceFiles
 #ifndef emptyFvPatch_H
 #define emptyFvPatch_H
 
-#include "fvPatch.H"
-#include "emptyPolyPatch.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -23,9 +23,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CECCellToCellStencil.H"
-#include "syncTools.H"
-#include "dummyTransform.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fvMesh/extendedStencil/cellToCell/fullStencils/CECCellToCellStencil.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/syncTools.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

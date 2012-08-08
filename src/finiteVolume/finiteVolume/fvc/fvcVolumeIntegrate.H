@@ -39,15 +39,15 @@ SourceFiles
 #ifndef fvcVolumeIntegrate_H
 #define fvcVolumeIntegrate_H
 
-#include "volFieldsFwd.H"
-#include "primitiveFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "OpenFOAM-2.1.x/src/finiteVolume/fields/volFields/volFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/fields/Fields/primitiveFieldsFwd.H"
+#include "OpenFOAM-2.1.x/src/OpenFOAM/dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
-
+	template<class T> class tmp;//JK
 /*---------------------------------------------------------------------------*\
                      Namespace fvc functions Declaration
 \*---------------------------------------------------------------------------*/
@@ -88,7 +88,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "fvcVolumeIntegrate.C"
+#include "OpenFOAM-2.1.x/src/finiteVolume/finiteVolume/fvc/fvcVolumeIntegrate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
